@@ -4,20 +4,45 @@
             "Name" : "Dowon Song",
             "Position" : "Ph.D Student",
             "E-mail" : "dowon_song@korea.ac.kr"
+        },
+        {
+            "Name" : "Dowon Song2",
+            "Position" : "Ph.D Student",
+            "E-mail" : "dowon_song@korea.ac.kr"
         }
     ],
     "Co-Leaders" : [
         {
-            "Name" : "Dowon Song",
+            "Name" : "Seongjoon Hong",
             "Position" : "Ph.D Student",
-            "E-mail" : "dowon_song@korea.ac.kr"
+            "E-mail" : "dump@korea.ac.kr"
+        },
+        {
+            "Name" : "Seongjoon Hong2",
+            "Position" : "Ph.D Student",
+            "E-mail" : "dump@korea.ac.kr"
+        },
+        {
+            "Name" : "Seongjoon Hong3",
+            "Position" : "Ph.D Student",
+            "E-mail" : "dump@korea.ac.kr"
         }
     ],
     "Members" : [
         {
-            "Name" : "Dowon Song",
+            "Name" : "Junhee Lee",
             "Position" : "Ph.D Student",
-            "E-mail" : "dowon_song@korea.ac.kr"
+            "E-mail" : "junhee@korea.ac.kr"
+        },
+        {
+            "Name" : "Junhee Lee",
+            "Position" : "Ph.D Student",
+            "E-mail" : "junhee@korea.ac.kr"
+        },
+        {
+            "Name" : "Junhee Lee",
+            "Position" : "Ph.D Student",
+            "E-mail" : "junhee@korea.ac.kr"
         }
     ]
 }

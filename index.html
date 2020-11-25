@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>STARLAB Homepage</title>
+  <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <meta charset="utf-8">
@@ -27,94 +28,126 @@
                 <li class="nav-item"><a href="" class="nav-link">Links</a></li>
               </ul>
             </div>
-            <div class="nav-contents">
-              <div class="nav-header">
-                Homepage Managers
-              </div>
-              <ul class="nav-list">
-                <li class="nav-item"><a href="" class="nav-link">Menu-1</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Menu-2</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Menu-3</a></li>
-              </ul>
-  
-              <ul class="nav-list">
-                <li class="nav-item"><a href="" class="nav-link">Menu-1</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Menu-2</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Menu-3</a></li>
-              </ul>
-            </div>
           </div>
           <!-- //nav -->
           <div class="content">
-            <h1>Hello World</h1>
-            <p>
-              This is 
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventlore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam error ipsa commodi exercitationem fugiat praesentium tempore inventore voluptate dolore. Ipsa quisquam nemo enim explicabo aut accusantium ex ab perspiciatis.
-            </p>
+            asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
           </div>
         </div>
         <!-- //container -->
         <div class="footer">
-          <p class="copyright">Copy right &copy; | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
+          <p class="copyright">Copy right &copy | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
         </div>
         <!-- //footer -->
       </div>
       <!-- //frame -->
 </html>
-
 <script>
+  /* Replace contents element by parsing data */
+  function replace_content(title, data) {
+    var content = $(".content")
+    var title = $("<h1>").html(title)
+    content.empty().append(title).append(data)
+  }
+
+  /* Return one person info card */
+  function make_person_block(data) {
+    var card = $("<div>").addClass("people-card")
+    var name = $("<div>").addClass("people-name").html(data["Name"])
+    var position = $("<div>").addClass("people-position").html(data["Position"])
+    var email = $("<div>").addClass("people-email").append($("<a>").addClass("e-mail").html(data["E-mail"]))
+    
+    card = card.append(name).append(position).append(email)
+    return card
+  }
+
+  function make_people_group(header, data_list) {
+    var block = $("<div>").add("card-group")
+    var title = $("<h2>").html(header)
+    
+    block = block.append(title)
+    for(var i=0; i<data_list.length; i++){
+      block = block.append(make_person_block(data_list[i]))
+    }
+
+    return block
+  }
+
+  /* Render people page */
+  function render_people(data) {
+    var leaders = data["Project Leader"]
+    var officers = data["Co-Leaders"]
+    var members = data["Members"]
+
+    var lblock = $("<div>").addClass("left-block")
+    var rblock = $("<div>").addClass("right-block")
+
+    /* Render left block (project leaders) */
+    var leader_group = make_people_group ("Project Leader", leaders)
+    var officer_group = make_people_group ("Executive Officer", officers)
+    lblock = lblock.append(leader_group).append(officer_group)
+
+    /* Render right block (project members) */
+    var member_group = make_people_group ("Members", members)
+    rblock = rblock.append(member_group)
+
+    replace_content("People", $("<div>").append(lblock).append(rblock))
+  }
+  
+  function render_index(data) {
+    var sections = data["sections"]
+    var content = $("<div>")
+
+    for (var i=0;i<sections.length; i++){
+      var section = $("<div>").addClass("section-card")
+      var title = $("<h2>").html(sections[i]["title"])
+      var text = $("<p>").addClass("section-content").html(sections[i]["text"])
+      
+      section = section.append(title).append(text)
+      content = content.append(section)
+    }
+
+    replace_content("Home", content)
+  }
+
+  /* Render index page */
   $(".people").on("click", function(e) {
-    e.preventDefault();
+    e.preventDefault()
     $.ajax({
-      type: "POST",
+      type: "GET",
       url: "./contents/people.json",
       dataType: "JSON",
-      success: function (data){
-        console.log(data)
+      success: function(data){
+        $(".selected").removeClass("selected")
+        $(e.target).addClass("selected")
+        render_people(data)
       }
     })
-    console.log("haha");
-  });
+  })
+
+  /* Home contents */
+  $(".home").on("click", function(e) {
+    e.preventDefault()
+    $.ajax({
+      type: "GET",
+      url: "./contents/home.json",
+      dataType: "JSON",
+      success: function(data){
+        $(".selected").removeClass("selected")
+        $(e.target).addClass("selected")
+        render_index(data)
+      }
+    })
+  })
+
+  $(document).ready(function() {
+    $.ajax({
+      type: "GET",
+      url: "./contents/home.json",
+      dataType: "JSON",
+      success: function(data){
+        render_index(data)
+      }
+    })
+  })
 </script>

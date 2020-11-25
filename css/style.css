@@ -2,6 +2,10 @@ body {
     font:16px/1.8 Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    margin-top: 0px
+}
+
 a {
     color: inherit;
     text-decoration: none
@@ -60,6 +64,10 @@ a:hover {
     margin: 4px 0;
 }
 
+.selected {
+    font-weight: bold;
+    background-color: #ddd;
+}
 .nav-link {
     display: block;
     text-decoration: none;
@@ -73,12 +81,49 @@ a:hover {
     float: left;
     position: relative;
     padding-left: 50px;
+    padding-bottom: 50px;
     border-left: 1px solid #aaa;
     width: 70%;
+    height: 100%;
+    min-height: 600px;
 }
 
 .footer {
     text-align: center;
     border-top: 1px solid #aaa;
     font-size: 12px;
+}
+
+/* Index */
+.section-content {
+    padding-left:20px;
+}
+
+/* People */
+.left-block {
+    width: 50%;
+    float: left
+}
+
+.right-block {
+    width: 50%;
+    float: left
+}
+
+.people-card {
+    padding-left:20px;
+    margin-bottom:10px;
+}
+
+.people-name {
+    font-weight: bold;
+}
+
+.people-position {
+    padding-left:10px;
+}
+
+.people-email {
+    padding-left:10px;
+    color: blue
 }
