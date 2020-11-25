@@ -1,1 +1,0 @@
-# KUPL_STARLAB
