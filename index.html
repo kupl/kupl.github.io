@@ -3,6 +3,7 @@
 <head>
   <title>STARLAB Homepage</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <meta charset="utf-8">
 </head>
 <body>
@@ -13,16 +14,35 @@
         <!-- //header -->
         <div class="container">
           <div class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="" class="nav-link">Menu-1</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Menu-2</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Menu-3</a></li>
-            </ul>
-            <ul class="nav-list">
-              <li class="nav-item"><a href="" class="nav-link">Menu-1</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Menu-2</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Menu-3</a></li>
-            </ul>
+            <div class="nav-contents">
+              <div class="nav-header">
+                Categories
+              </div>
+              <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link home">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Documents</a></li>
+                <li class="nav-item"><a href="" class="nav-link people">People</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Links</a></li>
+              </ul>
+            </div>
+            <div class="nav-contents">
+              <div class="nav-header">
+                Homepage Managers
+              </div>
+              <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">Menu-1</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Menu-2</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Menu-3</a></li>
+              </ul>
+  
+              <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">Menu-1</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Menu-2</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Menu-3</a></li>
+              </ul>
+            </div>
           </div>
           <!-- //nav -->
           <div class="content">
@@ -77,9 +97,24 @@
         </div>
         <!-- //container -->
         <div class="footer">
-          <p class="copyright">&copy;Software Analysis Laboratory</p>
+          <p class="copyright">Copy right &copy; | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
         </div>
         <!-- //footer -->
       </div>
       <!-- //frame -->
 </html>
+
+<script>
+  $(".people").on("click", function(e) {
+    e.preventDefault();
+    $.ajax({
+      type: "POST",
+      url: "./contents/people.json",
+      dataType: "JSON",
+      success: function (data){
+        console.log(data)
+      }
+    })
+    console.log("haha");
+  });
+</script>
