@@ -8,19 +8,64 @@
     ],
     "Members" : [
         {
-            "Name" : "Junhee Lee",
+            "Name" : "Sooyoung Cha",
             "Position" : "Ph.D Student",
-            "E-mail" : "junhee@korea.ac.kr"
+            "E-mail" : "sooyoungcha@korea.ac.kr"
+        },
+        {
+            "Name" : "Sunbeom So",
+            "Position" : "Ph.D Student",
+            "E-mail" : "sunbeom_so@korea.ac.kr"
+        },
+        {
+            "Name" : "Minseok Jeon",
+            "Position" : "Ph.D Student",
+            "E-mail" : "minseok_jeon@korea.ac.kr"
         },
         {
             "Name" : "Junhee Lee",
             "Position" : "Ph.D Student",
-            "E-mail" : "junhee@korea.ac.kr"
+            "E-mail" : "junhee_lee@korea.ac.kr"
         },
         {
-            "Name" : "Junhee Lee",
+            "Name" : "Seongjoon Hong",
             "Position" : "Ph.D Student",
-            "E-mail" : "junhee@korea.ac.kr"
+            "E-mail" : "seongjoon@korea.ac.kr"
+        },
+        {
+            "Name" : "Dowon Song",
+            "Position" : "Ph.D Student",
+            "E-mail" : "sdw0316@korea.ac.kr"
+        },
+        {
+            "Name" : "Myungho Lee",
+            "Position" : "Ph.D Student",
+            "E-mail" : "myungho_lee@korea.ac.kr"
+        },
+        {
+            "Name" : "Seokhyun Lee",
+            "Position" : "Ph.D Student",
+            "E-mail" : "seokhyunlee@korea.ac.kr"
+        },
+        {
+            "Name" : "Seonho Lee",
+            "Position" : "M.S Student",
+            "E-mail" : "seonho_lee@korea.ac.kr"
+        },
+        {
+            "Name" : "Donghoon Jeon",
+            "Position" : "M.S Student",
+            "E-mail" : "jdh5818@naver.ac.kr"
+        },
+        {
+            "Name" : "Jinkyung Kim",
+            "Position" : "M.S Student",
+            "E-mail" : "livjgovob@naver.com"
+        },
+        {
+            "Name" : "Yunji Seo",
+            "Position" : "B.S Student",
+            "E-mail" : "seodbswl99@naver.com"
         }
     ]
 }
