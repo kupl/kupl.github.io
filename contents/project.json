@@ -12,12 +12,12 @@
         },
         {
             "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks",
+            "desc": "Open source white-box testing framework for deep neural networks. Using online learning algorithms that adaptively change neuron selection heuristic during testing of deep neural network, it has shown that it can be used as a key technology for automatic program repair by effectively detecting real errors while achieving high coverage. (Elemental Technology #3)",
             "url": "https://github.com/kupl/adapt.git"
         },
         {
             "title": "Graphick",
-            "desc": "Open source learning framework for generating graph-based heuristics for pointer analysis",
+            "desc": "Open source learning framework for generating graph-based heuristics for pointer analysis. It designed a feature language to automatically generate pointer analysis heuristics, and proposed an algorithm to generate the graph-based analysis heuristic by automatically generating the features, thereby extending the performance of pointer analysis for automatic program repair. (Elemental Technology #3)",
             "url": "https://github.com/kupl/Graphick.git"
         },
         {
