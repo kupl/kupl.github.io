@@ -12,7 +12,7 @@
         },
         {
             "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks. Using online learning algorithms that adaptively change neuron selection heuristic during testing of deep neural network, it has shown that it can be used as a key technology for automatic program repair by effectively detecting real errors while achieving high coverage. (Elemental Technology #3)",
+            "desc": "Open source white-box testing framework for deep neural networks. Using online learning algorithm that adaptively change neuron selection heuristic during testing of deep neural network, it has shown that it can be used as a key technology for automatic program repair by effectively detecting real errors while achieving high coverage. (Elemental Technology #3)",
             "url": "https://github.com/kupl/adapt.git"
         },
         {
