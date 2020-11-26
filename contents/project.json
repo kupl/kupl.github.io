@@ -2,7 +2,7 @@
     "repos" : [
         {
             "title": "NPEX",
-            "desc": "NPEX is an open-source patch recommendation system for Java Null Pointer Exceptions (NPE). NPEX helps developers to maintain their projects NPE-free by automatically generating compilable patches for NPE. Our automatic repair framework will be developed on the top of NPEX.",
+            "desc": "Open-source patch recommendation system for Java Null Pointer Exceptions (NPE). NPEX helps developers to maintain their projects NPE-free by automatically generating compilable patches for NPE. Our automatic repair framework will be developed on the top of NPEX.",
             "url": "https://github.com/kupl/npex.git"
         },
         {
