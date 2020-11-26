@@ -99,6 +99,23 @@ a:hover {
     padding-left:20px;
 }
 
+/* Document */
+.document-card {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.document-card h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.document-card a {
+    color: #0088cc;
+    text-decoration: underline;
+}
+
 /* People */
 .left-block {
     width: 50%;
@@ -127,3 +144,4 @@ a:hover {
     padding-left:10px;
     color: blue
 }
+
