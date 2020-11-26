@@ -1,29 +1,29 @@
 {
     "repos" : [
         {
-            "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks",
-            "url": "https://github.com/kupl/adapt"
+            "title": "NPEX",
+            "desc": "Open source patch recommendation system for Java Null Pointer Exceptions (NPE)",
+            "url": "https://github.com/kupl/npex.git"
+        },
+        {
+            "title": "Synthrl",
+            "desc": "Program Synthesizer based on OGIS using learning-based agents trained with Reinforcement Learning",
+            "url": "https://github.com/kupl/synthrl.git"
         },
         {
             "title": "ADAPT",
             "desc": "Open source white-box testing framework for deep neural networks",
-            "url": "https://github.com/kupl/adapt"
+            "url": "https://github.com/kupl/adapt.git"
         },
         {
-            "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks",
-            "url": "https://github.com/kupl/adapt"
+            "title": "Graphick",
+            "desc": "Open source learning framework for generating graph-based heuristics for pointer analysis",
+            "url": "https://github.com/kupl/Graphick.git"
         },
         {
-            "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks",
-            "url": "https://github.com/kupl/adapt"
-        },
-        {
-            "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks",
-            "url": "https://github.com/kupl/adapt"
+            "title": "Benchmark",
+            "desc": "Our benchmark consisting of 1176 safety errors and 205 functional errors",
+            "url": "https://github.com/kupl/starlab-benchmarks.git"
         }
     ]
 }
