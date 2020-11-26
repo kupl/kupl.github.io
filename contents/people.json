@@ -1,31 +1,9 @@
 {
     "Project Leader" : [
         {
-            "Name" : "Dowon Song",
-            "Position" : "Ph.D Student",
-            "E-mail" : "dowon_song@korea.ac.kr"
-        },
-        {
-            "Name" : "Dowon Song2",
-            "Position" : "Ph.D Student",
-            "E-mail" : "dowon_song@korea.ac.kr"
-        }
-    ],
-    "Co-Leaders" : [
-        {
-            "Name" : "Seongjoon Hong",
-            "Position" : "Ph.D Student",
-            "E-mail" : "dump@korea.ac.kr"
-        },
-        {
-            "Name" : "Seongjoon Hong2",
-            "Position" : "Ph.D Student",
-            "E-mail" : "dump@korea.ac.kr"
-        },
-        {
-            "Name" : "Seongjoon Hong3",
-            "Position" : "Ph.D Student",
-            "E-mail" : "dump@korea.ac.kr"
+            "Name" : "Hakjoo Oh",
+            "Position" : "Associate Professor",
+            "E-mail" : "hakjoo_oh@korea.ac.kr"
         }
     ],
     "Members" : [

@@ -5,7 +5,6 @@
   <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <script type="text/javascript" src=" http://maps.google.com/maps/api/js?v=3.3&sensor=true"></script>
   <meta charset="utf-8">
 </head>
 <body>
@@ -23,9 +22,9 @@
               <ul class="nav-list">
                 <li class="nav-item"><a href="" class="nav-link home">Home</a></li>
                 <li class="nav-item"><a href="" class="nav-link contact">Contact</a></li>
+                <li class="nav-item"><a href="" class="nav-link people">People</a></li>
                 <li class="nav-item"><a href="" class="nav-link">Project</a></li>
                 <li class="nav-item"><a href="" class="nav-link documents">Documents</a></li>
-                <li class="nav-item"><a href="" class="nav-link people">People</a></li>
               </ul>
             </div>
           </div>
@@ -95,12 +94,21 @@
 
   /* Render contact page */
   function render_contact(data) {
-    var map_src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36576.18884349086!2d126.97423858472392!3d37.56088956204506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbcb08a5790df%3A0x21f0604c311dc40d!2z6rOg66Ck64yA7ZWZ6rWQIOqzvO2VmeuPhOyEnOq0gA!5e0!3m2!1sko!2skr!4v1606305690284!5m2!1sko!2skr"
-    //width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
-    var map = $("<iframe>").attr("src", map_src).attr("frameborder", "0").attr("allowfullscreen", "false").addClass("map-frame")
+    var content = make_new_wrapper ()
+
+    var map_src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6323.489349031858!2d127.0222444895148!3d37.584629586166315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbcb08a5790df%3A0x21f0604c311dc40d!2z6rOg66Ck64yA7ZWZ6rWQIOqzvO2VmeuPhOyEnOq0gA!5e0!3m2!1sko!2skr!4v1606360180418!5m2!1sko!2skr"
+    var map = $("<iframe>").
+      attr("src", map_src).
+      attr("width", "300").
+      attr("height", "300").
+      attr("frameborder", "0").
+      /*
+      attr("allowfullscreen", "false").
+      attr("tabindex", "0").
+      */
+      addClass("map-frame")
 
     replace_content("Contact", map)
-    init_location()
   }
 
   /* Render document page */

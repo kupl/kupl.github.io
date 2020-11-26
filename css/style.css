@@ -128,7 +128,7 @@ a:hover {
 }
 
 .people-card {
-    padding-left:20px;
+    padding-left:10px;
     margin-bottom:10px;
 }
 
@@ -137,11 +137,9 @@ a:hover {
 }
 
 .people-position {
-    padding-left:10px;
 }
 
 .people-email {
-    padding-left:10px;
     color: blue
 }
 
