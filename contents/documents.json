@@ -1,0 +1,32 @@
+{
+    "reports" : [
+        {
+            "title" : "Technical Report",
+            "url" : "https://kupl.github.io/src/tech_report_01.pdf",
+            "description" : "Technical Reports @Software Analysis Lab"
+        }
+    ],
+    "publications" : [
+        {
+            "title" : "Learning Graph-based Heuristics for Pointer Analysis without Handcrafting Application-Specific Features",
+            "authors" : "Minseok Jeon, Myungho Lee, and Hakjoo Oh",
+            "conference" : "OOPSLA 2020: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications",
+            "conference_url" : "https://2020.splashcon.org/track/splash-2020-oopsla",
+            "paper_url" : "http://prl.korea.ac.kr/~pronto/home/papers/oopsla20.pdf"
+        },
+        {
+            "title" : "Learning Graph-based Heuristics for Pointer Analysis without Handcrafting Application-Specific Features",
+            "authors" : "Minseok Jeon, Myungho Lee, and Hakjoo Oh",
+            "conference" : "OOPSLA 2020: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications",
+            "conference_url" : "https://2020.splashcon.org/track/splash-2020-oopsla",
+            "paper_url" : "http://prl.korea.ac.kr/~pronto/home/papers/oopsla20.pdf"
+        },
+        {
+            "title" : "Learning Graph-based Heuristics for Pointer Analysis without Handcrafting Application-Specific Features",
+            "authors" : "Minseok Jeon, Myungho Lee, and Hakjoo Oh",
+            "conference" : "OOPSLA 2020: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications",
+            "conference_url" : "https://2020.splashcon.org/track/splash-2020-oopsla",
+            "paper_url" : "http://prl.korea.ac.kr/~pronto/home/papers/oopsla20.pdf"
+        } 
+    ]
+}
