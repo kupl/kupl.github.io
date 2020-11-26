@@ -3,7 +3,7 @@
 <head>
   <title>STARLAB Homepage</title>
   <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
-  <link rel="stylesheet" href="https://kupl.github.io/css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <meta charset="utf-8">
 </head>
@@ -32,6 +32,7 @@
             <div class="content">
               <h1>Project</h1>
             <h2>Project Vision</h2>
+            <img src="../src/project_vision.jpg" alt="">
             <p>
               Fully automated software error debugging process through the development of error repair technology at the level of practical use
             </p>
@@ -58,7 +59,7 @@
               </p>
   
             <h2>Project Objectives and Contents</h2>
-              <img src="https://kupl.github.io/src/project_objectives_and_contents.png" alt="">
+              <img src="../src/project_objectives_and_contents_eng.jpg" alt="">
               <p>
                 We aim to develop high-performance automatic software error-correcting technology at the practical level. Specifically, the goal is to develop a technology that satisfies all of the following requirements:
                 <ul>
@@ -96,15 +97,18 @@
 function render_project(data) {
     var repositories = data["repos"]
     var content = $(".content")
+
     var repo_block = $("<div>").addClass("project-block").html("<h2>Project Repositories</h2>")
     for (var i=0; i<repositories.length; i++){
-        var list = $("<div>").addClass("project-list-elem")
-        var title = $("<span>").append(
-            $("<a>").attr("href", repositories[i]["url"]).html(repositories[i]["title"])
-        )
-        var desc = $("<span>").html(": " + repositories[i]["desc"])
-        list = list.append(title).append(desc)
-        repo_block = repo_block.append(list)
+        var repo = $("<div>").addClass("project-card")
+        var title = $("<h3>").html(repositories[i]["title"])
+        var desc = $("<div>").addClass("project-desc").html(repositories[i]["desc"])
+        var link = $("<div>").addClass("document-link").append(
+          $("<a>").attr("target","_blank").attr("href",repositories[i]["url"]).html("link")
+        ).prepend("[").append("]")
+
+        repo = repo.append(title).append(desc).append(link)
+        repo_block = repo_block.append(repo)
     }
 
     content = content.append(repo_block)
@@ -113,7 +117,7 @@ function render_project(data) {
 $(document).ready(function (){
     $.ajax({
       type: "GET",
-      url: "https://kupl.github.io/contents/project.json",
+      url: "../contents/project.json",
       dataType: "JSON",
       success: function(data){
         render_project(data)
