@@ -1,7 +1,7 @@
 {
     "reports" : [
         {
-            "title" : "Technical Report",
+            "title" : "Technical Report (PRL-2020-01):Context-Aware and Data-Driven Program Repair",
             "url" : "https://kupl.github.io/src/tech_report_01.pdf",
             "description" : "Technical Reports @Software Analysis Lab"
         }
