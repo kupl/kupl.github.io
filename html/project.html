@@ -98,7 +98,7 @@ function render_project(data) {
     var repositories = data["repos"]
     var content = $(".content")
 
-    var repo_block = $("<div>").addClass("project-block").html("<h2>Project Repositories</h2>")
+    var repo_block = $("<div>").addClass("project-block").html("<h1>Project Repositories</h1>")
     for (var i=0; i<repositories.length; i++){
         var repo = $("<div>").addClass("project-card")
         var title = $("<h3>").html(repositories[i]["title"])

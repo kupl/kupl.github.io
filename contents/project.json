@@ -2,12 +2,12 @@
     "repos" : [
         {
             "title": "NPEX",
-            "desc": "Open source patch recommendation system for Java Null Pointer Exceptions (NPE)",
+            "desc": "NPEX is an open-source patch recommendation system for Java Null Pointer Exceptions (NPE). <br> NPEX helps developers to maintain their projects NPE-free by automatically generating compilable patches for NPE. <br> Our automatic repair framework will be developed on the top of NPEX.",
             "url": "https://github.com/kupl/npex.git"
         },
         {
             "title": "Synthrl",
-            "desc": "Program Synthesizer based on OGIS using learning-based agents trained with Reinforcement Learning",
+            "desc": "Synthrl is a learning based program synthesizer enhancing the naive enumerative search. <br> Its DSL and enumerative search are used in our source technology #5 (designing patch language) and #8 (statistics-based patch synthesis) respectively.",
             "url": "https://github.com/kupl/synthrl.git"
         },
         {
