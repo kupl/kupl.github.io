@@ -2,22 +2,22 @@
     "repos" : [
         {
             "title": "NPEX",
-            "desc": "NPEX is an open-source patch recommendation system for Java Null Pointer Exceptions (NPE). <br> NPEX helps developers to maintain their projects NPE-free by automatically generating compilable patches for NPE. <br> Our automatic repair framework will be developed on the top of NPEX.",
+            "desc": "NPEX is an open-source patch recommendation system for Java Null Pointer Exceptions (NPE). NPEX helps developers to maintain their projects NPE-free by automatically generating compilable patches for NPE. Our automatic repair framework will be developed on the top of NPEX.",
             "url": "https://github.com/kupl/npex.git"
         },
         {
             "title": "Synthrl",
-            "desc": "Synthrl is a learning based program synthesizer enhancing the naive enumerative search. <br> Its DSL and enumerative search are used in our source technology #5 (designing patch language) and #8 (statistics-based patch synthesis) respectively.",
+            "desc": "Open source program synthesizer based on enumerative search. To accelerate the synthesis procedure, it guides the enumerative search by learned model. Synthrl's DSL and enumerative search are used in our source technology #5 (designing patch language) and #8 (statistics based patch synthesis) respectively.",
             "url": "https://github.com/kupl/synthrl.git"
         },
         {
             "title": "ADAPT",
-            "desc": "Open source white-box testing framework for deep neural networks. Using online learning algorithm that adaptively change neuron selection heuristic during testing of deep neural network, it has shown that it can be used as a key technology for automatic program repair by effectively detecting real errors while achieving high coverage. (Elemental Technology #3)",
+            "desc": "Open source white-box testing framework for deep neural networks. It adaptively changes neuron selection heuristic during testing of deep neural network. ADAPT's learning algorithm is used to enhance our source technology #3 (logic based patch validation).",
             "url": "https://github.com/kupl/adapt.git"
         },
         {
             "title": "Graphick",
-            "desc": "Open source learning framework for generating graph-based heuristics for pointer analysis. It designed a feature language to automatically generate pointer analysis heuristics, and proposed an algorithm to generate the graph-based analysis heuristic by automatically generating the features, thereby extending the performance of pointer analysis for automatic program repair. (Elemental Technology #3)",
+            "desc": "Open source learning framework for generating graph-based heuristics for pointer analysis. It designed a feature language to automatically generate pointer analysis heuristics, and proposed an algorithm to generate the graph-based analysis heuristic by automatically generating the features. It can dramatically improve the performance of pointer analysis, which is closely related to our source technology #3 (logic based patch validation).",
             "url": "https://github.com/kupl/Graphick.git"
         },
         {
