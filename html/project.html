@@ -3,7 +3,7 @@
 <head>
   <title>STARLAB Homepage</title>
   <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://kupl.github.io/css/style.css">
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <meta charset="utf-8">
 </head>
@@ -58,7 +58,7 @@
               </p>
   
             <h2>Project Objectives and Contents</h2>
-              <img src="./src/project_objectives_and_contents.png" alt="">
+              <img src="https://kupl.github.io/src/project_objectives_and_contents.png" alt="">
               <p>
                 We aim to develop high-performance automatic software error-correcting technology at the practical level. Specifically, the goal is to develop a technology that satisfies all of the following requirements:
                 <ul>
@@ -89,6 +89,7 @@
         <!-- //footer -->
       </div>
       <!-- //frame -->
+</body>
 </html>
 <script>
 /* Render project repositories */
@@ -112,10 +113,10 @@ function render_project(data) {
 $(document).ready(function (){
     $.ajax({
       type: "GET",
-      url: "../contents/project.json",
+      url: "https://kupl.github.io/contents/project.json",
       dataType: "JSON",
       success: function(data){
-        render_documents(data)
+        render_project(data)
       }
     })
 })

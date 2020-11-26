@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>STARLAB Homepage</title>
+  <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
+  <link rel="stylesheet" href="https://kupl.github.io/css/style.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="logo">STAR LAB - Software Analysis Laboratory</div>
+        </div>
+        <!-- //header -->
+        <div class="container">
+          <div class="nav">
+            <div class="nav-contents">
+                <div class="nav-header">
+                    Categories
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./home.html" class="nav-link home">Home</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link contact selectecd">Contact</a></li>
+                    <li class="nav-item"><a href="./people.html" class="nav-link people">People</a></li>
+                    <li class="nav-item"><a href="./project.html" class="nav-link project">Project</a></li>
+                    <li class="nav-item"><a href="./documents.html" class="nav-link documents">Documents</a></li>
+                </ul>
+                </div>
+            </div>
+            <!-- //nav -->
+            <div class="content">
+                <h1>Contact</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6323.489349031858!2d127.0222444895148!3d37.584629586166315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbcb08a5790df%3A0x21f0604c311dc40d!2z6rOg66Ck64yA7ZWZ6rWQIOqzvO2VmeuPhOyEnOq0gA!5e0!3m2!1sko!2skr!4v1606360180418!5m2!1sko!2skr" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- //container -->
+        <div class="footer">
+          <p class="copyright">Copy right &copy | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
+        </div>
+        <!-- //footer -->
+      </div>
+      <!-- //frame -->
+</body>
+</html>
+<script>
+/* Render project repositories */
+function render_project(data) {
+    var repositories = data["repos"]
+    var content = $(".content")
+    var repo_block = $("<div>").addClass("project-block").html("<h2>Project Repositories</h2>")
+    for (var i=0; i<repositories.length; i++){
+        var list = $("<div>").addClass("project-list-elem")
+        var title = $("<span>").append(
+            $("<a>").attr("href", repositories[i]["url"]).html(repositories[i]["title"])
+        )
+        var desc = $("<span>").html(": " + repositories[i]["desc"])
+        list = list.append(title).append(desc)
+        repo_block = repo_block.append(list)
+    }
+
+    content = content.append(repo_block)
+}
+
+$(document).ready(function (){
+    $.ajax({
+      type: "GET",
+      url: "https://kupl.github.io/contents/project.json",
+      dataType: "JSON",
+      success: function(data){
+        render_documents(data)
+      }
+    })
+})
+</script>
+

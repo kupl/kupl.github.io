@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>STARLAB Homepage</title>
+  <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
+  <link rel="stylesheet" href="https://kupl.github.io/css/style.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+    <div class="frame">
+        <div class="header">
+          <div class="logo">STAR LAB - Software Analysis Laboratory</div>
+        </div>
+        <!-- //header -->
+        <div class="container">
+          <div class="nav">
+            <div class="nav-contents">
+              <div class="nav-header">
+                Categories
+              </div>
+              <ul class="nav-list">
+                <li class="nav-item"><a href="./home.html" class="nav-link home">Home</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link contact">Contact</a></li>
+                <li class="nav-item"><a href="./people.html" class="nav-link people selected">People</a></li>
+                <li class="nav-item"><a href="./project.html" class="nav-link project">Project</a></li>
+                <li class="nav-item"><a href="./documents.html" class="nav-link documents">Documents</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- //nav -->
+          <div class="content">
+            <h1>Poeple</h1>
+          </div>
+        </div>
+        <!-- //container -->
+        <div class="footer">
+          <p class="copyright">Copy right &copy | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
+        </div>
+        <!-- //footer -->
+      </div>
+      <!-- //frame -->
+</body>
+</html>
+<script>
+/* Render people page */
+function make_person_block(data) {
+    var card = $("<div>").addClass("people-card")
+    var name = $("<div>").addClass("people-name").html(data["Name"])
+    var position = $("<div>").addClass("people-position").html(data["Position"])
+    var email = $("<div>").addClass("people-email").append($("<a>").addClass("e-mail").html(data["E-mail"]))
+
+    card = card.append(name).append(position).append(email)
+    return card
+}
+
+function make_people_group(header, data_list) {
+    var block = $("<div>").add("card-group")
+    var title = $("<h2>").html(header)
+
+    block = block.append(title)
+    for(var i=0; i<data_list.length; i++){
+        block = block.append(make_person_block(data_list[i]))
+    }
+
+    return block
+}
+function render_people(data) {
+    var content = $(".content")
+    var leaders = data["Project Leader"]
+    var members = data["Members"]
+
+    var lblock = $("<div>").addClass("left-block")
+    var rblock = $("<div>").addClass("right-block")
+
+    /* Render left block (project leaders) */
+    var leader_group = make_people_group ("Project Leader", leaders)
+    lblock = lblock.append(leader_group)
+
+    /* Render right block (project members) */
+    var member_group = make_people_group ("Members", members)
+    rblock = rblock.append(member_group)
+
+    content.append(lblock).append(rblock)
+}
+
+$(document).ready(function (){
+    $.ajax({
+      type: "GET",
+      url: "https://kupl.github.io/contents/people.json",
+      dataType: "JSON",
+      success: function(data){
+        render_people(data)
+      }
+    })
+})
+</script>
