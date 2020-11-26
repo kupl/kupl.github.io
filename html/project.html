@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>STARLAB Homepage</title>
+  <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="logo">STAR LAB - Software Analysis Laboratory</div>
+        </div>
+        <!-- //header -->
+        <div class="container">
+          <div class="nav">
+            <div class="nav-contents">
+                <div class="nav-header">
+                    Categories
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./home.html" class="nav-link home">Home</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link contact">Contact</a></li>
+                    <li class="nav-item"><a href="./people.html" class="nav-link people">People</a></li>
+                    <li class="nav-item"><a href="./project.html" class="nav-link project selected">Project</a></li>
+                    <li class="nav-item"><a href="./documents.html" class="nav-link documents">Documents</a></li>
+                </ul>
+                </div>
+            </div>
+            <!-- //nav -->
+            <div class="content">
+              <h1>Project</h1>
+            <h2>Project Vision</h2>
+            <p>
+              Fully automated software error debugging process through the development of error repair technology at the level of practical use
+            </p>
+  
+            <h2>Project background</h2>
+              <h3>The socioeconomic costs of software error problems are astronomical</h3>
+              <p>
+                As software(SW) becomes the center of value creation in all areas of society, the socioeconomic costs of SW errors are increasing astronomically. The software error problem occurs in a wide range of social areas including finance, transportation, distribution, etc., and the resulting loss has also increased rapidly. It is estimated that the loss caused by software errors has reached 1.7 trillion dollars in 2017. 
+              </p>
+  
+              <h3>Solution to software error problem: Automatic error detection + automatic repair</h3>
+              <p>
+                As software size and complexity have increased dramatically, it is no longer possible to rely on the developer's manual work to find and fix software errors. As a result, software errors are neglected in the industry, which causes software errors. The development of software error automatic detection and repair technology is the solution to this problem.
+              </p>
+  
+              <h3>Automatic error detection technology has been developed to the level of practical use</h3>
+              <p>
+                Automatic software error detection technology has made remarkable developments over the past 30 years, becoming the technology that is routinely used in the software development stage. Global software companies such as Microsoft, Facebook, and Google have recently developed and started using their own error repair technology.
+              </p>
+  
+              <h3>Automatic error repair technology is the next key challenge for solving software error</h3>
+              <p>
+                Compared to the automatic error detection technology, the automatic error repair technology remains at the present level. The error correction process relies entirely on the developer's manual work without the support of the automation tools. The absence of automatic error repair technology leads to an enormous increase in software development cost and a decrease in productivity, which is urgently required in the software field.
+              </p>
+  
+            <h2>Project Objectives and Contents</h2>
+              <img src="./src/project_objectives_and_contents.png" alt="">
+              <p>
+                We aim to develop high-performance automatic software error-correcting technology at the practical level. Specifically, the goal is to develop a technology that satisfies all of the following requirements:
+                <ul>
+                  <li>Fully-Automatic: Operate fully automatically without human intervention</li>
+                  <li>Generality: Technology applicable to variety of industry-wide errors, not just specific errors</li>
+                  <li>Accuracy: Sophisticated enough to eliminate most of the actual errors</li>
+                  <li>Reliability: No compromise to program functionality during error correction</li>
+                  <li>Scalability: Work efficiently for large, complex software</li>
+                </ul>
+              </p>
+  
+              <h3>Develop a fully-automatic error correction architecture that generates reliable patches for typical errors</h3>
+              <p>
+                In order to automatically generate a reliable patch, a technology that automatically deduces the 'error correction specification' that expresses how an error should be corrected is essential. We develop a fully-automatic error correction architecture in which patch synthesizers and patch validators interact and gradually enhance patches and specifications.
+              </p>
+  
+              <h3>Develop high-performance patch synthesis technology that satisfies generality, accuracy and scalability</h3>
+              <p>
+                High performance patch synthesis technology is essential to achieve the accuracy and scalability of error correction technology. We develop high-performance patch synthesis technology with both accuracy and scalability for typical errors.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- //container -->
+        <div class="footer">
+          <p class="copyright">Copy right &copy | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
+        </div>
+        <!-- //footer -->
+      </div>
+      <!-- //frame -->
+</html>
+<script>
+/* Render project repositories */
+function render_project(data) {
+    var repositories = data["repos"]
+    var content = $(".content")
+    var repo_block = $("<div>").addClass("project-block").html("<h2>Project Repositories</h2>")
+    for (var i=0; i<repositories.length; i++){
+        var list = $("<div>").addClass("project-list-elem")
+        var title = $("<span>").append(
+            $("<a>").attr("href", repositories[i]["url"]).html(repositories[i]["title"])
+        )
+        var desc = $("<span>").html(": " + repositories[i]["desc"])
+        list = list.append(title).append(desc)
+        repo_block = repo_block.append(list)
+    }
+
+    content = content.append(repo_block)
+}
+
+$(document).ready(function (){
+    $.ajax({
+      type: "GET",
+      url: "../contents/project.json",
+      dataType: "JSON",
+      success: function(data){
+        render_documents(data)
+      }
+    })
+})
+</script>
+

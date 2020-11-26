@@ -1,15 +1,15 @@
 {
     "sections" : [
         {
-            "title" : "Subsection 1",
-            "text" : "fill the contents"
+            "title" : "",
+            "text" : "We intend to contribute to the improvement of the competitiveness of the software industry through the StarLab project by developing the original technology for automatic repair of SW errors, and distributing it as an open source tool."
         },
         {
-            "title" : "Subsection 2",
-            "text" : "Contents2"
+            "title" : "",
+            "text" : "We research on fundamental technologies for software analysis, including"
         },
         {
-            "title" : "Subsection 1",
+            "title" : "",
             "text" : "Contents2"
         }
     ]

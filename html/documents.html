@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>STARLAB Homepage</title>
+  <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="logo">STAR LAB - Software Analysis Laboratory</div>
+        </div>
+        <!-- //header -->
+        <div class="container">
+          <div class="nav">
+            <div class="nav-contents">
+                <div class="nav-header">
+                    Categories
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="./home.html" class="nav-link home">Home</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link contact">Contact</a></li>
+                    <li class="nav-item"><a href="./people.html" class="nav-link people">People</a></li>
+                    <li class="nav-item"><a href="./project.html" class="nav-link project">Project</a></li>
+                    <li class="nav-item"><a href="./documents.html" class="nav-link documents selected">Documents</a></li>
+                </ul>
+                </div>
+            </div>
+            <!-- //nav -->
+            <div class="content">
+                <h1>Documents</h1>
+            </div>
+        </div>
+        <!-- //container -->
+        <div class="footer">
+          <p class="copyright">Copy right &copy | <a href="http://prl.korea.ac.kr/~pronto/home/">Software Analysis Laboratory.</a> @ Korea University</p>
+        </div>
+        <!-- //footer -->
+      </div>
+      <!-- //frame -->
+</html>
+<script>
+/* Render document list */
+function render_documents(data) {
+    var documents = data["reports"];
+    var publications = data["publications"];
+
+    var content = $(".content")
+
+    /* Render all documents */
+    var document_block = $("<div>").addClass("document-block").html("<h2>Documentations</h2>")
+    for (var i=0; i<documents.length; i++){
+        var document = $("<div>").addClass("document-card")
+        var title = $("<h3>").html(documents[i]["title"])
+        var desc = $("<div>").addClass("document-desc").html(documents[i]["description"])
+        var link = $("<div>").addClass("document-link").append(
+        $("<a>").attr("target","_blank").attr("href",documents[i]["url"]).html("pdf")
+        ).prepend("[").append("]")
+
+        document = document.append(title).append(desc).append(link)
+        document_block = document_block.append(document)
+    } 
+
+    /* Render all publications */
+    var publication_block = $("<div>").addClass("document-block").html("<h2>Publications</h2>")
+    for (var i=0; i<publications.length; i++){
+        var publication = $("<div>").addClass("document-card")
+        var title = $("<h3>").html(publications[i]["title"])
+        var authors = $("<div>").addClass("document-authors").html(publications[i]["authors"])
+        var conference = $("<div>").addClass("document-conference").append(
+        $("<a>").attr("target","_blank").attr("href",publications[i]["conference_url"]).html(publications[i]["conference"])
+        )
+        var paper_link = $("<div>").addClass("document-link").append(
+        $("<a>").attr("target","_blank").attr("href",publications[i]["paper_url"]).html("pdf")
+        ).prepend("[").append("]")
+
+        publication = publication.append(title).append(authors).append(conference).append(paper_link)
+        publication_block = publication_block.append(publication)
+    } 
+
+    content.append(document_block).append(publication_block)
+}
+
+$(document).ready(function (){
+    $.ajax({
+      type: "GET",
+      url: "../contents/documents.json",
+      dataType: "JSON",
+      success: function(data){
+        render_documents(data)
+      }
+    })
+})
+</script>
