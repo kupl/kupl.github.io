@@ -135,33 +135,32 @@ a:hover {
 .left-block {
     width: 40%;
     height: 300px;
-    float: left
+    float: left;
 }
 
 .right-block {
     width: 60%;
     height: 300px;
-    float: left
+    float: left;
 }
 
 @media (max-width:1000px){
     .left-block {
         width: 100%;
         height: 300px;
-        float: left
+        float: left;
     }   
 
     .right-block {
         width: 100%;
         height: 300px;
-        float: left
+        float: left;
     } 
 }
 
 #map-block {
     width: 90%;
     height: 100%;
-    align-content: center;
 }
 
 /* People */
