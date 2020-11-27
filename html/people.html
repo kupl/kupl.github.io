@@ -73,8 +73,6 @@ function render_people(data) {
 
     var lblock = $("<div>").addClass("left-block")
     var rblock = $("<div>").addClass("right-block")
-    var sub_rblock1 = $("<div>").addClass("sub-right-block1")
-    var sub_rblock2 = $("<div>").addClass("sub-right-block2")
 
     /* Render left block (project leaders) */
     var leader_group = make_people_group ("Project Leader", leaders)
@@ -83,8 +81,6 @@ function render_people(data) {
     /* Render right block (project members) */
     var member_group = make_people_group ("Members", members)
     rblock = rblock.append(member_group)
-    rblock = rblock.append(sub_rblock1)
-    rblock = rblock.append(sub_rblock2)
 
     content.append(lblock).append(rblock)
 }
