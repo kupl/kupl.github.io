@@ -1,5 +1,6 @@
 body {
     font:18px/1.8 Arial, Helvetica, sans-serif;
+    width: 50%;
 }
 
 h2 {
@@ -107,12 +108,12 @@ a:hover {
 }
 
 .left-block {
-    width: 30%;
+    width: 50%;
     float: left
 }
 
 .right-block {
-    width: 70%;
+    width: 50%;
     float: left
 }
 
