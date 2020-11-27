@@ -53,7 +53,7 @@
             (email) hakjoo_oh@korea.ac.kr <br>
             </div>
             <div class="right-block">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6323.489349031858!2d127.0222444895148!3d37.584629586166315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbcb08a5790df%3A0x21f0604c311dc40d!2z6rOg66Ck64yA7ZWZ6rWQIOqzvO2VmeuPhOyEnOq0gA!5e0!3m2!1sko!2skr!4v1606360180418!5m2!1sko!2skr" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe id="map-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6323.489349031858!2d127.0222444895148!3d37.584629586166315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbcb08a5790df%3A0x21f0604c311dc40d!2z6rOg66Ck64yA7ZWZ6rWQIOqzvO2VmeuPhOyEnOq0gA!5e0!3m2!1sko!2skr!4v1606360180418!5m2!1sko!2skr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
           </div>
         </div>
@@ -67,34 +67,3 @@
 </body>
 </html>
 <script>
-/* Render project repositories */
-function render_project(data) {
-    var repositories = data["repos"]
-    var content = $(".content")
-    var repo_block = $("<div>").addClass("project-block").html("<h2>Project Repositories</h2>")
-    for (var i=0; i<repositories.length; i++){
-        var list = $("<div>").addClass("project-list-elem")
-        var title = $("<span>").append(
-            $("<a>").attr("href", repositories[i]["url"]).html(repositories[i]["title"])
-        )
-        var desc = $("<span>").html(": " + repositories[i]["desc"])
-        list = list.append(title).append(desc)
-        repo_block = repo_block.append(list)
-    }
-
-    content = content.append(repo_block)
-}
-
-$(document).ready(function (){
-    $.ajax({
-      type: "GET",
-      url: "../contents/project.json",
-      dataType: "JSON",
-      success: function(data){
-        render_documents(data)
-      }
-    })
-})
-</script>
-
-

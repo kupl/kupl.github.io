@@ -133,13 +133,35 @@ a:hover {
 }
 
 .left-block {
-    width: 50%;
+    width: 40%;
+    height: 300px;
     float: left
 }
 
 .right-block {
-    width: 50%;
+    width: 60%;
+    height: 300px;
     float: left
+}
+
+@media (max-width:1000px){
+    .left-block {
+        width: 100%;
+        height: 300px;
+        float: left
+    }   
+
+    .right-block {
+        width: 100%;
+        height: 300px;
+        float: left
+    } 
+}
+
+#map-block {
+    width: 90%;
+    height: 100%;
+    align-content: center;
 }
 
 /* People */
@@ -147,6 +169,7 @@ a:hover {
     width: 100%;
     float: left
 }
+
 
 .member-block {
     width: 100%;
