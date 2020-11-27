@@ -3,6 +3,13 @@ body {
     width: 1250px;
 }
 
+@media (max-width:1250px){
+    body {
+        font:18px/1.8 Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+}
+
 h2 {
     margin-top: 0px
 }
