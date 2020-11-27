@@ -106,6 +106,16 @@ a:hover {
     padding-left:20px;
 }
 
+.left-block {
+    width: 50%;
+    float: left
+}
+
+.right-block {
+    width: 50%;
+    float: left
+}
+
 /* People */
 .leader-block {
     width: 100%;
