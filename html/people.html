@@ -71,8 +71,8 @@ function render_people(data) {
     var leaders = data["Project Leader"]
     var members = data["Members"]
 
-    var lblock = $("<div>").addClass("left-block")
-    var rblock = $("<div>").addClass("right-block")
+    var lblock = $("<div>").addClass("leader-block")
+    var mblock = $("<div>").addClass("member-block")
 
     /* Render left block (project leaders) */
     var leader_group = make_people_group ("Project Leader", leaders)
@@ -80,9 +80,9 @@ function render_people(data) {
 
     /* Render right block (project members) */
     var member_group = make_people_group ("Members", members)
-    rblock = rblock.append(member_group)
+    mblock = mblock.append(member_group)
 
-    content.append(lblock).append(rblock)
+    content.append(lblock).append(mblock)
 }
 
 $(document).ready(function (){
