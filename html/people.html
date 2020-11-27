@@ -46,11 +46,12 @@
 /* Render people page */
 function make_person_block(data) {
     var card = $("<div>").addClass("people-card")
+    var pic = $("<div>").addClass("people-pic").append("<img src = \"../src/blank-person.png\" alt=\"\">")
     var name = $("<div>").addClass("people-name").html(data["Name"])
     var position = $("<div>").addClass("people-position").html(data["Position"])
     var email = $("<div>").addClass("people-email").append($("<a>").addClass("e-mail").html(data["E-mail"]))
 
-    card = card.append(name).append(position).append(email)
+    card = card.append(pic).append(name).append(position).append(email)
     return card
 }
 
@@ -72,6 +73,8 @@ function render_people(data) {
 
     var lblock = $("<div>").addClass("left-block")
     var rblock = $("<div>").addClass("right-block")
+    var sub_rblock1 = $("<div>").addClass("sub-right-block1")
+    var sub_rblock2 = $("<div>").addClass("sub-right-block2")
 
     /* Render left block (project leaders) */
     var leader_group = make_people_group ("Project Leader", leaders)
@@ -80,6 +83,8 @@ function render_people(data) {
     /* Render right block (project members) */
     var member_group = make_people_group ("Members", members)
     rblock = rblock.append(member_group)
+    rblock = rblock.append(sub_rblock1)
+    rblock = rblock.append(sub_rblock2)
 
     content.append(lblock).append(rblock)
 }

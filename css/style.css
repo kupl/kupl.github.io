@@ -108,11 +108,21 @@ a:hover {
 
 /* People */
 .left-block {
-    width: 50%;
+    width: 100%;
     float: left
 }
 
 .right-block {
+    width: 100%;
+    float: left
+}
+
+.sub-right-block {
+    width: 50%;
+    float: left
+}
+
+.sub-right-block {
     width: 50%;
     float: left
 }
@@ -124,6 +134,11 @@ a:hover {
     padding-bottom:10px;
     border-bottom:1px solid #aaa
 }
+
+.people-pic {
+    width: 25%;
+}
+
 
 .people-name {
     font-weight: bold;
