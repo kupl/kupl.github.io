@@ -3,6 +3,7 @@
         {
             "Name" : "Hakjoo Oh",
             "Position" : "Associate Professor",
+            "Pic" : "hakjoo_oh.png",
             "E-mail" : "hakjoo_oh@korea.ac.kr"
         }
     ],
@@ -10,61 +11,73 @@
         {
             "Name" : "Sooyoung Cha",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "sooyoungcha@korea.ac.kr"
         },
         {
             "Name" : "Sunbeom So",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "sunbeom_so@korea.ac.kr"
         },
         {
             "Name" : "Minseok Jeon",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "minseok_jeon@korea.ac.kr"
         },
         {
             "Name" : "Seongjoon Hong",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "seongjoon@korea.ac.kr"
         },
         {
             "Name" : "Myungho Lee",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "myungho_lee@korea.ac.kr"
         },
         {
             "Name" : "Junhee Lee",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "junhee_lee@korea.ac.kr"
         },
         {
             "Name" : "Dowon Song",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "sdw0316@korea.ac.kr"
         },
         {
             "Name" : "Seokhyun Lee",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "seokhyunlee@korea.ac.kr"
         },
         {
             "Name" : "Jisuk Byun",
             "Position" : "Ph.D Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "jsbzwork@gmail.com"
         },
         {
             "Name" : "Donghoon Jeon",
             "Position" : "M.S Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "jdh5818@naver.ac.kr"
         },
         {
             "Name" : "Jinkyung Kim",
             "Position" : "M.S Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "livjgovob@naver.com"
         },
         {
             "Name" : "Yunji Seo",
             "Position" : "B.S Student",
+            "Pic" : "blank-person.png",
             "E-mail" : "seodbswl99@naver.com"
         }
     ]

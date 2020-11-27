@@ -45,7 +45,8 @@
 /* Render people page */
 function make_person_block(data) {
     var card = $("<div>").addClass("people-card")
-    var pic = $("<div>").addClass("people-pic").append("<img src = \"../src/blank-person.png\" alt=\"\">")
+    var pic_url = $("<img src = \"../pic/" + data["Pic"] + "\" alt=\"\">")
+    var pic = $("<div>").addClass("people-pic").append(pic_url)
     var name = $("<div>").addClass("people-name").html(data["Name"])
     var position = $("<div>").addClass("people-position").html(data["Position"])
     var email = $("<div>").addClass("people-email").append($("<a>").addClass("e-mail").html(data["E-mail"]))
