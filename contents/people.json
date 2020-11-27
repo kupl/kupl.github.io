@@ -23,19 +23,9 @@
             "E-mail" : "minseok_jeon@korea.ac.kr"
         },
         {
-            "Name" : "Junhee Lee",
-            "Position" : "Ph.D Student",
-            "E-mail" : "junhee_lee@korea.ac.kr"
-        },
-        {
             "Name" : "Seongjoon Hong",
             "Position" : "Ph.D Student",
             "E-mail" : "seongjoon@korea.ac.kr"
-        },
-        {
-            "Name" : "Dowon Song",
-            "Position" : "Ph.D Student",
-            "E-mail" : "sdw0316@korea.ac.kr"
         },
         {
             "Name" : "Myungho Lee",
@@ -43,14 +33,24 @@
             "E-mail" : "myungho_lee@korea.ac.kr"
         },
         {
+            "Name" : "Junhee Lee",
+            "Position" : "Ph.D Student",
+            "E-mail" : "junhee_lee@korea.ac.kr"
+        },
+        {
+            "Name" : "Dowon Song",
+            "Position" : "Ph.D Student",
+            "E-mail" : "sdw0316@korea.ac.kr"
+        },
+        {
             "Name" : "Seokhyun Lee",
             "Position" : "Ph.D Student",
             "E-mail" : "seokhyunlee@korea.ac.kr"
         },
         {
-            "Name" : "Seonho Lee",
-            "Position" : "M.S Student",
-            "E-mail" : "seonho_lee@korea.ac.kr"
+            "Name" : "Jisuk Byun",
+            "Position" : "Ph.D Student",
+            "E-mail" : "jsbzwork@gmail.com"
         },
         {
             "Name" : "Donghoon Jeon",
