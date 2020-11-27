@@ -107,23 +107,13 @@ a:hover {
 }
 
 /* People */
-.left-block {
+.leader-block {
     width: 100%;
     float: left
 }
 
-.right-block {
+.member-block {
     width: 100%;
-    float: left
-}
-
-.sub-right-block {
-    width: 50%;
-    float: left
-}
-
-.sub-right-block {
-    width: 50%;
     float: left
 }
 
