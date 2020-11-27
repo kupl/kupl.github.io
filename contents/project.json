@@ -19,11 +19,6 @@
             "title": "Graphick",
             "desc": "Open source learning framework for generating graph-based heuristics for pointer analysis. It designed a feature language to automatically generate pointer analysis heuristics, and proposed an algorithm to generate the graph-based analysis heuristic by automatically generating the features. It can dramatically improve the performance of pointer analysis, which is closely related to our source technology #3 (logic based patch validation).",
             "url": "https://github.com/kupl/Graphick.git"
-        },
-        {
-            "title": "Benchmark",
-            "desc": "Our benchmark consisting of 1176 safety errors and 205 functional errors",
-            "url": "https://github.com/kupl/starlab-benchmarks.git"
         }
     ]
 }
