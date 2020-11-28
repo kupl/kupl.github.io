@@ -160,16 +160,14 @@ a:hover {
     .nav-link:hover {
         background: #ddd;
     }
-
-
-
+    
     .content {
         float: left;
         position: relative;
-        padding-left: 10px;
+        padding-left: 20px;
         padding-bottom: 10px;
         border-left: 0px solid #aaa;
-        width: 100%;
+        width: 95%;
         height: 100%;
         min-height: 600px;
     }
