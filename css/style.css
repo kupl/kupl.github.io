@@ -282,6 +282,19 @@ img {
     color: #0088cc;
     text-decoration: underline;
 }
+
+#project_goal {
+    width: 60%;
+}
+
+#npex_img {
+    width: 60%;
+}
+
+#adapt_img {
+    width: 60%;
+}
+
 /* Document */
 .document-card {
     border-bottom: 1px solid #aaa;
