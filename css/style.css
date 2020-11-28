@@ -148,13 +148,13 @@ a:hover {
     .left-block {
         width: 100%;
         height: 300px;
-        float: left;
+        float: none;
     }   
 
     .right-block {
         width: 100%;
         height: 300px;
-        float: left;
+        float: none;
     } 
 }
 
