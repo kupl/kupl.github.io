@@ -16,7 +16,12 @@ h2 {
 
 a {
     color: #0088cc;
-    text-decoration: none
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b94a48;
+    text-decoration: underline;
 }
 
 a:hover {
