@@ -176,11 +176,23 @@ a:hover {
 }
 
 .people-card {
-    width: 50%;
+    width: 40%;
     padding-left:10px;
     margin-bottom:10px;
+    margin-right: 50px;
+    float:left;
     padding-bottom:10px;
     border-bottom:1px solid #aaa
+}
+
+@media (max-width:800px){
+    .people-card {
+        width: 50%;
+        padding-left:10px;
+        margin-bottom:10px;
+        padding-bottom:10px;
+        border-bottom:1px solid #aaa
+    }
 }
 
 .people-pic {
