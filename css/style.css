@@ -61,16 +61,16 @@ img {
     padding: 0 8px;
 }
 
-@media (max-width:800px) {
+@media (max-width:850px) {
     .logo {
-        font-size: 1.5em;
+        font-size: 1.4em;
         font-weight: bold;
         display: inline-block;
         padding: 0 8px;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:650px) {
     .logo {
         font-size: 1.1em;
         font-weight: bold;
@@ -132,7 +132,7 @@ img {
     min-height: 600px;
 }
 
-@media (max-width:800px){
+@media (max-width:850px){
     .nav {
         float: left;
         width: 100%;
