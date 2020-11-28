@@ -28,6 +28,11 @@ a:hover {
     text-decoration: underline;
 }
 
+#category_list {
+    color: #000000;
+    text-decoration: none;
+}
+
 img {
     width: 100%;
 }
