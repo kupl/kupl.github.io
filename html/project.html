@@ -29,55 +29,52 @@
             </div>
             <!-- //nav -->
             <div class="content">
-              <h1>Project</h1>
-            <h2>Project Vision</h2>
-            <img src="../src/project_vision.jpg" alt="">
-            <p>
-              Fully automated software error debugging process through the development of error repair technology at the level of practical use
-            </p>
-  
-            <h2>Project background</h2>
-              <h3>The socioeconomic costs of software error problems are astronomical</h3>
-              <p>
-                As software(SW) becomes the center of value creation in all areas of society, the socioeconomic costs of SW errors are increasing astronomically. The software error problem occurs in a wide range of social areas including finance, transportation, distribution, etc., and the resulting loss has also increased rapidly. It is estimated that the loss caused by software errors has reached 1.7 trillion dollars in 2017. 
-              </p>
-  
-              <h3>Solution to software error problem: Automatic error detection + automatic repair</h3>
-              <p>
-                As software size and complexity have increased dramatically, it is no longer possible to rely on the developer's manual work to find and fix software errors. As a result, software errors are neglected in the industry, which causes software errors. The development of software error automatic detection and repair technology is the solution to this problem.
-              </p>
-  
-              <h3>Automatic error detection technology has been developed to the level of practical use</h3>
-              <p>
-                Automatic software error detection technology has made remarkable developments over the past 30 years, becoming the technology that is routinely used in the software development stage. Global software companies such as Microsoft, Facebook, and Google have recently developed and started using their own error repair technology.
-              </p>
-  
-              <h3>Automatic error repair technology is the next key challenge for solving software error</h3>
-              <p>
-                Compared to the automatic error detection technology, the automatic error repair technology remains at the present level. The error correction process relies entirely on the developer's manual work without the support of the automation tools. The absence of automatic error repair technology leads to an enormous increase in software development cost and a decrease in productivity, which is urgently required in the software field.
-              </p>
-  
-            <h2>Project Objectives and Contents</h2>
-              <img src="../src/project_objectives_and_contents_eng.jpg" alt="">
-              <p>
-                We aim to develop high-performance automatic software error-correcting technology at the practical level. Specifically, the goal is to develop a technology that satisfies all of the following requirements:
+	      
+	      <h1>Our Mission</h1>
+	      <hr style="width:100%;text-align:left;margin-left:0">
+	      <img src="../src/project_objectives_and_contents_eng.jpg" alt="">
+	      <p> Our goal is to develop highly-practical automated software repair technologies for ensuring safety and reliability of software.
+	      To this end, we research on fundamental techniques in the field of programming languages with applications to real-world software such as system software, AI software, and blokchain software. </p>
                 <ul>
-                  <li>Fully-Automatic: Operate fully automatically without human intervention</li>
-                  <li>Generality: Technology applicable to variety of industry-wide errors, not just specific errors</li>
-                  <li>Accuracy: Sophisticated enough to eliminate most of the actual errors</li>
-                  <li>Reliability: No compromise to program functionality during error correction</li>
-                  <li>Scalability: Work efficiently for large, complex software</li>
+	          <li><b>Software Error Detection</b> for precisely localizing errors and vulnerabilities in software. </li>
+		  <li><b>Software Verification</b> for rigorously validating the safety and reliability of repaired software. </li>
+		  <li><b>Software Synthesis</b> for efficiently generating patches that can repair software. </li>
                 </ul>
-              </p>
-              <h3>Develop a fully-automatic error correction architecture that generates reliable patches for typical errors</h3>
-              <p>
-                In order to automatically generate a reliable patch, a technology that automatically deduces the 'error correction specification' that expresses how an error should be corrected is essential. We develop a fully-automatic error correction architecture in which patch synthesizers and patch validators interact and gradually enhance patches and specifications.
-              </p>
-  
-              <h3>Develop high-performance patch synthesis technology that satisfies generality, accuracy and scalability</h3>
-              <p>
-                High performance patch synthesis technology is essential to achieve the accuracy and scalability of error correction technology. We develop high-performance patch synthesis technology with both accuracy and scalability for typical errors.
-              </p>
+
+              <h1> Current Research Topics </h1>
+	      <hr style="width:100%;text-align:left;margin-left:0">
+	      	<h2> Software Error Detection</h2>
+		<center><img src="../src/adapt.png" width="60%"></center>
+		  <ul>
+		     <li>  <b> ADAPT: Testing Deep Neural Networks with Adaptive Neuron-Selection Strategy </b> </li>
+			A new white-box testing approach for deep neural networks. The key novelty is to combine white-box testing
+			with an algorithm that adapts the neuron-selection strategy.
+			<br>
+			[<a href="https://github.com/kupl/adapt">github</a>] [<a href="papers/issta20.pdf">ISSTA 20 paper</a>]
+		  </ul>
+
+	      	<h2> Software Verification</h2>
+		<center><img src="../src/npex.png" width="70%"></center>
+	      	  <ul>
+			<li> <b> NPEX: Null Pointer Exception X</b> </li>
+                        NPEX is an open-source patch recommendation system for Java Null Pointer Exceptions (NPE).
+			NPEX aims to help developers to maintain their projects NPE-free by automatically generating compilable patches for NPE.
+			<br>
+			[<a href="https://github.com/kupl/npex">github</a>]
+
+			<li> <b> Graphick: Learning Graph-Based Heuristics for Pointer Analysis </b> </li>
+                        Open source learning framework for generating graph-based heuristics for pointer analysis.
+			We present a feature language to describe graph structures and an algorithm for learning analysis heuristics within the language.
+			<br>
+		        [<a href="https://github.com/kupl/Graphick">github</a>] [<a href="papers/oopsla20.pdf">OOPSLA 20 paper</a>]
+	         </ul>
+	      	<h2> Software Synthesis</h2>
+	      	  <ul>
+			<li> SynthRL: Program Synthesis using Reinforcement Learning </b> </li>
+                        Program synthesizer based on OGIS using learning-based agents trained with reinforcement learning.
+		        [<a href="https://github.com/kupl/synthrl">github</a>]
+	         </ul>
+
             </div>
           </div>
         </div>
@@ -92,11 +89,11 @@
 </html>
 <script>
 /* Render project repositories */
-function render_project(data) {
+// function render_project(data) {
     var repositories = data["repos"]
     var content = $(".content")
 
-    var repo_block = $("<div>").addClass("project-block").html("<h1>Project Repositories</h1>")
+    var repo_block = $("<div>").addClass("project-block").html("<h2>Project Repositories</h2>")
     for (var i=0; i<repositories.length; i++){
         var repo = $("<div>").addClass("project-card")
         var title = $("<h3>").html(repositories[i]["title"])

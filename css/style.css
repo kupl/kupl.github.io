@@ -19,9 +19,6 @@ a {
     text-decoration: none
 }
 
-img {
-    width: 100%;
-}
 a:hover {
     text-decoration: underline;
 }
