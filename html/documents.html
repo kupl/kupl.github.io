@@ -26,7 +26,6 @@
           <!-- //nav -->
         <div class="container">
             <div class="content">
-                <h1>Documents</h1>
             </div>
         </div>
         <!-- //container -->
@@ -47,21 +46,20 @@ function render_documents(data) {
     var content = $(".content")
 
     /* Render all documents */
-    var document_block = $("<div>").addClass("document-block").html("<h2>Documentations</h2>")
+    var document_block = $("<div>").addClass("document-block").html("<h1>Technical Report</h1>")
     for (var i=0; i<documents.length; i++){
         var document = $("<div>").addClass("document-card")
         var title = $("<h3>").html(documents[i]["title"])
-        var desc = $("<div>").addClass("document-desc").html(documents[i]["description"])
         var link = $("<div>").addClass("document-link").append(
         $("<a>").attr("target","_blank").attr("href",documents[i]["url"]).html("pdf")
         ).prepend("[").append("]")
 
-        document = document.append(title).append(desc).append(link)
+        document = document.append(title).append(link)
         document_block = document_block.append(document)
     } 
 
     /* Render all publications */
-    var publication_block = $("<div>").addClass("document-block").html("<h2>Publications</h2>")
+    var publication_block = $("<div>").addClass("document-block").html("<h1>Publications</h1>")
     for (var i=0; i<publications.length; i++){
         var publication = $("<div>").addClass("document-card")
         var title = $("<h3>").html(publications[i]["title"])

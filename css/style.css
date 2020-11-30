@@ -275,6 +275,10 @@ img {
     width: 50%;
 }
 
+#logo_img {
+    width: 80%;
+}
+
 /* Document */
 .document-card {
     border-bottom: 1px solid #aaa;
