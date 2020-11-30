@@ -12,6 +12,10 @@ body {
     }
 }
 
+h1 {
+    margin-bottom: -4px;
+}
+
 h2 {
     margin-top: 0px
 }
@@ -281,7 +285,6 @@ img {
 
 /* Document */
 .document-card {
-    border-bottom: 1px solid #aaa;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
