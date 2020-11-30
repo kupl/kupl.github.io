@@ -2,6 +2,7 @@
     "reports" : [
         {
             "title" : "(PRL-2020-01) Context-Aware and Data-Driven Program Repair",
+	    "authors" : "Dowon Song and Hakjoo Oh",
             "url" : "https://kupl.github.io/src/tech_report_01.pdf"
         }
     ],

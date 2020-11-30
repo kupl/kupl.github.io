@@ -70,6 +70,23 @@ img {
     padding: 0 8px;
 }
 
+.logo-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 8px;
+    margin-bottom: -2rem;
+    width:100%;
+}
+
+.logo-subtitle{
+    font-size: 1.6em;
+    font-weight: 400;
+    color:grey;
+    display: inline-block;
+    padding: 0 8px;
+}
+
 @media (max-width:850px) {
     .logo {
         font-size: 1.4em;
@@ -234,7 +251,7 @@ img {
 
 .people-pic {
     width: 100px;
-    height: auto;
+    height: 125px;
     padding-top: 10px;
 }
 

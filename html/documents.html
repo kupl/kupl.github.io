@@ -10,7 +10,8 @@
 <body>
     <div class="frame">
         <div class="header">
-            <div class="logo">STAR LAB - Software Analysis Laboratory</div>
+	  <p class="logo-title">Software Analysis Laboratory</p>
+	  <p class="logo-subtitle">SW STAR LAB project page</p>
         </div>
         <!-- //header -->
         <div class="nav">
@@ -50,11 +51,12 @@ function render_documents(data) {
     for (var i=0; i<documents.length; i++){
         var document = $("<div>").addClass("document-card")
         var title = $("<h3>").html(documents[i]["title"])
+        var authors = $("<div>").addClass("document-authors").html(documents[i]["authors"])
         var link = $("<div>").addClass("document-link").append(
         $("<a>").attr("target","_blank").attr("href",documents[i]["url"]).html("pdf")
         ).prepend("[").append("]")
 
-        document = document.append(title).append(link)
+        document = document.append(title).append(authors).append(link)
         document_block = document_block.append(document)
     } 
 
