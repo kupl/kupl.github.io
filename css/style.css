@@ -30,6 +30,10 @@ a:hover {
     text-decoration: underline;
 }
 
+li {
+    float: rigth;
+}
+
 #category_list {
     color: #000000;
     text-decoration: none;
