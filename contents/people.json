@@ -35,7 +35,7 @@
         {
             "Name" : "Myungho Lee",
             "Position" : "Ph.D Student",
-            "Pic" : "blank-person.png",
+            "Pic" : "myungho.png",
             "E-mail" : "myungho_lee@korea.ac.kr"
         },
         {
@@ -47,13 +47,13 @@
         {
             "Name" : "Dowon Song",
             "Position" : "Ph.D Student",
-            "Pic" : "blank-person.png",
+            "Pic" : "dowon.png",
             "E-mail" : "sdw0316@korea.ac.kr"
         },
         {
             "Name" : "Seokhyun Lee",
             "Position" : "Ph.D Student",
-            "Pic" : "blank-person.png",
+            "Pic" : "seokhyun.png",
             "E-mail" : "seokhyunlee@korea.ac.kr"
         },
         {
@@ -65,19 +65,19 @@
         {
             "Name" : "Donghoon Jeon",
             "Position" : "M.S Student",
-            "Pic" : "blank-person.png",
+            "Pic" : "donghoon.png",
             "E-mail" : "jdh5818@naver.ac.kr"
         },
         {
             "Name" : "Jinkyung Kim",
             "Position" : "M.S Student",
-            "Pic" : "blank-person.png",
+            "Pic" : "jinkyung.png",
             "E-mail" : "livjgovob@naver.com"
         },
         {
             "Name" : "Yunji Seo",
             "Position" : "B.S Student",
-            "Pic" : "blank-person.png",
+            "Pic" : "yunji.png",
             "E-mail" : "seodbswl99@naver.com"
         }
     ]
