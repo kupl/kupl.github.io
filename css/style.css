@@ -30,6 +30,11 @@ a:hover {
     text-decoration: underline;
 }
 
+p {
+    padding-right: 10px;
+    margin: auto;
+}
+
 #category_list {
     color: #000000;
     text-decoration: none;
@@ -40,8 +45,7 @@ img {
 }
 
 .frame {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     border: 1px solid #fff;
 }
 
@@ -50,7 +54,7 @@ img {
 }
 
 .header {
-    padding:20px 10px 20px;
+    padding:20px 5px 20px;
     background: #fff;
     margin-bottom: 0px;
 }
@@ -130,7 +134,8 @@ img {
     position: relative;
     padding-bottom: 50px;
     padding-left: 15px;
-    width: 100%;
+    paddig-right: 15px;
+    width: 95%;
     height: 100%;
     min-height: 600px;
 }
@@ -140,9 +145,10 @@ img {
         float: left;
         position: relative;
         padding-left: 15px;
+        padding-right: 15px;
         padding-bottom: 10px;
         border-left: 0px solid #aaa;
-        width: 90%;
+        width: 95%;
         height: 100%;
         min-height: 600px;
     }
