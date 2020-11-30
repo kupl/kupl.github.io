@@ -30,10 +30,6 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
-    float: right;
-}
-
 #category_list {
     color: #000000;
     text-decoration: none;
@@ -109,6 +105,7 @@ img {
 }
 
 .nav-item {
+    float: right;
     margin: 4px 0;
 }
 
