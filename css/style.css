@@ -87,18 +87,27 @@ img {
     padding: 0 8px;
 }
 
-@media (max-width:850px) {
-    .logo {
-        font-size: 1.4em;
+@media (max-width:700px) {
+
+    .logo-title {
+        font-size: 2em;
         font-weight: bold;
         display: inline-block;
         padding: 0 8px;
+        margin-bottom: -2rem;
+        width:100%;
     }
-}
 
-@media (max-width:650px) {
+    .logo-subtitle{
+        font-size: 1.3em;
+        font-weight: 400;
+        color:grey;
+        display: inline-block;
+        padding: 0 8px;
+    }
+    
     .logo {
-        font-size: 1.1em;
+        font-size: 1.2em;
         font-weight: bold;
         display: inline-block;
         padding: 0 8px;
@@ -155,7 +164,7 @@ img {
     position: relative;
     padding-bottom: 50px;
     padding-left: 15px;
-    paddig-right: 15px;
+    padding-right: 15px;
     width: 95%;
     height: 100%;
     min-height: 600px;
@@ -250,8 +259,8 @@ img {
 }
 
 .people-pic {
-    width: 100px;
-    height: 125px;
+    width: 105px;
+    height: 135px;
     padding-top: 10px;
 }
 
@@ -265,6 +274,33 @@ img {
 
 .people-email {
     color: #0088cc;
+}
+
+.ppl-content {
+    float: left;
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 95%;
+    height: 100%;
+    min-height: 600px;
+}
+
+@media (max-width:850px){    
+    .ppl-content {
+        float: left;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        border-left: 0px solid #aaa;
+        height: 100%;
+        min-height: 600px;
+    }
 }
 
 /* Proejct */
