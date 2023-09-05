@@ -1,17 +1,17 @@
 {{ $data := index $.Site.Data.publications }}
 
 {{ range $key, $value := $data }}
-    <h2>{{ $key }}</h2>
-    <ul>
+<h2>{{ $key }}</h2>
+<ul>
     {{ range $value }}
-        <li>
-            <span class="nsneo-heavy">{{ .title }}</span> </br>
-            {{ partial "publication/authors.html" .authors }} </br>
-            {{ partial "publication/target.html" (dict "target" .target "year" $key) }} </br>
-            {{ partial "publication/materials.html" .materials }} 
-        </li>
-        </br>
+    <li>
+        <span class="fw-bold">{{ .title }}</span> </br>
+        {{ partial "publication/authors.html" .authors }} </br>
+        {{ partial "publication/target.html" (dict "target" .target "year" $key) }} </br>
+        {{ partial "publication/materials.html" .materials }}
+    </li>
+    </br>
     {{ end}}
-    </ul>
-    
+</ul>
+
 {{ end }}
