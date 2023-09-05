@@ -31,6 +31,8 @@ weight = 20
 - Hayoung Lee
 - Graduated Students
 
+# Graduated Members
+
 ## PhD
 - Minseok Jeon (PhD, 2023.02): Postdoctoral Researcher, Korea University
 - [Sunbeom So](https://sites.google.com/site/sunbeomsoprl/) (PhD, 2022.08): Postdoctoral Researcher, Korea University
