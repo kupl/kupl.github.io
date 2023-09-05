@@ -9,35 +9,29 @@
       abbr: ESEC/FSE
       url: https://2023.esec-fse.org/
     materials:
-      pdf: 
-      # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
-      artifact: https://github.com/es-meta/esmeta
-      # bib: javascript:show('cacm-esmeta.bib')
 
-  - title: TEST
+  - title: "V1SCAN: Discovering 1-day Vulnerabilities in Reused C/C++ Open-source Software Components Using Code Classification Techniques"
     authors:
-      - Sukyoung Ryu
-      - Jihyeok Park
-      - WOW
+      - Seunghoon Woo
+      - Eunjin Choi
+      - Heejo Lee
+      - Hakjoo Oh
     target:
-      name: Communications of the ACM
-      detail: To Appear # TODO
-      abbr: CACM
-      url: https://m-cacm.acm.org/
+      name: 32nd USENIX Security Symposium
+      abbr: Security
+      url: https://www.usenix.org/conference/usenixsecurity23
     materials:
-      pdf: https://prl.korea.ac.kr
-      # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
-      # bib: javascript:show('cacm-esmeta.bib')
 
-  - title: TEST222
+
+  - title: Optimizing Homomorphic Evaluation Circuits by Program Synthesis and Time-Bounded Exhaustive Search
     authors:
-      - HO
+      - Dongkwon Lee
+      - Woosuk Lee
+      - Hakjoo Oh
+      - Kwangkeun Yi
     target:
-      name: Communications of the ACM
-      detail: To Appear # TODO
-      abbr: CACM
-      url: https://m-cacm.acm.org/
+      name: ACM Transactions on Programming Languages and Systems
+      abbr: TOPLAS
+      url: https://dl.acm.org/journal/toplas
     materials:
-      pdf: https://prl.korea.ac.kr
-      # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
-      # bib: javascript:show('cacm-esmeta.bib')
+      pdf: /papers/toplas23-lobster.pdf
