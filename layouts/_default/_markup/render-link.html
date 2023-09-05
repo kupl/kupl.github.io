@@ -1,1 +1,5 @@
-<a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+<a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+    href="{{ .Destination | safeURL }}" {{ with .Title }} title="{{ . }}" {{ end }} {{ if strings.HasPrefix
+    .Destination "http" }} target="_blank" rel="noopener" {{ end }}>
+    {{ .Text | safeHTML }}
+</a>

@@ -1,0 +1,3 @@
+<div id="{{ .Anchor | safeURL }}" class="fs-{{ math.Min 6 (add .Level 4) }} fw-bold">
+    {{ .Text | safeHTML }} 
+</div>
