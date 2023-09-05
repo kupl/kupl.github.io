@@ -1,3 +1,6 @@
 baseURL = 'https://prl.korea.ac.kr/'
 languageCode = 'en-us'
 title = 'SAL@KU'
+
+[markup.goldmark.renderer]
+hardWraps = true # For new line 

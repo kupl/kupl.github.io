@@ -2,7 +2,8 @@
 draft = true
 title = 'Publications'
 menu = 'main'
-weight = 30
+weight = 40
 +++
 
 # Publications
+ {{< publication-list data="publications" >}}

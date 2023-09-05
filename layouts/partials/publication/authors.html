@@ -1,0 +1,5 @@
+{{ $len := (len .) }}
+
+{{ range $index, $element := . }}
+    {{ if and (not (eq $index 0)) (gt $len 2) }}, {{ end }} {{ if (eq (add $index 1) $len) }}and {{ end }}{{ $element }}
+{{ end}}

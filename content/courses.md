@@ -2,7 +2,7 @@
 draft = true
 title = 'Courses'
 menu = 'main'
-weight = 50
+weight = 60
 +++
 
 # Courses

@@ -1,0 +1,30 @@
+2023:
+
+  - title: "SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models"
+    authors:
+      - Sunbeom So
+      - Hakjoo Oh
+    target:
+      name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+      abbr: ESEC/FSE
+      url: https://2023.esec-fse.org/
+    materials:
+      pdf: 
+      # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
+      artifact: https://github.com/es-meta/esmeta
+      # bib: javascript:show('cacm-esmeta.bib')
+
+  - title: TEST
+    authors:
+      - Sukyoung Ryu
+      - Jihyeok Park
+      - WOW
+    target:
+      name: Communications of the ACM
+      detail: To Appear # TODO
+      abbr: CACM
+      url: https://m-cacm.acm.org/
+    materials:
+      pdf: https://prl.korea.ac.kr
+      # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
+      # bib: javascript:show('cacm-esmeta.bib')

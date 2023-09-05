@@ -2,7 +2,7 @@
 draft = true
 title = 'Trips'
 menu = 'main'
-weight = 60
+weight = 70
 +++
 
 # Trips

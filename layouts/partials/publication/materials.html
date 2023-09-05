@@ -1,0 +1,7 @@
+{{ if (isset . "pdf") }}
+    [<a href="{{ .pdf }}" target="_blank">pdf</a>]
+{{ end }}
+
+{{ if (isset . "artifact") }}
+    [<a href="{{ .artifact }}" target="_blank">artifact</a>]
+{{ end }}
