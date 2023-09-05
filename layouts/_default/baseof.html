@@ -12,8 +12,10 @@
 
 <body data-bs-theme="dark">
     {{ partial "header/navbar.html" . }}
-    {{ block "main" . }}
-    {{ end }}
+    <div class="mx-auto" style="max-width: 80rem;">
+        {{ block "main" . }}
+        {{ end }}
+    </div>
     {{ partial "foot/bootstrap5.html" . }}
 </body>
 
