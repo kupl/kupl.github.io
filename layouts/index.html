@@ -1,0 +1,5 @@
+{{ define "html" }}
+{{ with .GetPage "/about" }}
+{{ .Render "single" }}
+{{ end }}
+{{ end }}
