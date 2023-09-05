@@ -1,3 +1,8 @@
+<!-- Render "/about" -->
+<!-- Special thanks to followings: -->
+<!-- 1. https://discourse.gohugo.io/t/i-want-to-redirect-my-homepage-to-a-content-page/16318/4 -->
+<!-- 2. https://gohugo.io/functions/render/ -->
+
 {{ define "html" }}
 {{ with .GetPage "/about" }}
 {{ .Render "single" }}
