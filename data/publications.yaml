@@ -28,3 +28,16 @@
       pdf: https://prl.korea.ac.kr
       # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
       # bib: javascript:show('cacm-esmeta.bib')
+
+  - title: TEST222
+    authors:
+      - HO
+    target:
+      name: Communications of the ACM
+      detail: To Appear # TODO
+      abbr: CACM
+      url: https://m-cacm.acm.org/
+    materials:
+      pdf: https://prl.korea.ac.kr
+      # pdf: /assets/data/publication/cacm23-ryu-esmeta.pdf
+      # bib: javascript:show('cacm-esmeta.bib')
