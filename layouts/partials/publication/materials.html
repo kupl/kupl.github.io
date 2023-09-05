@@ -1,7 +1,7 @@
-{{ if (isset . "pdf") }}
-    [<a href="{{ .pdf }}" target="_blank">pdf</a>]
+{{ with .pdf }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "pdf") }}]
 {{ end }}
 
-{{ if (isset . "artifact") }}
-    [<a href="{{ .artifact }}" target="_blank">artifact</a>]
+{{ with .artifact }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "artifact") }}]
 {{ end }}
