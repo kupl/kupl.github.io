@@ -18,11 +18,11 @@ weight = 20
 - [Seongjoon Hong]({{< relref "/seongjoon-hong" >}})
 - Myungho Lee
 - Junhee Lee
-- Dowon Song
+- [Dowon Song]({{< relref "/dowon-song" >}})
 - [Seokhyun Lee](https://seokhyunlee.info/)
 - Jisuk Byun
 - Seungwon Han
-- Minsu Kim
+- [Minsu Kim]({{< relref "/minsu-kim" >}})
 - [Wonseok Oh](https://marinelay.pages.dev/)
 - Doyeon Hwang
 
