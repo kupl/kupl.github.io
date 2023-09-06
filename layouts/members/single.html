@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "name" .Title }}
+{{ with .Params.ko }}{{ $scratch.Set "name" (print ($scratch.Get "name") " (" . ")") }}{{ end }}
+{{ partial "hook/heading.html" (dict "level" 1 "text" ($scratch.Get "name") "anchor" .File.ContentBaseName ) }}
+
+<div class="d-flex mt-2 mb-4">
+    {{ with .Params.portrait }}
+    <div class="me-3">
+        {{ $image := resources.Get . }}
+        {{ $image := $image.Resize "x150" }}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $image.Name }}" class="img-fluid">
+    </div>
+    {{ end }}
+    <div>
+        {{ with .Params.role }}{{ . }}{{ end }}<br>
+        {{ with .Params.affiliation }}
+        {{ range . }}
+            {{ if isset . "url" }}{{ partial "hook/link.html" (dict "dest" .url "text" .name) }}{{ else }}{{ .name }}{{ end }}<br>
+        {{ end }}
+        {{ end }}
+        {{ with .Params.meterials }}
+            [{{ with .cv }}{{ partial "hook/link.html" (dict "dest" . "text" "cv") }}{{ end }}]
+        {{ end }}
+    </div>
+</div>
+
+{{ .Content }}
+{{ end }}
