@@ -1,18 +1,25 @@
-{{ $data := index $.Site.Data.publications }}
+{{ $raw := index $.Site.Data.publications }}
 
-{{ range $key, $value := $data }}
-{{ partial "hook/heading.html" (dict "level" 1 "text" $key "anchor" $key) }}
+{{ $data := dict }}
+{{ range $year, $papers := $raw }}
+    {{ $block := (dict "year" $year "papers" $papers) }}
+    {{ $data = merge $data (dict $year $block) }}
+{{ end }}
+
+{{ range $block := sort $data "year" "desc" }}
+
+{{ partial "hook/heading.html" (dict "level" 1 "text" $block.year "anchor" $block.year) }}
 <ul>
-    {{ range $value }}
+    {{ range $block.papers }}
     <li>
         <span class="fw-bold">{{ .title }}</span></br>
         {{ partial "publication/authors.html" .authors }}</br>
-        {{ partial "publication/target.html" (dict "target" .target "year" $key) }}</br>
+        {{ partial "publication/target.html" (dict "target" .target "year" $block.year) }}</br>
         {{ with .award }}{{ partial "publication/award.html" . }}</br>{{ end }}
         {{ partial "publication/materials.html" .materials }}
     </li>
     </br>
-    {{ end}}
+    {{ end }}
 </ul>
 
 {{ end }}
