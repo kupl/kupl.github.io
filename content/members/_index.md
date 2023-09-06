@@ -15,7 +15,7 @@ weight = 20
 - Minseok Jeon
 
 ## PhD Students
-- Seongjoon Hong
+- [Seongjoon Hong]({{< relref "/seongjoon-hong" >}})
 - Myungho Lee
 - Junhee Lee
 - Dowon Song
