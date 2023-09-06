@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = 'Talks'
 menu = 'main'
 weight = 50

@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = 'About'
 menu = 'main'
 weight = 10

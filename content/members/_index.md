@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = 'Members'
 menu = 'main'
 weight = 20
@@ -12,7 +12,6 @@ weight = 20
 - [Hakjoo Oh]({{< relref "/hakjoo-oh" >}})
 
 ## Postdoctoral Researchers
-- [Sunbeom So](https://sites.google.com/site/sunbeomsoprl/)
 - Minseok Jeon
 
 ## PhD Students
@@ -35,7 +34,7 @@ weight = 20
 
 ## PhD
 - Minseok Jeon (PhD, 2023.02): Postdoctoral Researcher, Korea University
-- [Sunbeom So](https://sites.google.com/site/sunbeomsoprl/) (PhD, 2022.08): Postdoctoral Researcher, Korea University
+- [Sunbeom So](https://sites.google.com/site/sunbeomsoprl/) (PhD, 2022.08): Assistant Professor, Gwangju Institute of Science and Technology
 - [Sooyoung Cha](https://sites.google.com/view/sooyoungcha/) (PhD, 2021.02): Assistant Professor, Sungkyunkwan University
 - Sehun Jeong (PhD, 2020.02, co-advised with Sungdeok Cha): Formal Works Inc.
 
