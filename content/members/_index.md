@@ -28,7 +28,6 @@ weight = 20
 
 ## MS Students
 - Hayoung Lee
-- Graduated Students
 
 # Graduated Members
 
