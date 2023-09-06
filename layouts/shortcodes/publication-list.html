@@ -8,7 +8,7 @@
 
 {{ range $block := sort $data "year" "desc" }}
 
-{{ partial "hook/heading.html" (dict "level" 1 "text" $block.year "anchor" $block.year) }}
+{{ partial "hook/heading.html" (dict "level" 2 "text" $block.year "anchor" $block.year) }}
 <ul>
     {{ range $block.papers }}
     <li>
