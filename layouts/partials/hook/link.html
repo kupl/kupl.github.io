@@ -1,6 +1,5 @@
 <a class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
     href="{{ .dest | safeURL }}"
     {{ with .title }} title="{{ . }}"{{ end }}
-    {{ if or (strings.HasPrefix .dest "http") (strings.HasSuffix .dest ".pdf") }} target="_blank" rel="noopener" {{ end }}>
-    {{ .text | safeHTML }}
-</a>
+    {{ if or (strings.HasPrefix .dest "http") (strings.HasSuffix .dest ".pdf") }} target="_blank" rel="noopener" {{ end }}
+>{{ .text | safeHTML }}</a>
