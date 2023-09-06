@@ -38,6 +38,7 @@ cv = '/cv/hakjoo-oh.pdf'
 ## Academic Activities
 ### Program Committee (PC) members
 
+- [ISSTA 2024](https://conf.researchr.org/home/issta-2024): ACM SIGSOFT International Symposium on Software Testing and Analysis
 - [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-research-track): The 46th International Conference on Software Engineering
 - [ISSTA 2023](https://2023.issta.org/track/issta-2023-technical-papers): ACM SIGSOFT International Symposium on Software Testing and Analysis
 - [OOPSLA 2022](https://2022.splashcon.org/track/splash-2022-oopsla?): ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications
