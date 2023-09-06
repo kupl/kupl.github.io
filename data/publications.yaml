@@ -6,7 +6,7 @@
 #       - Author 2
 #     target:
 #       name: Conference Name
-#       abbr: Conf. Abbr.
+#       abbr: CONF YEAR
 #       url: https://conf.url/
 #     materials: # all fields are optional
 #       pdf: /papers/paper1.pdf
@@ -18,7 +18,7 @@
 #       - Author 4*
 #     target:
 #       name: Conference Name
-#       abbr: Conf. Abbr.
+#       abbr: CONF YEAR
 #       url: https://conf.url/
 #     award: # write it if the paper is awarded
 #       name: ACM SIGSOFT Distinguished Paper Award
@@ -34,7 +34,7 @@
       - Hakjoo Oh
     target:
       name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-      abbr: ESEC/FSE
+      abbr: ESEC/FSE 2023
       url: https://2023.esec-fse.org/
     materials:
 
@@ -46,7 +46,7 @@
       - Hakjoo Oh
     target:
       name: 32nd USENIX Security Symposium
-      abbr: Security
+      abbr: Security 2023
       url: https://www.usenix.org/conference/usenixsecurity23
     materials:
 
@@ -69,7 +69,7 @@
       - Hakjoo Oh
     target:
       name: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications
-      abbr: OOPSLA
+      abbr: OOPSLA 2023
       url: https://2023.splashcon.org/track/splash-2023-oopsla
     materials:
       pdf: /papers/oopsla23-qsynth.pdf
@@ -82,7 +82,7 @@
       - Hakjoo Oh
     target:
       name: IEEE International Conference on Software Testing, Verification and Validation (Industry Track)
-      abbr: ICST
+      abbr: ICST 2023
       url: https://conf.researchr.org/home/icst-2023
     materials:
       pdf: /papers/icst23.pdf
@@ -94,7 +94,7 @@
       - Hakjoo Oh
     target:
       name: International Conference on Software Engineering
-      abbr: ICSE
+      abbr: ICSE 2023
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-diver.pdf
@@ -106,7 +106,7 @@
       - Hakjoo Oh
     target:
       name: International Conference on Software Engineering
-      abbr: ICSE
+      abbr: ICSE 2023
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-seamfuzz.pdf
@@ -117,7 +117,7 @@
       - Hakjoo Oh
     target:
       name: International Conference on Software Engineering
-      abbr: ICSE
+      abbr: ICSE 2023
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-ddinfer.pdf
@@ -129,7 +129,7 @@
       - Hakjoo Oh
     target:
       name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-      abbr: ESEC/FSE
+      abbr: ESEC/FSE 2022
       url: https://2022.esec-fse.org/
     materials:
       pdf: /papers/fse22.pdf
@@ -142,7 +142,7 @@
       - Hakjoo Oh
     target:
       name: International Conference on Software Engineering
-      abbr: ICSE
+      abbr: ICSE 2022
       url: https://conf.researchr.org/home/icse-2022
     award:
       name: ACM SIGSOFT Distinguished Paper Award
@@ -158,7 +158,7 @@
       - Hakjoo Oh
     target:
       name: International Conference on Software Engineering
-      abbr: ICSE
+      abbr: ICSE 2022
       url: https://conf.researchr.org/home/icse-2022
     materials:
       pdf: /papers/npex.pdf
@@ -170,7 +170,7 @@
       - Hakjoo Oh
     target:
       name: 49th ACM SIGPLAN Symposium on Principles of Programming Languages
-      abbr: POPL
+      abbr: POPL 2022
       url: https://popl22.sigplan.org/
     materials:
       pdf: /papers/popl22.pdf

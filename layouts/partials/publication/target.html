@@ -1,3 +1,2 @@
-{{ $text := print .target.abbr " " .year }}
-{{ $text := print $text ": " .target.name }}
-{{ partial "hook/link.html" (dict "dest" .target.url "text" $text) }}
+{{ $text := print .abbr ": " .name }}
+{{ partial "hook/link.html" (dict "dest" .url "text" $text) }}
