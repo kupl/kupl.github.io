@@ -1,3 +1,32 @@
+#### short example
+# YEAR:
+#   - title: NEW PAPER 1
+#     authors:
+#       - Author 1
+#       - Author 2
+#     target:
+#       name: Conference Name
+#       abbr: Conf. Abbr.
+#       url: https://conf.url/
+#     materials: # all fields are optional
+#       pdf: /papers/paper1.pdf
+#       artifact: http://github.com/kupl/new-paper-1
+#
+#   - title: NEW PAPER 2
+#     authors: # * means the authors are equally contributed
+#       - Author 3*
+#       - Author 4*
+#     target:
+#       name: Conference Name
+#       abbr: Conf. Abbr.
+#       url: https://conf.url/
+#     award: # write it if the paper is awarded
+#       name: ACM SIGSOFT Distinguished Paper Award
+#       cert: /awards/paper2-award.pdf # Link to the award certificate if exists (optional)
+#     materials: # all fields are optional
+#       pdf: /papers/paper2.pdf
+#       artifact: http://github.com/kupl/new-paper-2
+
 2023:
   - title: "SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models"
     authors:
