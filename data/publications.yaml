@@ -92,3 +92,57 @@
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-ddinfer.pdf
+
+2022:
+  - title: "PyTER: Effective Program Repair for Python Type Errors"
+    authors:
+      - Wonseok Oh
+      - Hakjoo Oh
+    target:
+      name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+      abbr: ESEC/FSE
+      url: https://2022.esec-fse.org/
+    materials:
+      pdf: /papers/fse22.pdf
+
+  - title: "SymTuner: Maximizing the Power of Symbolic Execution by Adaptively Tuning External Parameters"
+    authors:
+      - Sooyoung Cha
+      - Myungho Lee
+      - Seokhyun Lee
+      - Hakjoo Oh
+    target:
+      name: International Conference on Software Engineering
+      abbr: ICSE
+      url: https://conf.researchr.org/home/icse-2022
+    award:
+      name: ACM SIGSOFT Distinguished Paper Award
+      cert: /awards/icse22-award.pdf
+    materials:
+      pdf: /papers/SynTuner.pdf
+      artifact: https://github.com/skkusal/symtuner
+
+  - title: "NPEX: Repairing Java Null Pointer Exceptions without Tests"
+    authors:
+      - Junhee Lee*
+      - Seongjoon Hong*
+      - Hakjoo Oh
+    target:
+      name: International Conference on Software Engineering
+      abbr: ICSE
+      url: https://conf.researchr.org/home/icse-2022
+    materials:
+      pdf: /papers/npex.pdf
+      artifact: https://github.com/kupl/NPEX_Artifacts
+
+  - title: "Return of CFA: Call-Site Sensitivity Can Be Superior to Object Sensitivity Even for Object-Oriented Programs"
+    authors:
+      - Minseok Jeon
+      - Hakjoo Oh
+    target:
+      name: 49th ACM SIGPLAN Symposium on Principles of Programming Languages
+      abbr: POPL
+      url: https://popl22.sigplan.org/
+    materials:
+      pdf: /papers/popl22.pdf
+      artifact: https://github.com/kupl/OBJ2CFA

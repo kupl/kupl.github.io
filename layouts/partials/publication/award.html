@@ -1,0 +1,2 @@
+{{ $text := print "🥇 " .name }}
+<span class="fw-bold">{{ if isset . "cert" }}{{ partial "hook/link.html" (dict "dest" .cert "text" $text) }}{{ else }}{{ $text }}{{ end }}</span>

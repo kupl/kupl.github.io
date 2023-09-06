@@ -1,2 +1,5 @@
 {{ $len := (len .) }}
-{{ range $index, $element := . }}{{ if and (not (eq $index 0)) (gt $len 2) }}, {{ end }} {{ if and (eq (add $index 1) $len) (gt $len 1) }}and {{ end }}{{ $element }}{{ end }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "show_equal_contrib" false }}
+{{ range $index, $element := . }}{{ if and (not (eq $index 0)) (gt $len 2) }}, {{ end }} {{ if and (eq (add $index 1) $len) (gt $len 1) }}and {{ end }}{{ $element }}{{ if strings.HasSuffix $element "*" }}{{ $scratch.Set "show_equal_contrib" true }}{{ end }}{{ end }}
+{{ if $scratch.Get "show_equal_contrib" }}(* contributed equally){{ end }}

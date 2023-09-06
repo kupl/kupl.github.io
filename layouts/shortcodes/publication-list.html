@@ -5,9 +5,10 @@
 <ul>
     {{ range $value }}
     <li>
-        <span class="fw-bold">{{ .title }}</span> </br>
-        {{ partial "publication/authors.html" .authors }} </br>
-        {{ partial "publication/target.html" (dict "target" .target "year" $key) }} </br>
+        <span class="fw-bold">{{ .title }}</span></br>
+        {{ partial "publication/authors.html" .authors }}</br>
+        {{ partial "publication/target.html" (dict "target" .target "year" $key) }}</br>
+        {{ with .award }}{{ partial "publication/award.html" . }}</br>{{ end }}
         {{ partial "publication/materials.html" .materials }}
     </li>
     </br>
