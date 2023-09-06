@@ -13,7 +13,7 @@ weight = 10
 
 ## News
 
-- I am always looking for motivated graduate/undergraduate students and postdocs to work with ([Introduction to our reasearch]({{< relref "/research" >}}))
+- We are always looking for motivated graduate/undergraduate students and postdocs to work with ([Introduction to our reasearch]({{< relref "/research" >}}))
 
 ## Research Areas
 
