@@ -9,7 +9,7 @@ role = 'PhD Student'
 name = 'Software Analysis Laboratory'
 url = '/'
 [[affiliation]]
-name = 'Dept. of Computer Science and Enginerring'
+name = 'Dept. of Computer Science and Engineering'
 url = 'https://cs.korea.ac.kr'
 [[affiliation]]
 name = 'College of Informatics'
