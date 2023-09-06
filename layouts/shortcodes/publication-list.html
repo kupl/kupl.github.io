@@ -1,7 +1,7 @@
 {{ $data := index $.Site.Data.publications }}
 
 {{ range $key, $value := $data }}
-{{ partial "hook/heading.html" (dict "level" 2 "text" $key "anchor" $key) }}
+{{ partial "hook/heading.html" (dict "level" 1 "text" $key "anchor" $key) }}
 <ul>
     {{ range $value }}
     <li>

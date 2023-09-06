@@ -1,5 +1,4 @@
 2023:
-
   - title: "SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models"
     authors:
       - Sunbeom So
@@ -22,7 +21,6 @@
       url: https://www.usenix.org/conference/usenixsecurity23
     materials:
 
-
   - title: Optimizing Homomorphic Evaluation Circuits by Program Synthesis and Time-Bounded Exhaustive Search
     authors:
       - Dongkwon Lee
@@ -35,3 +33,62 @@
       url: https://dl.acm.org/journal/toplas
     materials:
       pdf: /papers/toplas23-lobster.pdf
+
+  - title: Modular Component-Based Quantum Circuit Synthesis
+    authors:
+      - Chan Gu Kang
+      - Hakjoo Oh
+    target:
+      name: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications
+      abbr: OOPSLA
+      url: https://2023.splashcon.org/track/splash-2023-oopsla
+    materials:
+      pdf: /papers/oopsla23-qsynth.pdf
+
+  - title: Automating Endurance Test for Flash-based Storage Devices in Samsung Electronics
+    authors:
+      - Jinkook Kim
+      - Minseok Jeon
+      - Sejeong Jang
+      - Hakjoo Oh
+    target:
+      name: IEEE International Conference on Software Testing, Verification and Validation (Industry Track)
+      abbr: ICST
+      url: https://conf.researchr.org/home/icst-2023
+    materials:
+      pdf: /papers/icst23.pdf
+
+  - title: "Diver: Oracle-Guided SMT Solver Testing with Unrestricted Random Mutations"
+    authors:
+      - Jongwook Kim
+      - Sunbeom So
+      - Hakjoo Oh
+    target:
+      name: International Conference on Software Engineering
+      abbr: ICSE
+      url: https://conf.researchr.org/home/icse-2023
+    materials:
+      pdf: /papers/icse23-diver.pdf
+
+  - title: Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing
+    authors:
+      - Myungho Lee
+      - Sooyoung Cha
+      - Hakjoo Oh
+    target:
+      name: International Conference on Software Engineering
+      abbr: ICSE
+      url: https://conf.researchr.org/home/icse-2023
+    materials:
+      pdf: /papers/icse23-seamfuzz.pdf
+
+  - title: Learning to Boost Disjunctive Static Bug-Finders
+    authors:
+      - Yoonseok Ko
+      - Hakjoo Oh
+    target:
+      name: International Conference on Software Engineering
+      abbr: ICSE
+      url: https://conf.researchr.org/home/icse-2023
+    materials:
+      pdf: /papers/icse23-ddinfer.pdf
