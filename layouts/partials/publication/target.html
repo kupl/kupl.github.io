@@ -1,2 +1,2 @@
 {{ $text := print .abbr ": " .name }}
-{{ partial "hook/link.html" (dict "dest" .url "text" $text) }}
+{{ partial "hook/link.html" (dict "dest" .url "text" $text) }} {{ with .track }}({{ . }}){{ end }}

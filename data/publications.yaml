@@ -20,6 +20,7 @@
 #       name: Conference Name
 #       abbr: CONF YEAR
 #       url: https://conf.url/
+#       track: Special Track Name # optional
 #     award: # write it if the paper is awarded
 #       name: ACM SIGSOFT Distinguished Paper Award
 #       cert: /awards/paper2-award.pdf # Link to the award certificate if exists (optional)
@@ -81,9 +82,10 @@
       - Sejeong Jang
       - Hakjoo Oh
     target:
-      name: IEEE International Conference on Software Testing, Verification and Validation (Industry Track)
+      name: IEEE International Conference on Software Testing, Verification and Validation
       abbr: ICST 2023
       url: https://conf.researchr.org/home/icst-2023
+      track: Industry Track
     materials:
       pdf: /papers/icst23.pdf
 
