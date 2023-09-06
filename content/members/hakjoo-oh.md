@@ -1,14 +1,26 @@
 +++
 draft = false
 title = 'Hakjoo Oh'
+ko = '오학주'
+portrait = '/portraits/hakjoo-oh.png'
+role = 'Associate Professor'
+
+[[affiliation]]
+name = 'Software Analysis Laboratory'
+url = '/'
+[[affiliation]]
+name = 'Dept. of Computer Science and Enginerring'
+url = 'https://cs.korea.ac.kr'
+[[affiliation]]
+name = 'College of Informatics'
+url = 'https://info.korea.ac.kr'
+[[affiliation]]
+name = 'Korea University'
+url = 'https://korea.ac.kr'
+
+[meterials]
+cv = '/cv/hakjoo-oh.pdf'
 +++
-
-# Hakjoo Oh (오학주)
-
-Associate Professor
-[Software Analysis Laboratory](http://prl.korea.ac.kr)
-[Dept. of Computer Science and Enginerring](http://cs.korea.ac.kr)
-[College of Informatics](http://info.korea.ac.kr), [Korea University](http://korea.ac.kr)
 
 ## Educational Background
 
