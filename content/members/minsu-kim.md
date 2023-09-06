@@ -1,9 +1,9 @@
 +++
 draft = false
 title = 'Minsu Kim'
-# ko = '이름'
+ko = '김민수'
 # portrait = '/portraits/minsu-kim.png'
-role = 'Your role'
+role = 'PhD Student'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
@@ -22,4 +22,4 @@ url = 'https://korea.ac.kr'
 # cv = '/cv/minsu-kim.pdf'
 +++
 
-# Minsu Kim
+## Educational Background
