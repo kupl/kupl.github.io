@@ -7,7 +7,7 @@ weight = 10
 
 {{< figure src="/images/members.jpg" width="100%" >}}
 
-{{< div class="fs-1 fw-bold text-center" >}}
+{{< div class="fs-2 fw-bold text-center" >}}
 We conduct researches for<br>
 {{< div class="text-primary" >}}
 SAFE and RELIABLE<br>
