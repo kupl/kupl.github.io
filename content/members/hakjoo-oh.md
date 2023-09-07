@@ -22,6 +22,12 @@ url = 'https://korea.ac.kr'
 cv = '/cv/hakjoo-oh.pdf'
 +++
 
+## Research Areas
+Programming languages with applications to software engineering, security, and artificial intelligence:
+- Program analysis for automatically detecting software bugs and vulnerabilities
+- Program repair for automatically fixing buggy or vulnerable software
+- Program synthesis for automatically writing programs on behalf of humans
+
 ## Educational Background
 
 - 2007 ~ 2012, Ph.D. [Computer Science and Engineering](https://cse.snu.ac.kr/), [Seoul National University](https://www.snu.ac.kr/)
