@@ -1,0 +1,7 @@
+<div class="text-center fs-5 border border-3 border-primary bg-primary-subtle py-4 my-4 rounded-4 px-3">
+{{ if .Get "markdown" }}
+    {{ .Inner | markdownify }}
+{{ else }}
+    {{ .Inner }}
+{{ end }}
+</div>
