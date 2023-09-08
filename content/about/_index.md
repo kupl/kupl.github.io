@@ -16,7 +16,7 @@ software.
 {{< /div >}}
 
 {{< callout markdown=true >}}
-**We are always looking for motivated graduate/undergraduate students and postdocs to work with [our researches]({{< ref "/research" >}}).**
+**We are always looking for motivated graduate/undergraduate students and postdocs to work with [our researches]({{< relref "/research" >}}).**
 {{< /callout >}}
 
 ## Research Areas
