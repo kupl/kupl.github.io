@@ -5,13 +5,13 @@ menu = 'main'
 weight = 10
 +++
 
-{{< div class="fs-2 fw-bold text-center" >}}
-Software Analysis Laboratory conducts researches for<br>
-{{< div class="text-primary" >}}
-SAFE and RELIABLE<br>
-{{< /div >}}
-software.
-{{< /div >}}
+{{< html-snippet >}}
+<div class="fs-2 fw-bold text-center mb-3">
+<span class="text-primary">Software Analysis Laboratory</span><br>
+conducts researches for<br>
+<span class="text-primary">SAFE and RELIABLE</span> software.
+</div>
+{{< /html-snippet >}}
 
 {{< figure src="/images/members.jpg" width="100%" >}}
 
