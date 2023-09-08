@@ -1,9 +1,9 @@
 +++
 draft = false
-title = 'Dowon Song'
-# ko = '이름'
-# portrait = '/portraits/dowon-song.png'
-role = 'Your role'
+title = 'Seongjoon Hong'
+ko = '홍성준'
+portrait = 'portrait.jpg'
+role = 'PhD Student'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
@@ -19,7 +19,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [meterials]
-# cv = '/cv/dowon-song.pdf'
+# cv = 'cv.pdf'
 +++
 
-# Dowon Song
+# Seongjoon Hong

@@ -2,7 +2,7 @@
 draft = false
 title = 'Hakjoo Oh'
 ko = '오학주'
-portrait = '/portraits/hakjoo-oh.png'
+portrait = 'portrait.png'
 role = 'Associate Professor'
 
 [[affiliation]]
@@ -19,7 +19,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [meterials]
-cv = '/cv/hakjoo-oh.pdf'
+cv = 'cv.pdf'
 +++
 
 ## Research Areas

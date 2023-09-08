@@ -5,9 +5,9 @@
 {{ partial "hook/heading.html" (dict "level" 1 "text" ($scratch.Get "name") "anchor" .File.ContentBaseName ) }}
 
 <div class="d-flex mt-2 mb-4">
-    {{ with .Params.portrait }}
+    {{ if isset .Params "portrait" }}
     <div class="me-3">
-        {{ $image := resources.Get . }}
+        {{ $image := .Resources.Get .Params.portrait }}
         {{ $image := $image.Resize "x150" }}
         <img src="{{ $image.RelPermalink }}" alt="{{ $image.Name }}" class="img-fluid">
     </div>

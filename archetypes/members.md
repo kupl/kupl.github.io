@@ -2,7 +2,7 @@
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 # ko = '이름'
-# portrait = '/portraits/{{ .File.ContentBaseName }}.png'
+# portrait = 'portrait.png'
 role = 'Your role'
 
 [[affiliation]]
@@ -19,7 +19,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [meterials]
-# cv = '/cv/{{ .File.ContentBaseName }}.pdf'
+# cv = 'cv.pdf'
 +++
 
 # {{ replace .File.ContentBaseName "-" " " | title }}
