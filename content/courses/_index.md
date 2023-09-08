@@ -14,3 +14,17 @@ weight = 60
 
 - [COSE 212: Programming Languages]({{< relref "cose212/2022/_index.md" >}})
 - [AAA 616: Program Analysis]({{< relref "aaa616/2022/_index.md" >}})
+
+## 2021 Spring
+
+- AAA 528: Computational Logic
+
+## 2020 Fall
+
+- COSE 212: Programming Languages
+- AAA 616: Program Analysis
+
+## 2020 Spring
+
+- COSE 312: Compilers
+- AAA 528: Computational Logic
