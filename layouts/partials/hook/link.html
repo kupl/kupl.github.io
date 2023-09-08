@@ -2,4 +2,5 @@
     href="{{ .dest | safeURL }}"
     {{ with .title }} title="{{ . }}"{{ end }}
     {{ if or (strings.HasPrefix .dest "http") (strings.HasSuffix .dest ".pdf") }} target="_blank" rel="noopener" {{ end }}
+    {{ if strings.HasSuffix .dest ".ml" }} download {{ end }}
 >{{ .text | safeHTML }}</a>
