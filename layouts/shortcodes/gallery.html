@@ -6,16 +6,16 @@
 {{ $name := last 1 $name }}
 {{ $name := index $name 0 }}
 
-<div class="d-flex overflow-x-scroll mb-4">
+<div class="d-flex flex-nowrap overflow-x-scroll mb-4 mt-2">
     {{ range $idx, $image := $images }}
         {{ $image := strings.TrimPrefix "./" $image }}
         {{ $image := $.Page.Resources.GetMatch $image }}
         {{ with $image }}
             {{ $image := .Resize "x200" }}
             {{ $image := $image.Crop "200x200 center" }}
-            <div data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button">
+            <div data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" class="flex-grow-0 flex-shrink-0 me-2">
                 <div data-bs-target="#{{ $name }}Carousel" data-bs-slide-to="{{ $idx }}">
-                    <img src="{{ $image.RelPermalink }}" class="img-thumbnail mt-2 me-2" alt="{{ $image.Name }}">
+                    <img src="{{ $image.RelPermalink }}" class="img-thumbnail" alt="{{ $image.Name }}">
                 </div>
             </div>
         {{ end }}
