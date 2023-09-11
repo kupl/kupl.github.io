@@ -3,8 +3,10 @@
 # YEAR:
 #   - title: New Paper Title
 #     authors:
-#       - Author 1
-#       - Author 2
+#       - Author 1* # * means equal contribution
+#       - Author 2* # * means equal contribution
+#       - Author 3
+#       - Author 4
 #     target:
 #       name: "CONF YEAR: Conference Name"
 #       url: https://conf.url/
@@ -19,6 +21,8 @@
 #       artifact: https://github.com/kupl/new-paper-1
 #       benchmarks: https://github.com/kupl/new-benchmarks
 #       video: https://www.youtube.com/watch?v=123456
+#       slides: /slides/slide1.pdf
+#       poster: /posters/poster1.pdf
 #       media:
 #         en: https://www.media1.com
 #         ko: https://www.media2.com
@@ -564,7 +568,7 @@
       - Kihong Heo
       - Hakjoo Oh
       - Kwangkeun Yi
-    target:
+    target: 
       name: "SP&E: Software-Practice and Experience"
       url: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-024X
       issue: 2017
