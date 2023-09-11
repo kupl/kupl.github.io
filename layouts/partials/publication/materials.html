@@ -22,6 +22,14 @@
 [{{ partial "hook/link.html" (dict "dest" . "text" "video") }}]
 {{ end }}
 
+{{ with .slides }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "slides") }}]
+{{ end }}
+
+{{ with .poster }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "poster") }}]
+{{ end }}
+
 {{ with .media }}
 {{ $medialen := len . }}
 {{ $scratch := newScratch }}
