@@ -1,7 +1,18 @@
+{{ with .publication }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "publication") }}]
+{{ end }}
+
 {{ with .pdf }}
 [{{ partial "hook/link.html" (dict "dest" . "text" "pdf") }}]
 {{ end }}
 
 {{ with .artifact }}
 [{{ partial "hook/link.html" (dict "dest" . "text" "artifact") }}]
+{{ end }}
+
+{{ with .media }}
+{{ $medialen := len . }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "printed" 0 }}
+[media: {{ range $name, $url := . }}{{ partial "hook/link.html" (dict "dest" $url "text" $name) }}{{ $scratch.Get "printed" | add 1 | $scratch.Set "printed" }}{{ if (ne $medialen ($scratch.Get "printed")) }}, {{ end }}{{ end }}]
 {{ end }}

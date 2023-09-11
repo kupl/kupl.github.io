@@ -1,2 +1,4 @@
-{{ $text := print .abbr ": " .name }}
-{{ partial "hook/link.html" (dict "dest" .url "text" $text) }} {{ with .track }}({{ . }}){{ end }}
+{{ partial "hook/link.html" (dict "dest" .url "text" .name) }}
+{{ with .issue }}{{ . }}{{ end }}
+{{ with .track }} ({{ . }}){{ end }}
+{{ with .note }} ({{ . }}){{ end }}

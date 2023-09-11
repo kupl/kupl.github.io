@@ -1,32 +1,26 @@
 #### short example
+#### you can omit any optional fields
 # YEAR:
-#   - title: NEW PAPER 1
+#   - title: New Paper Title
 #     authors:
 #       - Author 1
 #       - Author 2
 #     target:
-#       name: Conference Name
-#       abbr: CONF YEAR
+#       name: "CONF YEAR: Conference Name"
 #       url: https://conf.url/
-#     materials: # all fields are optional
+#       issue: Volume 1 # optional
+#       track: Track Name # optional, this will be shown between parenthesis
+#       note: some optional note # optional, this will be shown between parenthesis
+#     award: # optional
+#       name: Award Name
+#       cert: /awards/award.pdf
+#     materials: # all fields are optional, if not specified, the link will be hidden
+#       publication: https://doi.org/10.1145/123_456
 #       pdf: /papers/paper1.pdf
 #       artifact: http://github.com/kupl/new-paper-1
-#
-#   - title: NEW PAPER 2
-#     authors: # * means the authors are equally contributed
-#       - Author 3*
-#       - Author 4*
-#     target:
-#       name: Conference Name
-#       abbr: CONF YEAR
-#       url: https://conf.url/
-#       track: Special Track Name # optional
-#     award: # write it if the paper is awarded
-#       name: ACM SIGSOFT Distinguished Paper Award
-#       cert: /awards/paper2-award.pdf # Link to the award certificate if exists (optional)
-#     materials: # all fields are optional
-#       pdf: /papers/paper2.pdf
-#       artifact: http://github.com/kupl/new-paper-2
+#       media:
+#         en: https://www.media1.com
+#         ko: https://www.media2.com
 
 2023:
   - title: "SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models"
@@ -34,8 +28,7 @@
       - Sunbeom So
       - Hakjoo Oh
     target:
-      name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-      abbr: ESEC/FSE 2023
+      name: "ESEC/FSE 2023: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
       url: https://2023.esec-fse.org/
     materials:
 
@@ -46,8 +39,7 @@
       - Heejo Lee
       - Hakjoo Oh
     target:
-      name: 32nd USENIX Security Symposium
-      abbr: Security 2023
+      name: "Security 2023: 32nd USENIX Security Symposium"
       url: https://www.usenix.org/conference/usenixsecurity23
     materials:
 
@@ -58,8 +50,7 @@
       - Hakjoo Oh
       - Kwangkeun Yi
     target:
-      name: ACM Transactions on Programming Languages and Systems
-      abbr: TOPLAS
+      name: "TOPLAS: ACM Transactions on Programming Languages and Systems"
       url: https://dl.acm.org/journal/toplas
     materials:
       pdf: /papers/toplas23-lobster.pdf
@@ -69,8 +60,7 @@
       - Chan Gu Kang
       - Hakjoo Oh
     target:
-      name: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications
-      abbr: OOPSLA 2023
+      name: "OOPSLA 2023: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
       url: https://2023.splashcon.org/track/splash-2023-oopsla
     materials:
       pdf: /papers/oopsla23-qsynth.pdf
@@ -82,8 +72,7 @@
       - Sejeong Jang
       - Hakjoo Oh
     target:
-      name: IEEE International Conference on Software Testing, Verification and Validation
-      abbr: ICST 2023
+      name: "ICST 2023: IEEE International Conference on Software Testing, Verification and Validation"
       url: https://conf.researchr.org/home/icst-2023
       track: Industry Track
     materials:
@@ -95,8 +84,7 @@
       - Sunbeom So
       - Hakjoo Oh
     target:
-      name: International Conference on Software Engineering
-      abbr: ICSE 2023
+      name: "ICSE 2023: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-diver.pdf
@@ -107,8 +95,7 @@
       - Sooyoung Cha
       - Hakjoo Oh
     target:
-      name: International Conference on Software Engineering
-      abbr: ICSE 2023
+      name: "ICSE 2023: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-seamfuzz.pdf
@@ -118,8 +105,7 @@
       - Yoonseok Ko
       - Hakjoo Oh
     target:
-      name: International Conference on Software Engineering
-      abbr: ICSE 2023
+      name: "ICSE 2023: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2023
     materials:
       pdf: /papers/icse23-ddinfer.pdf
@@ -130,8 +116,7 @@
       - Wonseok Oh
       - Hakjoo Oh
     target:
-      name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-      abbr: ESEC/FSE 2022
+      name: "ESEC/FSE 2022: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
       url: https://2022.esec-fse.org/
     materials:
       pdf: /papers/fse22.pdf
@@ -143,8 +128,7 @@
       - Seokhyun Lee
       - Hakjoo Oh
     target:
-      name: International Conference on Software Engineering
-      abbr: ICSE 2022
+      name: "ICSE 2022: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2022
     award:
       name: ACM SIGSOFT Distinguished Paper Award
@@ -159,8 +143,7 @@
       - Seongjoon Hong*
       - Hakjoo Oh
     target:
-      name: International Conference on Software Engineering
-      abbr: ICSE 2022
+      name: "ICSE 2022: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2022
     materials:
       pdf: /papers/npex.pdf
@@ -171,9 +154,80 @@
       - Minseok Jeon
       - Hakjoo Oh
     target:
-      name: 49th ACM SIGPLAN Symposium on Principles of Programming Languages
-      abbr: POPL 2022
+      name: "POPL 2022: 49th ACM SIGPLAN Symposium on Principles of Programming Languages"
       url: https://popl22.sigplan.org/
     materials:
       pdf: /papers/popl22.pdf
       artifact: https://github.com/kupl/OBJ2CFA
+
+2021:
+  - title: Enhancing Dynamic Symbolic Execution by Automatically Learning Search Heuristics
+    authors:
+      - Sooyoung Cha
+      - Seongjoon Hong
+      - Jiseong Bak
+      - Jingyoung Kim
+      - Junhee Lee
+      - Hakjoo Oh
+    target:
+      name: "TSE: IEEE Transactions on Software Engineering"
+      url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32
+      note: accepted
+    materials:
+      pdf: /papers/TSE21.pdf
+      artifact: https://github.com/kupl/dd-klee2
+
+  - title: "Context-Aware and Data-Driven Feedback Generation for Programming Assignments"
+    authors:
+      - Dowon Song
+      - Woosuk Lee
+      - Hakjoo Oh
+    target:
+      name: "ESEC/FSE 2021: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+      url: https://2021.esec-fse.org/
+    materials:
+      pdf: /papers/fse21.pdf
+      artifact: https://github.com/kupl/LearnML
+      media:
+        etnews: https://www.etnews.com/20210826000189
+        hangyung: https://www.hankyung.com/article/2021082617121
+
+  - title: "A Practical Algorithm for Learning Disjunctive Abstraction Heuristics in Static Program Analysis"
+    authors:
+      - Donghoon Jeon
+      - Minseok Jeon
+      - Hakjoo Oh
+    target:
+      name: "Information and Software Technology"
+      url: https://www.journals.elsevier.com/information-and-software-technology
+      issue: Volume 135
+    materials:
+      publication: https://www.sciencedirect.com/science/article/pii/S0950584921000471
+
+  - title: "SmarTest: Effectively Hunting Vulnerable Transaction Sequences in Smart Contracts through Language Model-Guided Symbolic Execution"
+    authors:
+      - Sunbeom So
+      - Seongjoon Hong
+      - Hakjoo Oh
+    target:
+      name: "Security 2021: 30th USENIX Security Symposium"
+      url: https://www.usenix.org/conference/usenixsecurity21
+    materials:
+      pdf: /papers/sec21.pdf
+
+  - title: "CENTRIS: A Precise and Scalable Approach for Identifying Modified Open-Source Software Reuse"
+    authors:
+      - Seunghoon Woo
+      - Sunghan Park
+      - Seulbae Kim
+      - Heejo Lee
+      - Hakjoo Oh
+    target:
+      name: "ICSE 2021: 43rd International Conference on Software Engineering"
+      url: https://conf.researchr.org/home/icse-2021
+    materials:
+      pdf: /papers/icse21.pdf
+      artifact: https://github.com/WOOSEUNGHOON/Centris-public
+      media:
+        en: https://portswigger.net/daily-swig/centris-new-tool-helps-prevent-software-supply-chain-attacks-by-flagging-modified-open-source-components
+        ko: https://www.boannews.com/media/view.asp?idx=95883
