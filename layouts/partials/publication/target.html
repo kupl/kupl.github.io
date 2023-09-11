@@ -1,3 +1,2 @@
-{{ partial "hook/link.html" (dict "dest" .url "text" .name) }}
-{{ with .issue }}{{ . }}{{ end }}
+{{ partial "hook/link.html" (dict "dest" .url "text" .name) }}{{ with .issue }}. {{ . }}{{ end }}
 {{ with .note }} ({{ . }}){{ end }}
