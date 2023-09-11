@@ -311,3 +311,52 @@
       artifact: https://github.com/kupl/VeriSmart-public
       benchmarks: https://github.com/kupl/VeriSmart-benchmarks
       video: https://www.youtube.com/watch?v=OIqjKqVm-F4
+
+2019:
+  - title: "Automatic and Scalable Detection of Logical Errors in Functional Programming Assignments"
+    authors:
+      - Dowon Song
+      - Myungho Lee
+      - Hakjoo Oh
+    target:
+      name: "OOPSLA 2019: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://conf.researchr.org/track/splash-2019/splash-2019-oopsla
+    materials:
+      pdf: /papers/oopsla19.pdf
+      artifact: https://github.com/kupl/TestML
+
+  - title: "Concolic Testing with Adaptively Changing Search Heuristics"
+    authors:
+      - Sooyoung Cha
+      - Hakjoo Oh
+    target:
+      name: "ESEC/FSE 2019: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+      url: https://esec-fse19.ut.ee/
+    materials:
+      pdf: /papers/fse19.pdf
+      artifact: https://github.com/kupl/Chameleon
+
+  - title: "Resource-aware Program Analysis via Online Abstraction Coarsening"
+    authors:
+      - Kihong Heo
+      - Hakjoo Oh
+      - Hongseok Yang
+    target:
+      name: "ICSE 2019: International Conference on Software Engineering"
+      url: https://conf.researchr.org/home/icse-2019
+    award:
+      name: ACM SIGSOFT Distinguished Paper Award
+    materials:
+      pdf: /papers/icse19coarsening.pdf
+
+  - title: "A Machine-Learning Algorithm with Disjunctive Model for Data-Driven Program Analysis"
+    authors:
+      - Minseok Jeon*
+      - Sehun Jeong*
+      - Sungdeok Cha
+      - Hakjoo Oh
+    target:
+      name: "TOPLAS: ACM Transactions on Programming Languages and Systems"
+      url: http://toplas.acm.org/
+    materials:
+      pdf: /papers/toplas19.pdf
