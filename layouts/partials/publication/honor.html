@@ -1,0 +1,1 @@
+<span class="fw-bold">{{ if isset . "cert" }}{{ partial "hook/link.html" (dict "dest" .cert "text" .title) }}{{ else }}{{ .title }}{{ end }}</span>

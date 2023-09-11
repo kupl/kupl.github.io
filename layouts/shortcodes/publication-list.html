@@ -15,7 +15,7 @@
         <span class="fw-bold">{{ .title }}</span></br>
         {{ partial "publication/authors.html" .authors }}</br>
         {{ partial "publication/target.html" .target }}</br>
-        {{ with .award }}{{ partial "publication/award.html" . }}</br>{{ end }}
+        {{ with .honor }}{{ partial "publication/honor.html" . }}</br>{{ end }}
         {{ partial "publication/materials.html" .materials }}
     </li>
     </br>

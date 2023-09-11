@@ -12,9 +12,9 @@
 #       url: https://conf.url/
 #       issue: Volume 1 # optional
 #       note: some optional note # optional, this will be shown between parenthesis
-#     award: # optional
-#       name: Award Name
-#       cert: /awards/award.pdf
+#     honor: # optional
+#       title: Award, Honorable Mention, etc.
+#       cert: /honors/award.pdf # optional
 #     materials: # all fields are optional, if not specified, the link will be hidden
 #       publication: https://doi.org/10.1145/123_456
 #       pdf: /papers/paper1.pdf
@@ -135,11 +135,11 @@
     target:
       name: "ICSE 2022: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2022
-    award:
-      name: ACM SIGSOFT Distinguished Paper Award
-      cert: /awards/icse22-award.pdf
+    honor:
+      title: 🥇ACM SIGSOFT Distinguished Paper Award
+      cert: /honors/icse22-award.pdf
     materials:
-      pdf: /papers/SynTuner.pdf
+      pdf: /papers/SymTuner.pdf
       artifact: https://github.com/skkusal/symtuner
 
   - title: "NPEX: Repairing Java Null Pointer Exceptions without Tests"
@@ -268,8 +268,8 @@
     target:
       name: "ISSTA 2020: The ACM SIGSOFT International Symposium on Software Testing and Analysis"
       url: https://conf.researchr.org/home/issta-2020
-    award:
-      name: ACM SIGSOFT Distinguished Paper Award
+    honor:
+      title: 🥇ACM SIGSOFT Distinguished Paper Award
     materials:
       pdf: /papers/issta20.pdf
       artifact: https://github.com/kupl/adapt
@@ -347,8 +347,8 @@
     target:
       name: "ICSE 2019: International Conference on Software Engineering"
       url: https://conf.researchr.org/home/icse-2019
-    award:
-      name: ACM SIGSOFT Distinguished Paper Award
+    honor:
+      title: 🥇ACM SIGSOFT Distinguished Paper Award
     materials:
       pdf: /papers/icse19coarsening.pdf
 
@@ -468,7 +468,8 @@
     target:
       name: "FMSD: Formal Methods in System Design"
       url: https://link.springer.com/journal/10703
-      note: Invited Paper
+    honor:
+      title: Invited Paper
     materials:
       publication: https://doi.org/10.1007/s10703-017-0306-7
 
@@ -664,3 +665,144 @@
     materials:
       pdf: /papers/oopsla15-ohyayi.pdf
       slides: /slides/oopsla15talk.pdf
+
+2014:
+  - title: Global Sparse Analysis Framework
+    authors:
+      - Hakjoo Oh
+      - Kihong Heo
+      - Wonchan Lee
+      - Woosuk Lee
+      - Daejun Park
+      - Jeehoon Kang
+      - Kwangkeun Yi
+    target:
+      name: "TOPLAS: ACM Transactions on Programming Languages and Systems"
+      url: http://toplas.acm.org/
+      issue: vol. 36, Issue 3. Sept. 2014
+    materials:
+      pdf: /papers/toplas14-ohhelelepakayi.pdf
+
+  - title: A Progress Bar for Static Analyzers
+    authors:
+      - Woosuk Lee
+      - Hakjoo Oh
+      - Kwangkeun Yi
+    target:
+      name: "SAS 2014: Static Analysis Symposium"
+      url: https://staticanalysis.org/sas2014/
+    materials:
+      pdf: /papers/sas14-leohyi.pdf
+  
+  - title: Selective Context-Sensitivity Guided by Impact Pre-Analysis
+    authors:
+      - Hakjoo Oh
+      - Wonchan Lee
+      - Kihong Heo
+      - Hongseok Yang
+      - Kwangkeun Yi
+    target:
+      name: "PLDI 2014: ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      url: https://conferences.inf.ed.ac.uk/pldi2014/
+    materials:
+      pdf: /papers/pldi14-ohleheyayi.pdf
+      slides: /slides/pldi14.pdf
+
+  - title: A Sparse Evaluation Technique for Detailed Semantic Analyses
+    authors:
+      - Yoonseok Ko
+      - Kihong Heo
+      - Hakjoo Oh
+    target:
+      name: "Computer Languages, Systems, and Structures"
+      url: https://www.journals.elsevier.com/computer-languages-systems-and-structures
+      issue: vol. 40, Issues 3-4. 2014
+    materials:
+      pdf: /papers/comlan14-koheoh.pdf
+
+2013:
+  - title: Access-based Abstract Memory Localization in Static Analysis
+    authors:
+      - Hakjoo Oh
+      - Kwangkeun Yi
+    target:
+      name: "SCP: Science of Computer Programming"
+      url: http://www.journals.elsevier.com/science-of-computer-programming/
+      issue: 2013
+    materials:
+      pdf: /papers/scp13-ohyi.pdf
+  
+2012:
+  - title: Design and Implementation of Sparse Global Analyses for C-like Languages
+    authors:
+      - Hakjoo Oh
+      - Kihong Heo
+      - Wonchan Lee
+      - Woosuk Lee
+      - Kwangkeun Yi
+    target:
+      name: "PLDI 2012: ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      url: https://pldi12.cs.purdue.edu/
+    honor:
+      title: First PLDI paper from Korea
+    materials:
+      pdf: /papers/pldi12-ohheleleyi.pdf
+      slides: /slides/pldi12.pdf
+
+2011:
+  - title: Access-based Localization with Bypassing
+    authors:
+      - Hakjoo Oh
+      - Kwangkeun Yi
+    target:
+      name: "APLAS 2011: The 9th Asian Symposium on Programming Languages and Systems"
+      url: http://flolac.iis.sinica.edu.tw/aplas11/
+    materials:
+      pdf: /papers/aplas11-ohyi.pdf
+      slides: /slides/aplas11.pdf
+
+  - title: Access Analysis-based Tight Localization of Abstract Memories
+    authors:
+      - Hakjoo Oh
+      - Lucas Brutschy
+      - Kwangkeun Yi
+    target:
+      name: "VMCAI 2011: The 12th International Conference on Verification, Model Checking, and Abstract Interpretation"
+      url: http://vmcai11.cis.ksu.edu/
+    materials:
+      pdf: /papers/vmcai11-ohbryi.pdf
+      slides: /slides/vmcai11.pdf
+
+2010:
+  - title: An Algorithmic Mitigation of Large Spurious Interprocedural Cycles in Static Analysis
+    authors:
+      - Hakjoo Oh
+      - Kwangkeun Yi
+    target:
+      name: "SP&E: Software-Practice and Experience"
+      url: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-024X
+      issue: 2010
+    materials:
+      pdf: /papers/spe10-ohyi.pdf
+
+2009:
+  - title: Large Spurious Cycles in Global Static Analysis and Its Algorithmic Mitigation
+    authors:
+      - Hakjoo Oh
+    target:
+      name: "APLAS 2009: The 7th Asian Symposium on Programming Languages and Systems"
+      url: http://ropas.snu.ac.kr/aplas09/
+    materials:
+      pdf: /papers/aplas09-oh.pdf
+      slides: /slides/aplas09.pdf
+
+  - title: Identifying Static Analysis Techniques for Finding Non-fix Hunks in Fix Revisions
+    authors:
+      - Yungbum Jung
+      - Hakjoo Oh
+      - Kwangkeun Yi
+    target:
+      name: "DSMM 2009: The ACM Workshop on Data-intensive Software Management and Mining"
+    materials:
+      pdf: /papers/dsmm09-juohyi.pdf
+
