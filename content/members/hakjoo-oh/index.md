@@ -37,8 +37,8 @@ Programming languages with applications to software engineering, security, and a
 
 ## Employed Positions
 
-- 2018.09 ~ present, Associate Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/mbshome/mbs/university)
-- 2015.03 ~ 2018.08, Assistant Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/mbshome/mbs/university)
+- 2018.09 ~ present, Associate Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
+- 2015.03 ~ 2018.08, Assistant Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
 - 2012.03 ~ 2015.02, Postdoctral Researcher, [Seoul National University](https://www.snu.ac.kr/)
 
 ## Academic Activities
