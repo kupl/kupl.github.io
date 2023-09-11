@@ -568,7 +568,7 @@
       - Kihong Heo
       - Hakjoo Oh
       - Kwangkeun Yi
-    target: 
+    target:
       name: "SP&E: Software-Practice and Experience"
       url: http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-024X
       issue: 2017
@@ -650,3 +650,17 @@
       url: https://ifipsec.org/2016/
     materials:
       pdf: /papers/sec16-liohohle.pdf
+
+2015:
+  - title: Learning a Strategy for Adapting a Program Analysis via Bayesian Optimisation
+    authors:
+      - Kihong Heo
+      - Hakjoo Oh
+      - Hongseok Yang
+      - Kwangkeun Yi
+    target:
+      name: "OOPSLA 2015: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://2015.splashcon.org/track/oopsla2015
+    materials:
+      pdf: /papers/oopsla15-ohyayi.pdf
+      slides: /slides/oopsla15talk.pdf
