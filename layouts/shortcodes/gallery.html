@@ -11,8 +11,8 @@
         {{ $image := strings.TrimPrefix "./" $image }}
         {{ $image := $.Page.Resources.GetMatch $image }}
         {{ with $image }}
-            {{ $image := .Resize "x200" }}
-            {{ $image := $image.Crop "200x200 center" }}
+            {{ $image := .Resize "x220" }}
+            {{ $image := $image.Crop "220x220 center" }}
             <div data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" class="flex-grow-0 flex-shrink-0 me-2">
                 <div data-bs-target="#{{ $name }}Carousel" data-bs-slide-to="{{ $idx }}">
                     <img src="{{ $image.RelPermalink }}" class="img-thumbnail" alt="{{ $image.Name }}">
