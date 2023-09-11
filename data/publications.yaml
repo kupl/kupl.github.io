@@ -17,7 +17,9 @@
 #     materials: # all fields are optional, if not specified, the link will be hidden
 #       publication: https://doi.org/10.1145/123_456
 #       pdf: /papers/paper1.pdf
-#       artifact: http://github.com/kupl/new-paper-1
+#       artifact: https://github.com/kupl/new-paper-1
+#       benchmarks: https://github.com/kupl/new-benchmarks
+#       video: https://www.youtube.com/watch?v=123456
 #       media:
 #         en: https://www.media1.com
 #         ko: https://www.media2.com
@@ -231,3 +233,81 @@
       media:
         en: https://portswigger.net/daily-swig/centris-new-tool-helps-prevent-software-supply-chain-attacks-by-flagging-modified-open-source-components
         ko: https://www.boannews.com/media/view.asp?idx=95883
+
+2020:
+  - title: "Learning Graph-based Heuristics for Pointer Analysis without Handcrafting Application-Specific Features"
+    authors:
+      - Minseok Jeon
+      - Myungho Lee
+      - Hakjoo Oh
+    target:
+      name: "OOPSLA 2020: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://2020.splashcon.org/track/splash-2020-oopsla
+    materials:
+      pdf: /papers/oopsla20.pdf
+
+  - title: "Making Symbolic Execution Promising by Learning Aggressive State-Pruning Strategy"
+    authors:
+      - Sooyoung Cha
+      - Hakjoo Oh
+    target:
+      name: "ESEC/FSE 2020: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+      url: https://2020.esec-fse.org/
+    materials:
+      pdf: /papers/fse20.pdf
+
+  - title: "Effective White-box Testing of Deep Neural Networks with Adaptive Neuron-Selection Strategy"
+    authors:
+      - Seokhyun Lee
+      - Sooyoung Cha
+      - Dain Lee
+      - Hakjoo Oh
+    target:
+      name: "ISSTA 2020: The ACM SIGSOFT International Symposium on Software Testing and Analysis"
+      url: https://conf.researchr.org/home/issta-2020
+    award:
+      name: ACM SIGSOFT Distinguished Paper Award
+    materials:
+      pdf: /papers/issta20.pdf
+      artifact: https://github.com/kupl/adapt
+
+  - title: Optimizing Homomorphic Evaluation Circuits by Program Synthesis and Term Rewriting
+    authors:
+      - Dongkwon Lee
+      - Woosuk Lee
+      - Hakjoo Oh
+      - Kwangkeun Yi
+    target:
+      name: "PLDI 2020: 41st ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      url: https://conf.researchr.org/home/pldi-2020
+    materials:
+      pdf: /papers/pldi20.pdf
+
+  - title: "SAVER: Scalable, Precise, and Safe Memory-Error Repair"
+    authors:
+      - Seongjoon Hong*
+      - Junhee Lee*
+      - Jeongsoo Lee
+      - Hakjoo Oh
+    target:
+      name: "ICSE 2020: 42nd International Conference on Software Engineering"
+      url: https://conf.researchr.org/home/icse-2020
+    materials:
+      pdf: /papers/icse20.pdf
+      artifact: https://github.com/kupl/SAVER_public/
+
+  - title: "VeriSmart: A Highly Precise Safety Verifier for Ethereum Smart Contracts"
+    authors:
+      - Sunbeom So
+      - Myungho Lee
+      - Jisu Park
+      - Heejo Lee
+      - Hakjoo Oh
+    target:
+      name: "S&P 2020: 41st IEEE Symposium on Security and Privacy"
+      url: https://www.ieee-security.org/TC/SP2020/
+    materials:
+      pdf: /papers/1908.11227.pdf
+      artifact: https://github.com/kupl/VeriSmart-public
+      benchmarks: https://github.com/kupl/VeriSmart-benchmarks
+      video: https://www.youtube.com/watch?v=OIqjKqVm-F4
