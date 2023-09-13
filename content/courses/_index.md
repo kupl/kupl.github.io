@@ -28,3 +28,8 @@ weight = 60
 
 - COSE 312: Compilers
 - AAA 528: Computational Logic
+
+## 2019 Fall
+
+- [COSE 212: Programming Languages]({{< relref "cose212/2019/_index.md" >}})
+- [AAA 616: Program Analysis]({{< relref "aaa616/2019/_index.md" >}})
