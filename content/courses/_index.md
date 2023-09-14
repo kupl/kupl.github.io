@@ -37,3 +37,8 @@ weight = 60
 ## 2019 Spring
 
 - [COSE 215: Theory of Computation]({{< relref "cose215/2019/_index.md" >}})
+
+## 2018 Fall
+
+- [COSE 212: Programming Languages]({{< relref "cose212/2018/_index.md" >}})
+- [AAA 528: Computational Logic]({{< relref "aaa528/2018/_index.md" >}})
