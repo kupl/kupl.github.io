@@ -7,7 +7,7 @@ title = 'COSE215-19F'
 
 ## Course Information
 
-- Instructor: Hakjoo Oh
+- Instructor: [Hakjoo Oh]({{< ref "/members/hakjoo-oh.md" >}})
 - TAs: Seongjoon Hong and Junhee Lee (Class 02), Myungho Lee and Donghun Jeon (Class 03)
 - Lecture: 14:00-15:15 (Class 02), 15:30-16:45 (Class 03) on Mondays and Wednesdays
 
