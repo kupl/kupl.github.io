@@ -6,7 +6,7 @@
 {{ $name := last 1 $name }}
 {{ $name := index $name 0 }}
 
-<div class="d-flex flex-nowrap overflow-x-scroll mb-4 mt-2">
+<div id="{{ $name }}Gallery" class="d-flex flex-nowrap overflow-x-scroll mb-4 mt-2">
     {{ range $idx, $image := $images }}
         {{ $image := strings.TrimPrefix "./" $image }}
         {{ $image := $.Page.Resources.GetMatch $image }}
@@ -46,3 +46,10 @@
         </div>
     </div>
 </div>
+
+<script>
+    const item = document.getElementById("{{ $name }}Gallery");
+    item.addEventListener("wheel", function (e) {
+        item.scrollLeft += e.deltaY;
+    });
+</script>
