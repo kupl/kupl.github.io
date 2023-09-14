@@ -33,3 +33,7 @@ weight = 60
 
 - [COSE 212: Programming Languages]({{< relref "cose212/2019/_index.md" >}})
 - [AAA 616: Program Analysis]({{< relref "aaa616/2019/_index.md" >}})
+
+## 2019 Spring
+
+- [COSE 215: Theory of Computation]({{< relref "cose215/2019/_index.md" >}})
