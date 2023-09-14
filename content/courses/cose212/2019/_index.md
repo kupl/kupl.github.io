@@ -14,6 +14,7 @@ title = 'COSE212-19F'
 ## References
 
 - [Essentials of Programming Languages](http://www.amazon.com/gp/product/0262062798?ie=UTF8&tag=ucmbread-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0262062798)
+    {{< figure src="./eopl.jpg" width="100px" link="http://www.amazon.com/gp/product/0262062798?ie=UTF8&tag=ucmbread-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0262062798" target="_blank" >}}
 - [Notes on Programming Languages (in Korean)](./pl-book-draft.pdf)
 
 ## Slides
