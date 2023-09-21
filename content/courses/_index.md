@@ -43,7 +43,41 @@ weight = 60
 - [COSE 212: Programming Languages]({{< relref "cose212/2018/_index.md" >}})
 - [AAA 528: Computational Logic]({{< relref "aaa528/2018/_index.md" >}})
 
+## 2018 Spring
+
+- COSE 215: Theory of Computation
+- AAA 616: Program Analysis
+- CVO 103: Programming Languages
+
 ## 2017 Fall
 
 - [COSE 212: Programming Languages]({{< relref "cose212/2017/_index.md" >}})
 - [AAA 615: Formal Methods]({{< relref "aaa616/2017/_index.md" >}})
+
+## 2017 Spring
+
+- COSE 215: Theory of Computation
+- COSE 312: Compilers
+- CVS 107: Analysis of Software Vulnerability
+
+## 2016 Fall
+
+- COSE 212: Programming Languages
+- AAA 616: Program Analysis
+- CVO 103: Programming Languages
+
+## 2016 Spring
+
+- COSE 215: Theory of Computation
+- AAA 551: Programming Language Theory
+- CVS 107: Analysis of Software Vulnerability
+
+## 2015 Fall
+
+- COSE 212: Programming Languages
+- COSE 312: Compilers
+
+## 2015 Spring
+
+- COSE 215: Theory of Computation
+- CRE 501: Computational Logic
