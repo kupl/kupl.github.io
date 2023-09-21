@@ -42,3 +42,8 @@ weight = 60
 
 - [COSE 212: Programming Languages]({{< relref "cose212/2018/_index.md" >}})
 - [AAA 528: Computational Logic]({{< relref "aaa528/2018/_index.md" >}})
+
+## 2017 Fall
+
+- [COSE 212: Programming Languages]({{< relref "cose212/2017/_index.md" >}})
+- [AAA 615: Formal Methods]({{< relref "aaa616/2017/_index.md" >}})
