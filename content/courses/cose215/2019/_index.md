@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'COSE215-19F'
+title = 'COSE215-19S'
 +++
 
 # Theory of Computation, 2019 Spring
