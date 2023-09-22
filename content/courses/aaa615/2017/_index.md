@@ -1,9 +1,9 @@
 +++
 draft = false
-title = 'AAA616-17F'
+title = 'AAA615-17F'
 +++
 
-# Program Analysis, 2017 Fall
+# Formal Methods, 2017 Fall
 
 ## Course Information
 

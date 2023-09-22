@@ -52,7 +52,7 @@ weight = 60
 ## 2017 Fall
 
 - [COSE 212: Programming Languages]({{< relref "cose212/2017/_index.md" >}})
-- [AAA 615: Formal Methods]({{< relref "aaa616/2017/_index.md" >}})
+- [AAA 615: Formal Methods]({{< relref "aaa615/2017/_index.md" >}})
 
 ## 2017 Spring
 
