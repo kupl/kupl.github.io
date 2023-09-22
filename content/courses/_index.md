@@ -45,9 +45,9 @@ weight = 60
 
 ## 2018 Spring
 
-- COSE 215: Theory of Computation
-- AAA 616: Program Analysis
-- CVO 103: Programming Languages
+- [COSE 215: Theory of Computation]({{< relref "cose215/2018/_index.md" >}})
+- [AAA 616: Program Analysis]({{< relref "aaa616/2018/_index.md" >}})
+- [CVO 103: Programming Languages]({{< relref "cvo103/2018/_index.md" >}})
 
 ## 2017 Fall
 
