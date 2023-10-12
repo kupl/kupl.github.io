@@ -62,14 +62,14 @@ weight = 60
 
 ## 2016 Fall
 
-- COSE 212: Programming Languages
-- AAA 616: Program Analysis
+- [COSE 212: Programming Languages]({{< relref "cose212/2016/_index.md" >}})
+- [AAA 616: Program Analysis]({{< relref "aaa616/2016/_index.md" >}})
 - CVO 103: Programming Languages
 
 ## 2016 Spring
 
-- COSE 215: Theory of Computation
-- AAA 551: Programming Language Theory
+- [COSE 215: Theory of Computation]({{< relref "cose215/2016/_index.md" >}})
+- [AAA 551: Programming Language Theory]({{< relref "aaa551/2016/_index.md" >}})
 - CVS 107: Analysis of Software Vulnerability
 
 ## 2015 Fall
