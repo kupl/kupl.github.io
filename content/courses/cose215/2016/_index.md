@@ -7,7 +7,7 @@ title = 'COSE215-16S'
 
 ## Course Information
 
-- Instructor:- Instructor: Hakjoo Oh
+- Instructor: [Hakjoo Oh]({{< ref "/members/hakjoo-oh.md" >}})
 - TAs: Sungjoon Hong, Kwonsoo Chae
 - Lecture: 9:00-10:15 on Tuesdays and Thursdays
 - [Syllabus](./syllabus.pdf)
@@ -15,6 +15,7 @@ title = 'COSE215-16S'
 ## Textbook
 
 - Introduction to Automata Theory, Languages, and Computation (Third Edition)
+    {{< figure src="./book.png" width="100px" link="http://www.amazon.com/Introduction-Automata-Theory-Languages-Computation/dp/0321455363/ref=sr_1_1?ie=UTF8&qid=1456738389&sr=8-1&keywords=introduction+to+automata+theory" target="_blank" >}}
 
 ## Slides
 
