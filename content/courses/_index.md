@@ -56,8 +56,8 @@ weight = 60
 
 ## 2017 Spring
 
-- COSE 215: Theory of Computation
-- COSE 312: Compilers
+- [COSE 215: Theory of Computation]({{< relref "cose215/2017/_index.md" >}})
+- [COSE 312: Compilers]({{< relref "cose312/2017/_index.md" >}})
 - CVS 107: Analysis of Software Vulnerability
 
 ## 2016 Fall
