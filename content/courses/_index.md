@@ -74,10 +74,10 @@ weight = 60
 
 ## 2015 Fall
 
-- COSE 212: Programming Languages
-- COSE 312: Compilers
+- [COSE 212: Programming Languages]({{< relref "cose212/2015/_index.md" >}})
+- [COSE 312: Compilers]({{< relref "cose312/2015/_index.md" >}})
 
 ## 2015 Spring
 
-- COSE 215: Theory of Computation
+- [COSE 215: Theory of Computation]({{< relref "cose215/2015/_index.md" >}})
 - CRE 501: Computational Logic
