@@ -1,0 +1,15 @@
+{{ with .slides }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "slides") }}]
+{{ end }}
+
+{{ with .abstract }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "abstract") }}]
+{{ end }}
+
+{{ with .poster }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "poster") }}]
+{{ end }}
+
+{{ with .link }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "link") }}]
+{{ end }}

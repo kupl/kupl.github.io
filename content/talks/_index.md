@@ -5,4 +5,4 @@ menu = 'main'
 weight = 50
 +++
 
-# Talks
+{{< talk-list data="talks" >}}

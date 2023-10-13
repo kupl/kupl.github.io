@@ -1,0 +1,209 @@
+#### short example
+#### you can omit any optional fields
+# YEAR:
+#   - title: Talk title
+#     where: Where. # optional
+#     when: YYYY-MM-DD
+#     materials: # all fields are optional, if not specified, the link will be hidden
+#       slides: /slides/slide.pdf
+#       poster: /posters/poster.pdf
+#       link: https://www.example.com
+#       abstract: https://www.example.com
+
+
+2023:
+  - title: "양자 프로그램 자동 합성"
+    where: "컴퓨터시스템소사이어티 동계학술대회."
+    when: "2023-02-06"
+    materials:
+      slides: /slides/comsys2023_slides.pdf
+
+2019:
+  - title: "VeriSmart: 스마트 컨트랙트 안전성 검증기"
+    where: "KAIST 정보보호대학원 세미나."
+    when: "2019-12-10"
+    materials:
+      slides: /slides/verismart_KAIST2019.pdf
+
+  - title: "스마트컨트랙트 취약점 자동 검증"
+    where: "고려대학교블록체인연구소 세미나."
+    when: "2019-09-30"
+    materials:
+      slides: /slides/20190930.pdf
+
+  - title: "AI-based Software Analysis and Testing"
+    where: "SureSoftTech."
+    when: "2019-07-09"
+    materials:
+      slides: /slides/SureSoft2019.pdf
+
+  - title: "OCaml 프로그래밍"
+    where: "Tezos Blockchain Camp."
+    when: "2019-01-10"
+    materials:
+      slides: /slides/tezos19.pdf
+      link: http://tezoskorea.foundation/camp/
+
+2018:
+  - title: "소프트웨어 증명 기술을 이용한 스마트 컨트랙트 안전성 검증"
+    where: "정보보호단기강좌."
+    when: "2018-12-13"
+    materials:
+      slides: /slides/sec18.pdf
+
+  - title: "소프트웨어 오류 자동 수정 기법"
+    when: "2018-12-04"
+    materials:
+      slides: /slides/csrc18.pdf
+
+  - title: "스마트 컨트랙트 안전성 검증"
+    where: "신한그룹 교류회."
+    when: "2018-11-27"
+    materials:
+      slides: /slides/shinhan18.pdf
+
+  - title: "Data-Driven and Focused Program Analysis"
+    where: "SRFC Annual Forum."
+    when: "2018-11-15"
+    materials:
+      slides: /slides/srf18b.pdf
+
+  - title: "Introduction to Software Research at Korea University"
+    where: "S-Core."
+    when: "2018-06-11"
+    materials:
+      slides: /slides/intro201806.pdf  
+
+2017:
+  - title: "Data-Driven Program Analysis"
+    where: "KAIST."
+    when: "2017-10-30"
+    materials:
+      slides: /slides/kaist17talk.pdf
+
+  - title: "Data-Driven Program Analysis"
+    where: "SNU."
+    when: "2017-09-29"
+    materials:
+      slides: /slides/snu17talk.pdf
+
+  - title: "Data-Driven Static Analysis"
+    where: "NII Shonan Meeting on Memory Abstractions: Emerging Techniques and Applications."
+    when: "2017-09-12"
+    materials:
+      slides: /slides/shonan17talk.pdf
+      link: http://shonan.nii.ac.jp/seminar/108/
+
+  - title: "Automatically Generating Search Heuristics for Concolic Testing"
+    where: "SW Center, Samsung Electronics."
+    when: "2017-08-08"
+    materials:
+      slides: /slides/samsung17talk.pdf
+
+2016:
+  - title: "Data-Driven Program Analysis"
+    where: "Postech."
+    when: "2016-11-09"
+    materials:
+      slides: /slides/postech16.pdf
+
+  - title: "Machine-Learning-Guided Adaptive Program Anlaysis"
+    where: "TAPAS 2016, Edinburgh, Scotland."
+    when: "2016-09-08"
+    materials:
+      slides: /slides/tapas16talk.pdf
+      abstract: https://staticanalysis.org/tapas2016/abstracts/TAPAS_2016_OhEtAl.pdf
+  
+  - title: "Machine-Learning-Guided Adaptive Program Anlaysis"
+    where: "SIGPL Summer School."
+    when: "2016-08-19"
+    materials:
+      slides: /slides/sigpl16summer-korea.pdf
+
+  - title: "Machine Learning Approaches to Selective Program Analysis"
+    where: "SIGPL Winter workshop."
+    when: "2016-02-17"
+    materials:
+      slides: /slides/sigpl16.pdf
+
+2015:
+  - title: "Learning a Strategy for Adapting a Program Analysis via Bayseian Optimization"
+    where: "Paper presentation at ACM OOPSLA 2015, Pittsburgh, USA."
+    when: "2015-10-29"
+    materials:
+      slides: /slides/oopsla15talk.pdf
+
+2014:
+  - title: "Selective Context-Sensitivity Guided by Impact Pre-Analysis"
+    where: "Paper presentation at ACM PLDI 2014, Edinburth, Scotland."
+    when: "2014-06-11"
+    materials:
+      slides: /slides/pldi14.pdf
+
+2013:
+  - title: "Sparse Analysis Framework"
+    where: "Dagstuhl Seminar 13162 on Pointer Analysis, Dagstuhl, Germany."
+    when: "2013-04-18"
+    materials:
+      slides: /slides/dagstuhl13.pdf
+      link: https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=13162
+  
+  - title: "Selective-X Analysis Guided by Impact Pre-Analysis"
+    where: "Talk at Workshop on Analysis and Verification of Cyber Physical Software, Seoul, Korea."
+    when: "2013-12-23"
+    materials:
+
+2012:
+  - title: "Design and Implementation of Sparse Global Analyses for C-like Languages"
+    where: "Paper presentation at ACM PLDI 2012. Beijing, China."
+    when: "2012-06-12"
+    materials:
+      slides: /slides/pldi12.pdf
+
+  - title: "Global Static Analysis of Million Lines of Code"
+    where: "Lightning talk at ACM POPL. Philadelphia, USA."
+    when: "2012-01-25"
+    materials:
+      slides: /slides/popl12-lightning.pdf
+
+  - title: "Static Program Analysis for Million Lines of Code"
+    where: "Tutorial at Korea Computer Congress, Jeju, Korea."
+    when: "2012-06-28"
+    materials:
+
+  - title: "Cost-reduction Techniques for Static Program Analysis"
+    where: "Lecture at SIGPL Winter School, Gyeongbuk, Korea."
+    when: "2012-02-03"
+    materials:
+
+  - title: "Spatial and Temporal Localization Techniques for Global Static Analysis"
+    where: "Talk at Workshop on Analysis and Verification of Cyber Physical Software, Changsha, China."
+    when: "2012-10-25"
+    materials:
+
+2011:
+  - title: "Access-analysis-based Tight Localization of Abstract Memories"
+    where: "Paper presentation at VMCAI 2011. Austin, Texas, USA."
+    when: "2011-01-23"
+    materials:
+      slides: /slides/vmcai11.pdf
+
+  - title: "Access-based Localization with Bypassing"
+    where: "Paper presentation at APLAS 2011. Kenting, Taiwan."
+    when: "2011-12-05"
+    materials:
+      slides: /slides/aplas11.pdf
+
+2009:
+  - title: "Large Spurious Cycles in Global Static Analysis and Its Algorithmic Mitigation"
+    where: "Paper presentation at APLAS 2009. Seoul, Korea."
+    when: "2009-12-14"
+    materials:
+      slides: /slides/aplas09.pdf
+
+2008:
+  - title: "Avoiding Spurious Cycles Matters for Scalable Analysis"
+    where: "Poster presentation at ACM PLDI 2008. Tucson, Arizona, USA."
+    when: "2008-06-08"
+    materials:
+      poster: /posters/pldi08-poster.pdf

@@ -1,0 +1,35 @@
+{{ $raw := .Get "data" }}
+{{ $raw := index $.Site.Data $raw }}
+{{ $format := "Jan. 2 2006" }}
+
+{{ $data := dict }}
+{{ range $year, $talks := $raw }}
+    {{ $block := (dict "year" $year "talks" $talks) }}
+    {{ $data = merge $data (dict $year $block) }}
+{{ end }}
+
+{{ range $block := sort $data "year" "desc" }}
+
+{{ partial "hook/heading.html" (dict "level" 2 "text" $block.year "anchor" $block.year) }}
+<ul>
+    {{ $talks := slice }}
+    {{ range $talk := $block.talks }}
+        {{ $talk := (dict "when" (time.AsTime .when) "talk" $talk) }}
+        {{ $talks = $talks | append $talk }}
+    {{ end }}
+    {{ $talks := sort $talks "when" "desc" }}
+    {{ range $talks }}
+    <li>
+        {{ with .talk }}
+        <span class="fw-bold">{{ .title }}.</span>
+        {{ with .where }}{{ . }}{{ end }}
+        {{ time.AsTime .when | time.Format $format }}<br>
+        {{ partial "talk/materials.html" .materials }}
+        {{ end }}
+    </li>
+    {{ end }}
+    <br>
+</ul>
+
+{{ end }}
+
