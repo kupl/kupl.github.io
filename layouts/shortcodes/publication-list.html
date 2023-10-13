@@ -1,4 +1,5 @@
-{{ $raw := index $.Site.Data.publications }}
+{{ $raw := .Get "data" }}
+{{ $raw := index $.Site.Data $raw }}
 
 {{ $data := dict }}
 {{ range $year, $papers := $raw }}
