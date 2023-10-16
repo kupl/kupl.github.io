@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'Photos'
+title = 'Gallery'
 menu = 'main'
 weight = 80
 +++
