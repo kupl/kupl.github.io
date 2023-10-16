@@ -19,7 +19,7 @@
             {{ if isset . "url" }}{{ partial "hook/link.html" (dict "dest" .url "text" .name) }}{{ else }}{{ .name }}{{ end }}<br>
         {{ end }}
         {{ end }}
-        {{ with .Params.meterials }}
+        {{ with .Params.materials }}
             [{{ with .cv }}{{ partial "hook/link.html" (dict "dest" . "text" "cv") }}{{ end }}]
         {{ end }}
     </div>

@@ -18,7 +18,7 @@ url = 'https://info.korea.ac.kr'
 name = 'Korea University'
 url = 'https://korea.ac.kr'
 
-[meterials]
+[materials]
 # cv = 'cv.pdf'
 +++
 
