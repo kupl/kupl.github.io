@@ -1,0 +1,448 @@
+#### short example
+#### you can omit any optional fields
+# YEAR:
+#   - name: Name
+#     from: YYYY-MM-DD
+#     to: YYYY-MM-DD
+#     where: Where
+#     materials: # all fields and materials itself are optional, if not specified, the link will be hidden
+#       photos: https://link.to/photos
+#       group_photos:
+#         - /photos/group1.jpg
+#         - /photos/group2.jpg
+#       slides: /slides/slide.pdf
+#       reports:
+#         - name: Name1
+#           link: /reports/report_name1.pdf
+#         - name: Name2
+#           link: /reports/report_name2.pdf
+
+
+2023:
+  - name: ICSE 2023
+    from: 2023-05-13
+    to: 2023-05-20
+    where: Melbourne, Australia
+    materials:
+      reports:
+        - name: Minseok
+          link: /reports/icse23_minseok.pdf
+        - name: Doyeon
+          link: /reports/icse23_doyeon.pdf
+        - name: Seongjoon
+          link: /reports/icse23_seongjoon.pdf
+        - name: Wonseok
+          link: /reports/icse23_wonseok.pdf
+        - name: Minsu
+          link: /reports/icse23_minsu.pdf
+        - name: Jisuk
+          link: /reports/icse23_jisuk.pdf
+
+  - name: IFIP Working Group 2.4 Meeting
+    from: 2023-04-23
+    to: 2023-04-29
+    where: York, Maine, USA
+    materials:
+      photos: https://photos.app.goo.gl/qDFCsGnqA5RB3ibL9
+      group_photos:
+        - /photos/ifip-wg24-mtg-67.png
+      slides: /slides/ifip23.pdf
+
+  - name: Dagstuhl Seminar 23131
+    from: 2023-03-26
+    to: 2023-04-01
+    where: Dagstuhl, Germany
+    materials:
+      photos: https://photos.app.goo.gl/DEEuWyETvUkQY1tBA
+      group_photos:
+        - /photos/23131.01.l.jpg
+        - /photos/23131.02.l.jpg
+
+
+2022:
+  - name: SPLASH 2022
+    from: 2022-12-04
+    to: 2022-12-09
+    where: Auckland, New Zealand
+
+  - name: FSE 2022
+    from: 2022-11-13
+    to: 2022-11-19
+    where: Singapore
+    materials:
+      reports:
+        - name: Seongjoon
+          link: /reports/fse22_seongjoon.pdf
+        - name: Seokhyun
+          link: /reports/fse22_seokhyun.pdf
+        - name: Jiseong
+          link: /reports/fse22_jiseong.pdf
+        - name: Wonseok
+          link: /reports/fse22_wonseok.pdf
+        - name: Junhee
+          link: /reports/fse22_junhee.pdf
+        - name: Dowon
+          link: /reports/fse22_dowon.pdf
+        - name: Jisuk
+          link: /reports/fse22_jisuk.pdf
+        
+  - name: ICSE 2022
+    from: 2022-05-21
+    to: 2022-05-28
+    where: Pittsburgh, USA
+    materials:
+      reports:
+        - name: Myungho
+          link: /reports/icse22_myungho.pdf
+        - name: Wonseok
+          link: /reports/icse22_wonseok.pdf
+
+  - name: POPL 2022
+    from: 2022-01-17
+    to: 2022-01-23
+    where: Philadelphia, USA
+    materials:
+      reports:
+        - name: Minseok
+          link: /reports/popl22_minseok.pdf
+        - name: Dowon
+          link: /reports/popl22_dowon.pdf
+        - name: Seokhyun
+          link: /reports/popl22_seokhyun.pdf
+        - name: Jisuk
+          link: /reports/popl22_jisuk.pdf
+        - name: Minsu
+          link: /reports/popl22_minsu.pdf
+
+2019:
+  - name: OOPSLA 2019
+    from: 2019-10-21
+    to: 2019-10-27
+    where: Athens, Greece
+    materials:
+      reports:
+        - name: Sunbeom
+          link: /reports/oopsla19_sunbeom.pdf
+        - name: Minseok
+          link: /reports/oopsla19_minseok.pdf
+        - name: Myungho
+          link: /reports/oopsla19_myungho.pdf
+        - name: Junhee
+          link: /reports/oopsla19_junhee.pdf
+        - name: Dowon
+          link: /reports/oopsla19_dowon.pdf
+
+  - name: FSE 2019
+    from: 2019-08-24
+    to: 2019-08-31
+    where: Tallinn, Estonia
+    materials:
+      photos: https://photos.app.goo.gl/t3U8xgFgoaCYop5L8
+      reports:
+        - name: Sooyoung
+          link: /reports/fse19_sooyoung.pdf
+
+  - name: ICSE 2019
+    from: 2019-05-26
+    to: 2019-06-02
+    where: Montreal, Canada
+
+2018:
+  - name: FSE 2018
+    from: 2018-11-05
+    to: 2018-11-09
+    where: Florida, USA
+    materials:
+      photos: https://photos.app.goo.gl/jC3RmKaSrEdjkC2e8
+      reports:
+        - name: Seongjoon
+          link: /reports/fse18_seongjoon.pdf
+        - name: Junhee
+          link: /reports/fse18_junhee.pdf
+
+  - name: OOPSLA 2018
+    from: 2018-11-04
+    to: 2018-11-09
+    where: Boston, USA
+    materials:
+      photos: https://photos.app.goo.gl/ac9WVnukr1KRkpKF7
+      reports:
+        - name: Sehun
+          link: /reports/oopsla18_sehun.pdf
+        - name: Minseok
+          link: /reports/oopsla18_minseok.pdf
+        - name: Dowon
+          link: /reports/oopsla18_dowon.pdf
+        - name: Junho
+          link: /reports/oopsla18_junho.pdf
+
+  - name: ASE 2018
+    from: 2018-09-01
+    to: 2018-09-11
+    where: Montpellier, France
+    materials:
+      reports:
+        - name: Sooyoung
+          link: /reports/ase18_sooyoung.pdf
+
+  - name: IJCAI 2018
+    from: 2018-07-12
+    to: 2018-07-19
+    where: Stockholm, Sweden
+    materials:
+      reports:
+        - name: Sunbeom
+          link: /reports/ijcai18_sunbeom.pdf
+  
+  - name: OOPSLA PC Meeting & PLDI 2018
+    from: 2018-06-17
+    to: 2018-06-24
+    where: Philadelphia, USA
+    materials:
+      photos: https://photos.app.goo.gl/W3X4t5pDXke5bijx5
+    
+  - name: ICSE
+    from: 2018-05-27
+    to: 2018-06-03
+    where: Gothenburg, Sweden
+    materials:
+      photos: https://photos.app.goo.gl/5qs2mn18GoCoKFRx6
+      reports:
+        - name: Sooyoung
+          link: /reports/icse18_sooyoung.pdf
+        - name: Seongjoon
+          link: /reports/icse18_seongjoon.pdf
+        - name: Junhee
+          link: /reports/icse18_junhee.pdf
+
+  - name: ICST
+    from: 2018-04-07
+    to: 2018-04-14
+    where: Västerås, Sweden
+    materials:
+      reports:
+        - name: Sooyoung
+          link: /reports/icst18_sooyoung.pdf
+
+2017:
+  - name: SNU-KU-Fasoo Workshop
+    from: 2017-12-26
+    to: 2017-12-28
+    where: Jeju, Korea
+    materials:
+      photos: https://photos.app.goo.gl/2XxdFGp1XHXAh6Ak1
+  
+  - name: OOPSLA
+    from: 2017-10-23
+    to: 2017-10-27
+    where: Vancouver, Canada
+    materials:
+      photos: https://photos.app.goo.gl/I9cSZOo8SmUIhFf22
+      reports:
+        - name: Kwonsoo
+          link: /reports/oopsla17_kwonsoo.pdf
+        - name: Minseok
+          link: /reports/oopsla17_minseok.pdf
+        - name: Junho
+          link: /reports/oopsla17_junho.pdf
+        - name: Dowon
+          link: /reports/oopsla17_dowon.pdf
+
+  - name: NII Shonan Meeting
+    from: 2017-09-10
+    to: 2017-09-14
+    where: Shonan, Japan
+    materials:
+      photos: https://photos.app.goo.gl/8jwat26tlztklFfz1
+      group_photos:
+        - /photos/108_Group1.jpg
+        - /photos/108_Group2.jpg
+
+  - name: SAS
+    from: 2017-08-28
+    to: 2017-09-01
+    where: New York, USA
+    materials:
+      photos: https://photos.app.goo.gl/v4ue2P6BU2O0YIPX2
+      reports:
+        - name: Sunbeom
+          link: /reports/sas17_sunbeom.pdf
+
+  - name: ICSE
+    from: 2017-05-22
+    to: 2017-05-30
+    where: Buenos Aires, Argentina
+    materials:
+      reports:
+        - name: Sooyoung
+          link: /reports/icse17_sooyoung.pdf
+        - name: Seongjoon
+          link: /reports/icse17_seongjoon.pdf
+        - name: Myungho
+          link: /reports/icse17_myungho.pdf
+
+  - name: S&P
+    from: 2017-05-22
+    to: 2017-05-24
+    where: San Jose, USA
+    materials:
+      photos: https://photos.app.goo.gl/x9Ic0PUyBEg7L2G32
+
+  - name: POPL
+    from: 2017-01-14
+    to: 2017-01-21
+    where: Paris, France
+    materials:
+      photos: https://photos.app.goo.gl/3uOv2O1g9SU08UvC2
+
+2016:
+  - name: APLAS
+    from: 2016-11-20
+    to: 2016-11-24
+    where: Hanoi, Vietnam
+    materials:
+      photos: https://goo.gl/photos/SYSJPyWhneA7ey4J8
+      reports:
+        - name: Sooyoung
+          link: /reports/aplas16.pdf
+
+  - name: SPLASH
+    from: 2016-10-30
+    to: 2016-11-05
+    where: Amsterdam, Netherlands
+    materials:
+      reports:
+        - name: Sunbeom
+          link: /reports/splash16_sunbeom.pdf
+
+  - name: ICFP
+    from: 2016-09-17
+    to: 2016-09-21
+    where: Nara, Japan
+    materials:
+      reports:
+        - name: Kwonsoo
+          link: /reports/plmw_icfp2016.pdf
+
+  - name: SAS
+    from: 2016-09-06
+    to: 2016-09-10
+    where: Edinburgh, Scotland
+    materials:
+      photos: https://goo.gl/photos/FSB9oWxB1PhbQS8w5
+
+  - name: PLDI
+    from: 2016-06-13
+    to: 2016-06-20
+    where: Santa Barbara, USA
+    materials:
+      photos: https://goo.gl/photos/ub3iTyuGYAK615Be9
+
+2015:
+  - name: APLAS
+    from: 2015-11-29
+    to: 2015-12-02
+    where: Pohang, Korea
+
+  - name: OOPSLA
+    from: 2015-10-25
+    to: 2015-10-31
+    where: Pittsburgh, USA
+
+2014:
+  - name: APLAS
+    from: 2014-11-17
+    to: 2014-11-19
+    where: Singapore
+    materials:
+      reports:
+        - name: Hakjoo
+          link: /reports/aplas14.pdf
+
+  - name: PLDI
+    from: 2014-06-09
+    to: 2014-06-15
+    where: Edinburgh, Scotland
+    materials:
+      reports:
+        - name: Hakjoo
+          link: /reports/pldi14.pdf
+
+2013:
+  - name: APLAS
+    from: 2013-12-07
+    to: 2013-12-15
+    where: Melbourne, Australia
+    materials:
+      reports:
+        - name: Hakjoo
+          link: /reports/aplas13.pdf
+
+  - name: Dagstuhl Seminar 13162
+    from: 2013-04-14
+    to: 2013-04-19
+    where: Dagstuhl, Germany
+    materials:
+      reports:
+        - name: Hakjoo
+          link: /reports/dagstuhl13.pdf
+      group_photos:
+        - /photos/dagstuhl-photo1.jpg
+        - /photos/dagstuhl-photo2.jpg
+
+  - name: POPL&VMCAI
+    from: 2013-01-20
+    to: 2013-01-26
+    where: Rome, Italy
+    materials:
+      reports:
+        - name: Hakjoo
+          link: /reports/popl13.pdf
+
+2012:
+  - name: POPL&VMCAI
+    from: 2012-01-22
+    to: 2012-01-27
+    where: Philadelphia, USA
+
+  - name: PLDI
+    from: 2012-06-10
+    to: 2012-06-17
+    where: Beijing, China
+    materials:
+      reports:
+        - name: Hakjoo
+          link: /reports/pldi12.pdf
+
+  - name: Workshop on Analysis and Verification of Cyber Physical Software
+    from: 2012-10-24
+    to: 2012-10-28
+    where: Changsha, China
+
+2011:
+  - name: POPL&VMCAI
+    from: 2011-01-22
+    to: 2011-01-30
+    where: Austin, USA
+
+  - name: APLAS
+    from: 2011-12-04
+    to: 2011-12-09
+    where: Kenting, Taiwan
+
+2010:
+  - name: POPL&VMCAI
+    from: 2010-01-15
+    to: 2010-01-25
+    where: Madrid, Spain
+
+  - name: Oregon PL Summer School
+    from: 2010-06-15
+    to: 2010-06-20
+    where: Oregon, USA
+
+2008:
+  - name: PLDI
+    from: 2008-06-04
+    to: 2008-06-13
+    where: Tucson, Arizona, USA

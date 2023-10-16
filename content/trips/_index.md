@@ -5,4 +5,4 @@ menu = 'main'
 weight = 70
 +++
 
-# Trips
+{{< trip-list data="trips" >}}

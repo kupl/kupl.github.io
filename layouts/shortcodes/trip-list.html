@@ -1,0 +1,41 @@
+{{ $raw := .Get "data" }}
+{{ $raw := index $.Site.Data $raw }}
+{{ $format := "Jan. 2 2006" }}
+{{ $id_format := "2006-01-02" }}
+
+{{ $data := dict }}
+{{ range $year, $trips := $raw }}
+    {{ $block := (dict "year" $year "trips" $trips) }}
+    {{ $data = merge $data (dict $year $block) }}
+{{ end }}
+
+{{ range $block := sort $data "year" "desc" }}
+
+{{ partial "hook/heading.html" (dict "level" 2 "text" $block.year "anchor" $block.year) }}
+<ul>
+    {{ $trips := slice }}
+    {{ range $trip := $block.trips }}
+        {{ $trip := (dict "from" (time.AsTime .from) "trip" $trip) }}
+        {{ $trips = $trips | append $trip }}
+    {{ end }}
+    {{ $trips := sort $trips "from" "desc" }}
+    {{ range $trips }}
+    <li>
+        {{ with .trip }}
+        {{ $id := replace .name " " "-" | lower }}
+        {{ $id := time.AsTime .from | time.Format $id_format | printf "%s-%s" $id }}
+
+        <span class="fw-bold">{{ .name }}.</span>
+        {{ .where }}.
+        {{ time.AsTime .from | time.Format $format }} - {{ time.AsTime .to | time.Format $format }}<br>
+        {{ with .materials }}
+            {{ partial "trip/materials.html" (dict "id" $id "material" .) }}
+        {{ end }}
+        {{ end }}
+    </li>
+    {{ end }}
+    <br>
+</ul>
+
+{{ end }}
+

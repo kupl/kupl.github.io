@@ -1,0 +1,30 @@
+{{ $id := .id }}
+{{ with .material }}
+
+<div class="d-flex flex-row">
+    {{ with .photos }}
+    <div class="me-2">
+        [{{ partial "hook/link.html" (dict "dest" . "text" "photos") }}]
+    </div>
+    {{ end }}
+
+    {{ with .group_photos }}
+    <div class="me-2">
+        {{ partial "trip/group-photos.html" (dict "id" $id "photos" . ) }}
+    </div>
+    {{ end }}
+
+    {{ with .slides }}
+    <div class="me-2">
+        [{{ partial "hook/link.html" (dict "dest" . "text" "slides") }}]
+    </div>
+    {{ end }}
+
+    {{ with .reports }}
+    <div class="me-2">
+        {{ partial "trip/reports.html" (dict "id" $id "reports" . ) }}
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

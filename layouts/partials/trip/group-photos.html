@@ -1,0 +1,12 @@
+<div class="d-flex flex-row">
+    [{{ partial "hook/link.html" (dict "text" (len .photos | printf "group-photos (%d) >") "dest" (printf "#%s-group-photos" .id) "role" "button" "data_bs_toggle" "collapse" "aria_expanded" "false") }}
+    <div class="collapse collapse-horizontal" id="{{ .id }}-group-photos">
+        <div class="d-flex flex-row">
+            {{ range $i, $photo := .photos}}
+            <div class="ms-2">
+                {{ partial "hook/link.html" (dict "text" (add $i 1) "dest" $photo) }}
+            </div>
+            {{ end }}
+        </div>
+    </div>]
+</div>

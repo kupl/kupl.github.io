@@ -1,0 +1,12 @@
+<div class="d-flex flex-row">
+    [{{ partial "hook/link.html" (dict "text" (len .reports | printf "reports (%d) >") "dest" (printf "#%s-reports" .id) "role" "button" "data_bs_toggle" "collapse" "aria_expanded" "false") }}
+    <div class="collapse collapse-horizontal" id="{{ .id }}-reports" style="max-width: fit-content;">
+        <div class="d-flex flex-row">
+            {{ range .reports}}
+                <div class="ms-2">
+                    {{ partial "hook/link.html" (dict "text" .name "dest" .link) }}
+                </div>
+            {{ end }}
+        </div>
+    </div>]
+</div>
