@@ -2,7 +2,7 @@
 draft = false
 title = 'Resources'
 menu = 'main'
-weight = 90
+weight = 80
 +++
 
 # How to research / write papers / give talks ...
