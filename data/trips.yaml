@@ -19,6 +19,11 @@
 
 
 2023:
+  - name: SPLASH 2023
+    from: 2023-10-23
+    to: 2023-10-27
+    where: Cascais, Portugal
+
   - name: ICSE 2023
     from: 2023-05-13
     to: 2023-05-20
