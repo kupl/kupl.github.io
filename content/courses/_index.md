@@ -5,6 +5,11 @@ menu = 'main'
 weight = 60
 +++
 
+## 2023 Fall
+
+- [COSE 212: Programming Languages]({{< relref "cose212/2023/_index.md" >}})
+- AAA 616: Program Analysis
+
 ## 2023 Spring
 
 - [COSE 312: Compilers](https://github.com/kupl-courses/COSE312-2023spring)
