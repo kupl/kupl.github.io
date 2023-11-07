@@ -8,7 +8,7 @@ title = 'COSE212-23F'
 ## Course Information
 
 - Instructor: [Hakjoo Oh]({{< ref "/members/hakjoo-oh" >}})
-- TAs: [Minsu Kim]({{< "/members/minsu-kim" >}}), Doyeon Hwang
+- TAs: [Minsu Kim]({{< ref "/members/minsu-kim" >}}), Doyeon Hwang
 - Lecture: 09:00-11:45 on Mondays and Wednesday (8 weeks)
 - [Syllabus](./syllabus.pdf)
 
