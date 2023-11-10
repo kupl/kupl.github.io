@@ -7,13 +7,13 @@
     <meta charset="utf-8">
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     {{ partial "head/bootstrap5.html" . }}
+    {{ block "head" . }}{{ end }}
 </head>
 
 <body>
     {{ partial "header/navbar.html" . }}
     <div class="mx-auto px-3 mt-4 container-xxl">
-        {{ block "main" . }}
-        {{ end }}
+        {{ block "main" . }}{{ end }}
         {{ partial "footer/footer.html" . }}
     </div>
     {{ partial "foot/bootstrap5.html" . }}
