@@ -27,6 +27,8 @@
       reports:
         - name: Seokhyun
           link: /reports/splash23_seokhyun.pdf
+        - name: Dowon
+          link: /reports/oopsla23_dowon.pdf
 
   - name: ICSE 2023
     from: 2023-05-13
