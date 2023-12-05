@@ -17,7 +17,7 @@ weight = 20
 ## PhD Students
 - [Seongjoon Hong]({{< relref "/seongjoon-hong" >}})
 - Myungho Lee
-- Junhee Lee
+- [Junhee Lee]({{< relref "/junhee-lee" >}})
 - [Dowon Song]({{< relref "/dowon-song" >}})
 - [Seokhyun Lee](https://seokhyunlee.info/)
 - Jisuk Byun
