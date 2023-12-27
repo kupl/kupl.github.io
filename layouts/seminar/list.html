@@ -108,7 +108,7 @@
 
             var seminar_abstract = document.createElement('p')
             seminar_abstract.className = 'card-text'
-            seminar_abstract.innerHTML = seminar.abstract.replace('\n', '<br>')
+            seminar_abstract.innerHTML = seminar.abstract.replaceAll('\n', '<br>')
             seminar_inner.appendChild(seminar_abstract)
 
             if (seminar.slide != null) {
