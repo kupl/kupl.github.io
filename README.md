@@ -1,13 +1,7 @@
 # 소프트웨어 분석 연구실 홈페이지
 
-## 빠른 시작
+고려대학교 소프트웨어 분석 연구실 홈페이지입니다.
+[여기](https://kupl.github.io)에서 확인하실 수 있습니다.
 
-```bash
-# Install hugo
-brew install hugo
-hugo server -D
-
-# Create new content
-hugo new content path/to/new-content.md
-# See content/path/to/new-content.md
-```
+## 기여하기
+[HOWTO.md](HOWTO.md)를 참고해주세요.
