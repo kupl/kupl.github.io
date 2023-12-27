@@ -2,6 +2,8 @@
 <div id="seminar-container"></div>
 
 <script>
+    const api_url = 'http://salbox.korea.ac.kr/seminar/api/'
+
     function format() {
         var args = Array.prototype.slice.call (arguments, 1);
         return arguments[0].replace (/\{(\d+)\}/g, function (match, index) {
@@ -44,21 +46,21 @@
      * Get the posts lists in json format.
      */
     const getSchedules = async () => {
-        let response = await fetch('http://localhost:8000/api/schedule/')
+        let response = await fetch(api_url + "schedule/")
         let data = await response.json()
         // console.log(data)
         return data
     }
 
     const getSeminars = async (schedule_id) => {
-        let response = await fetch(format('http://localhost:8000/api/seminar/?scheduled_at={0}', schedule_id))
+        let response = await fetch(format(api_url + '?scheduled_at={0}', schedule_id))
         let data = await response.json()
         // console.log(data)
         return data
     }
 
     const getMember = async (member_id) => {
-        let response = await fetch(format('http://localhost:8000/api/member/{0}', member_id))
+        let response = await fetch(format(api_url + '/member/{0}', member_id))
         let data = await response.json()
         // console.log(data)
         return data
