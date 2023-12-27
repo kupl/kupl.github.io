@@ -1,0 +1,148 @@
+{{ define "main" }}
+<div id="seminar-container"></div>
+
+<script>
+    function format() {
+        var args = Array.prototype.slice.call (arguments, 1);
+        return arguments[0].replace (/\{(\d+)\}/g, function (match, index) {
+            return args[index];
+        });
+    }
+
+    const handleDownload = async (file_url) => {
+        console.log(file_url)
+        // URL에서 GET 요청 보내기
+        fetch(file_url, {
+            method: 'GET',
+        })
+        // 응답 데이터를 블롭(Blob) 객체로 변환
+        .then((response) => response.blob())
+        .then((blob) => {
+            // 블롭(Blob) 객체 생성하고 URL을 생성
+            const url = window.URL.createObjectURL(blob);
+            const link = document.createElement('a');
+
+            file_name = file_url.split('/').pop()
+            // 생성한 URL과 다운로드할 파일명 설정
+            link.setAttribute('href', url);
+            link.setAttribute('download', file_name);
+
+            // 링크를 문서(body)에 추가
+            document.body.appendChild(link);
+
+            // 링크 클릭 => 파일 다운로드
+            link.click();
+
+            // 다운로드 후 링크와 URL을 정리
+            link.parentNode.removeChild(link);
+            window.URL.revokeObjectURL(url)
+        });
+    };
+
+    var container = document.getElementById('seminar-container');
+    /**
+     * Get the posts lists in json format.
+     */
+    const getSchedules = async () => {
+        let response = await fetch('http://localhost:8000/api/schedule/')
+        let data = await response.json()
+        // console.log(data)
+        return data
+    }
+
+    const getSeminars = async (schedule_id) => {
+        let response = await fetch(format('http://localhost:8000/api/seminar/?scheduled_at={0}', schedule_id))
+        let data = await response.json()
+        // console.log(data)
+        return data
+    }
+
+    const getMember = async (member_id) => {
+        let response = await fetch(format('http://localhost:8000/api/member/{0}', member_id))
+        let data = await response.json()
+        // console.log(data)
+        return data
+    }
+
+
+    /**
+     * When the user focuses on the search input, the function getPostsJSON is called.
+     */
+    async function main() {
+        var schedules = await getSchedules()
+        if (schedules.length == 0) {
+            return
+        }
+
+        schedule = schedules[0]
+
+        var schedules_html = document.createElement('div')
+        schedules_html.className = 'me-3'
+
+        var date = schedule.at.substring(0, 16).replace('T', ' ')
+        // var date = new Date(Date.parse(schedule.at))
+        // var date_str = date.toISOString().substring(0, 16).replace('T', ' ')
+
+        var seminars = await getSeminars(schedule.id)
+        for (seminar of seminars) {
+            var member = await getMember(seminar.speaker)
+
+            var seminar_html = document.createElement('div')
+            seminar_html.className = 'me-3 card mb-3'
+
+            var seminar_inner = document.createElement('div')
+            seminar_inner.className = 'card-body'
+
+
+            var seminar_title = document.createElement('h5')
+            seminar_title.className = 'card-title'
+            seminar_title.innerHTML = ( seminar.title == "" ? "TBA" : seminar.title )
+            seminar_inner.appendChild(seminar_title)
+
+            var seminar_speaker = document.createElement('h6')
+            seminar_speaker.className = 'card-subtitle mb-2 text-muted'
+            seminar_speaker.innerHTML = member.name
+            seminar_inner.appendChild(seminar_speaker)
+
+            var seminar_abstract = document.createElement('p')
+            seminar_abstract.className = 'card-text'
+            seminar_abstract.innerHTML = seminar.abstract.replace('\n', '<br>')
+            seminar_inner.appendChild(seminar_abstract)
+
+            if (seminar.slide != null) {
+                console.log(seminar.slide)
+                var seminar_slide = document.createElement('button')
+                seminar_slide.className = 'btn btn-primary'
+                seminar_slide.innerHTML = 'Download'
+                seminar_slide.id = seminar.slide
+                seminar_slide.onclick = function(event) {
+                    handleDownload(event.target.id)
+                }
+                seminar_inner.appendChild(seminar_slide)
+            }
+
+            seminar_html.appendChild(seminar_inner)
+            schedules_html.appendChild(seminar_html)
+
+            console.log(schedules_html)
+
+            // schedules_html.innerHTML = format('<h4>{0}</h4>', date)
+            container.appendChild(schedules_html);
+
+
+            // console.log(seminars)
+        }
+
+        // data = JSON.stringify(schedules)
+        // console.log(data)
+            
+        // container.appendChild(schedules_html);
+    }
+
+    main()
+
+    
+</script>
+
+{{ end }}
+
