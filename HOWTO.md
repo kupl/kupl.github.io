@@ -74,6 +74,13 @@ content/members/<your-name>/
 
 메타데이터의 구체적인 사용방법은 `content/members/hakjoo-oh/index.md`와 [여기](https://kupl.github.io/members/hakjoo-oh/)를 참고하시면 됩니다.
 
+#### 링크 만들기
+구성원 페이지를 생성한 후에는 `content/members/_index.md` 파일에 링크를 추가해야 합니다.
+링크는 아래와 같이 추가하면 됩니다:
+```markdown
+- [Your Name]({{< relref "your-name" >}})
+```
+
 ### Publications, Talks, Trips
 Publications, Talks, Trips 페이지는 각각 `data/publications.yaml`, `data/talks.yaml`, `data/trips.yaml` 파일의 정보를 이용하여 랜더링합니다.
 각 파일의 맨 위에 있는 주석을 참고하시어 데이터를 수정하시면 됩니다.
@@ -92,6 +99,13 @@ content/courses/<id>/<year>/
 └── ...
 ```
 
+#### 링크 만들기
+강의 페이지를 생성한 후에는 `content/courses/_index.md` 파일에 링크를 추가해야 합니다.
+링크는 아래와 같이 추가하면 됩니다:
+```markdown
+- [New Course]({{< relref "course-id/year" >}})
+```
+
 ## 코드 조각
 마크다운을 작성하면서 활용할 수 있는 다양한 코드 조각들입니다.
 
@@ -103,6 +117,16 @@ content/courses/<id>/<year>/
 [external link](https://example.com)
 ```
 상대 경로는 현재 페이지를 기준으로, 절대 경로는 홈페이지(`https://kupl.github.io/`)를 기준으로 계산됩니다.
+
+#### `ref`와 `relref`
+`ref`와 `relref`는 Hugo의 내장 함수로, 각각 절대 경로와 상대 경로를 계산하여 반환합니다.
+이때, 링크의 존재 여부를 컴파일 과정에서 검사해줍니다.
+`ref`와 `relref`는 아래와 같이 작성하면 됩니다:
+```markdown
+[absolute link]({{< ref "/absolute/path" >}})
+[relative link]({{< relref "relative/path" >}})
+```
+
 
 ### 이미지
 이미지는 아래와 같이 `figure` 코드 조각을 이용하여 삽입할 수 있습니다:
