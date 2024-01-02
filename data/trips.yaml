@@ -35,6 +35,9 @@
           link: /reports/oopsla23_changu.pdf
         - name: Hayeong
           link: /reports/oopsla23_hayeong.pdf
+        - name: Jisuk
+          link: /trips/oopsla23/jisuk  # content/trips/oopsla23/jisuk.md
+        
 
 
   - name: ICSE 2023
