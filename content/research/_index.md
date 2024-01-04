@@ -10,7 +10,7 @@ weight = 30
 
 We develop techniques and tools for correct, secure, and efficient software. 
 
-# Testing and Fuzzing 
+# Software Testing and Fuzzing 
 
 Techniques for finding bugs in programs:
 - [Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing. ICSE 2023](/papers/icse23-seamfuzz.pdf)
