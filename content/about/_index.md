@@ -7,7 +7,7 @@ weight = 10
 
 {{< html-snippet >}}
 <div class="fs-2 fw-bold text-center mb-3">
-<span class="text-primary">Software Lab @ Korea University</span><br>
+<span class="text-primary">Software Analysis Lab @ Korea University</span><br>
 </div>
 {{< /html-snippet >}}
 
