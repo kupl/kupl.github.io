@@ -37,10 +37,10 @@ Techniques for automatically fixing bugs or generating correct code:
 - [PyTER: Effective Program Repair for Python Type Errors. ESEC/FSE 2022](/papers/fse22.pdf)
 - [NPEX: Repairing Java Null Pointer Exceptions without Tests. ICSE 2022](/papers/npex.pdf)
 - [Context-Aware and Data-Driven Feedback Generation for Programming Assignments. ESEC/FSE 2021](/papers/fse21.pdf)
-- [Optimizing Homomorphic Evaluation Circuits by Program Synthesis and Term Rewriting. PLDI 2020](/papers/pldi20.pdf)
 - [SAVER: Scalable, Precise, and Safe Memory-Error Repair. ICSE 2020](/papers/icse20.pdf)
+- [MemFix: Static Analysis-Based Repair of Memory Deallocation Errors for C](/papers/fse18.pdf)
 
 # Quantum Programming 
 
-Techniques for testing, analyzing, and synthesizing quantum programs:
+Techniques for building correct and efficient quantum programs:
 - [Modular Component-Based Quantum Circuit Synthesis. OOPSLA 2023](/papers/oopsla23-qsynth.pdf)
