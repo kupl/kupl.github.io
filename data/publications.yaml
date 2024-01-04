@@ -36,6 +36,7 @@
       name: "ESEC/FSE 2023: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
       url: https://2023.esec-fse.org/
     materials:
+      pdf: https://gist-pal.github.io/assets/pdf/fse23-smartfix.pdf
 
   - title: "V1SCAN: Discovering 1-day Vulnerabilities in Reused C/C++ Open-source Software Components Using Code Classification Techniques"
     authors:
