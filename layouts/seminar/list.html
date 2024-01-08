@@ -11,7 +11,7 @@
         });
     }
 
-    const handleDownload = async (file_url) => {
+    const handleDownload = async (file_url, slide) => {
         console.log(file_url)
         // URL에서 GET 요청 보내기
         fetch(file_url, {
@@ -24,7 +24,7 @@
             const url = window.URL.createObjectURL(blob);
             const link = document.createElement('a');
 
-            file_name = file_url.split('/').pop()
+            file_name = slide.split('/').pop()
             // 생성한 URL과 다운로드할 파일명 설정
             link.setAttribute('href', url);
             link.setAttribute('download', file_name);
@@ -46,7 +46,7 @@
      * Get the posts lists in json format.
      */
     const getSchedules = async () => {
-        let response = await fetch(api_url + "schedule/")
+        let response = await fetch(api_url + "current/")
         let data = await response.json()
         // console.log(data)
         return data
@@ -116,9 +116,11 @@
                 var seminar_slide = document.createElement('button')
                 seminar_slide.className = 'btn btn-primary'
                 seminar_slide.innerHTML = 'Download'
-                seminar_slide.id = seminar.slide
+                seminar_slide.id = seminar.id
+                seminar_slide.slide = seminar.slide
                 seminar_slide.onclick = function(event) {
-                    handleDownload(event.target.id)
+                    url = api_url + 'download/' + event.target.id
+                    handleDownload(url, event.target.slide)
                 }
                 seminar_inner.appendChild(seminar_slide)
             }
