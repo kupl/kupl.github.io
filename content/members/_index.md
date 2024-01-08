@@ -38,8 +38,8 @@ weight = 20
 - Sehun Jeong (2020.02, co-advised with Sungdeok Cha): Formal Works Inc.
 
 ## MS
-- Chan-Gu Kang (2023.02):
-- Yunji Seo (2023.02):
+- Chan-Gu Kang (2023.02): KIST
+- Yunji Seo (2023.02): Hyundai AutoEver
 - Jiseong Bak (2023.02): Labradoh Labs
 - Jongwook Kim (2023.02): Furiosa AI
 - Jinkook Kim (2023.02): Samsung Electronics
@@ -49,4 +49,4 @@ weight = 20
 - Donghoon Jeon (2021.02): Hyundai Mobis
 - Seonho Lee (2020.08, all but dissertation): Formal Works Inc.
 - Joonho Lee (2019.02): Samsung Electronics
-- Kwonsoo Chae (2018.02): PhD student at KAIST
+- Kwonsoo Chae (2018.02): Megazone Cloud
