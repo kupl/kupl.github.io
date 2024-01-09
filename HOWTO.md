@@ -20,7 +20,7 @@ hugo server -D
 
 ## 페이지 수정하기
 홈페이지의 내용은 `content` 디렉토리에 마크다운 파일로 저장되어 있고, 폴더 구조가 그대로 웹사이트의 URL이 됩니다.
-예를 들어, `content/about/_index.md` 파일은 `https://kupl.github.io/about/`에 해당하는 페이지를 만듭니다.
+예를 들어, `content/about/_index.md` 파일은 `https://prl.korea.ac.kr/about/`에 해당하는 페이지를 만듭니다.
 
 Hugo의 마크다운 파일은 아래와 같은 형식을 가지고 있습니다:
 ```markdown
@@ -72,7 +72,7 @@ content/members/<your-name>/
 | `affiliation.url` | 소속의 URL |
 | `materials` | 자료(표시 이름 = 자료) |
 
-메타데이터의 구체적인 사용방법은 `content/members/hakjoo-oh/index.md`와 [여기](https://kupl.github.io/members/hakjoo-oh/)를 참고하시면 됩니다.
+메타데이터의 구체적인 사용방법은 `content/members/hakjoo-oh/index.md`와 [여기](https://prl.korea.ac.kr/members/hakjoo-oh/)를 참고하시면 됩니다.
 
 #### 링크 만들기
 구성원 페이지를 생성한 후에는 `content/members/_index.md` 파일에 링크를 추가해야 합니다.
@@ -116,7 +116,7 @@ content/courses/<id>/<year>/
 [absolute link](/absolute/path)
 [external link](https://example.com)
 ```
-상대 경로는 현재 페이지를 기준으로, 절대 경로는 홈페이지(`https://kupl.github.io/`)를 기준으로 계산됩니다.
+상대 경로는 현재 페이지를 기준으로, 절대 경로는 홈페이지(`https://prl.korea.ac.kr/`)를 기준으로 계산됩니다.
 
 #### `ref`와 `relref`
 `ref`와 `relref`는 Hugo의 내장 함수로, 각각 절대 경로와 상대 경로를 계산하여 반환합니다.
