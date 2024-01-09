@@ -23,12 +23,11 @@
         {{ with .talk }}
         <span class="fw-bold">{{ .title }}.</span>
         {{ with .where }}{{ . }}{{ end }}
-        {{ time.AsTime .when | time.Format $format }}<br>
+        {{ time.AsTime .when | time.Format $format }}
         {{ partial "talk/materials.html" .materials }}
         {{ end }}
     </li>
     {{ end }}
-    <br>
 </ul>
 
 {{ end }}
