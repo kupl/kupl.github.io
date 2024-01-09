@@ -1,7 +1,11 @@
 {{ define "head" }}
 <style>
+    article {
+        counter-reset: figure;
+    }
+
     article.autonumbering {
-        counter-reset: section;
+        counter-reset: section figure;
     }
 
     article.autonumbering > .fs-4 {
@@ -16,6 +20,28 @@
     article.autonumbering > .fs-5::before {
         counter-increment: subsection;
         content: counter(section)"."counter(subsection)". "
+    }
+
+    figure {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure > img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    figure > figcaption {
+        text-align: center;
+    }
+
+    figure > figcaption > p::before {
+        counter-increment: figure;
+        content: "Figure "counter(figure)". ";
+        font-weight: bold;
     }
 </style>
 {{ end }}

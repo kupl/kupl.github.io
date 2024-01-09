@@ -7,7 +7,7 @@ to = '2023.10.27'
 autonumbering = true
 +++
 
-{{< figure src="splash-room.jpg" height=500 title="" alt="Conference room setup for the Splash event in Cascais 2023, with a large projector screen displaying the event's title and logos of sponsors like Huawei, Ahrefs, Prime Video, Google, and IBM. Red chairs with curved backs are neatly arranged in rows, facing the screen. A camera on a tripod stands to the left, ready to record, and a potted palm tree adds a touch of greenery to the right side of the room." >}}
+{{< figure src="splash-room.jpg" height=500 alt="Conference room setup for the Splash event in Cascais 2023, with a large projector screen displaying the event's title and logos of sponsors like Huawei, Ahrefs, Prime Video, Google, and IBM. Red chairs with curved backs are neatly arranged in rows, facing the screen. A camera on a tripod stands to the left, ready to record, and a potted palm tree adds a touch of greenery to the right side of the room." >}}
 
 
 # 들어가며
@@ -18,7 +18,7 @@ autonumbering = true
 이 보고서를 통해 학회에서 경험하고 생각했던 내용들과 인상깊게 들었던 발표들, 그리고 학회장소 포르투갈과 경유지 핀란드에서 느낀 점들을 공유하고자 한다.
 
 
-{{< figure src="conference-venue.jpg" height=500 title="컨퍼런스 개최 장소인 호텔 카스카이스 미라젬 입구. 학회 장소에서 사진 2층 유리창을 통해 바깥을 내다볼 수 있었다. 사진 속 인물은 학회 첫날 아침의 도원, 하영, 미령, 그리고 찬구." alt="Entrance of a modern conference venue with a high ceiling supported by square columns. People are scattered around the space, some walking and others standing in groups, chatting. A man in a white shirt and black trousers walks across the foreground, while a car is parked by the curb, and the interior of the building is visible through the glass facade in the background." >}}
+{{< figure src="conference-venue.jpg" height=500 caption="컨퍼런스 개최 장소인 호텔 카스카이스 미라젬 입구. 학회 장소에서 사진 2층 유리창을 통해 바깥을 내다볼 수 있었다. 사진 속 인물은 학회 첫날 아침의 도원, 하영, 미령, 그리고 찬구." alt="Entrance of a modern conference venue with a high ceiling supported by square columns. People are scattered around the space, some walking and others standing in groups, chatting. A man in a white shirt and black trousers walks across the foreground, while a car is parked by the curb, and the interior of the building is visible through the glass facade in the background." >}}
 
 # SPLASH 2023
 
@@ -78,9 +78,9 @@ OOPSLA 타입 시스템 세션에 발표되었던 연구의 절반 가량이 메
 ## 비행기에서의 독서
 우선 비행기에서의 도원의 독서 습관에 감탄을 금치 못했음을 밝힌다. 이번에 비행기 티켓을 같이 예매하게 되어 계속 옆자리에 앉을 수 있었는데, 도원이가 비행기 탑승 시간의 대부분을 독서로 보내는 모습을 옆에서 지켜볼 수 있었다. 또 그의 독서가 느린 것도 아니라서 가방 안에 읽을 책을 다 담지 못해 올 때 비행기에서 읽을 책은 캐리어에 따로 담아갈 정도였다. 송도원의 여행 보고서가 잘 읽히는 이유엔 그의 풍부한 독서가 한몫 할 것이다.
 
-{{< figure src="airbnb-view.jpg" height=300 title="숙소의 멋진 전망. 학회 마지막날 아침" alt="Morning view from a high-rise building's corner window seat, with the sun rising above a coastal cityscape. Sunlight streams through the clouds, casting a soft glow over the sea and illuminating the city. The calm ocean extends to the horizon under a sky graced with the early light of day." >}}
+{{< figure src="airbnb-view.jpg" height=300 caption="숙소의 멋진 전망. 학회 마지막날 아침" alt="Morning view from a high-rise building's corner window seat, with the sun rising above a coastal cityscape. Sunlight streams through the clouds, casting a soft glow over the sea and illuminating the city. The calm ocean extends to the horizon under a sky graced with the early light of day." >}}
 
-{{< figure src="belem-tower.jpg" height=300 title="벨렝 탑" alt="Belem Tower standing majestically under a clear blue sky, its intricate limestone carvings and sturdy battlements highlighted by the bright sunlight. The Tagus River surrounds the tower, with gentle waves lapping against the stone embankment in the foreground." >}}
+{{< figure src="belem-tower.jpg" height=300 caption="벨렝 탑" alt="Belem Tower standing majestically under a clear blue sky, its intricate limestone carvings and sturdy battlements highlighted by the bright sunlight. The Tagus River surrounds the tower, with gentle waves lapping against the stone embankment in the foreground." >}}
 
 ## 붉은 색 지붕
 유럽은 어렸을 때 부모님과 짧게 여행한 이후 처음이었고, 그래서 숙소에서 포르투갈 집들의 붉은 지붕을 처음 접했을 때 이것이 포르투갈의 문화인 줄 착각했었다. 하지만 리스본 상조르즈 성에 올라 본 리스본 북부는 현대적인 건물들이 여럿 들어서 있었고, 붉은 지붕은 유럽 다른 나라에서도 쉽게 찾을 수 있는 그런 경험이라고 한다.
@@ -90,7 +90,7 @@ OOPSLA 타입 시스템 세션에 발표되었던 연구의 절반 가량이 메
 
 그 외에 독특하다고 느낀 것은 다름아닌 참을성 하나 없는 운전문화였다. 처음에는 숙소로 가는 우버택시만 빠르게 운전하고 싶어하는 줄로만 알았는데, 골목길에서도 속도를 전혀 줄이지 않는 다른 차들과 성급하게 운전하다 인도 연석을 밟고 지나가는 택시 등을 겪다보니 이건 포르투갈에서 흔히 볼 수 있는 독특한 운전문화이겠거니 싶었다.
 
-{{< figure src="temppeliaukion-church.jpg" height=300 title="헬싱키의 암석 교회 내부에서. 사진 속 인물은 도원과 나. 석현이 뒤에서 촬영해주었다." alt="Interior of Temppeliaukio Church in Finland, featuring visitors seated on wooden benches. The church's unique architecture is showcased with a sweeping copper ceiling adorned with small lights and rugged natural rock walls. The atmosphere is serene, with natural light filtering in, enhancing the tranquility of this rock-hewn space." >}}
+{{< figure src="temppeliaukion-church.jpg" height=300 caption="헬싱키의 암석 교회 내부에서. 사진 속 인물은 도원과 나. 석현이 뒤에서 촬영해주었다." alt="Interior of Temppeliaukio Church in Finland, featuring visitors seated on wooden benches. The church's unique architecture is showcased with a sweeping copper ceiling adorned with small lights and rugged natural rock walls. The atmosphere is serene, with natural light filtering in, enhancing the tranquility of this rock-hewn space." >}}
 
 ## 헬싱키의 멋
 우리가 비행기표를 예매할 때 포르투갈까지 가는 경유지를 어디로 할 지 적지 않게 고민했었는데, 헬싱키를 경유지로 고른 것은 숙소 위치, 음식점 선정과 더불어 이번 여정 최고의 선택이었다. 비록 한국보다 두어달은 빠른 추위에 떨었지만, 다소 차분한 도시 분위기와 깨끗한 자연이 편하게 느껴졌다.
