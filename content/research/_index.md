@@ -5,10 +5,7 @@ menu = 'main'
 weight = 30
 +++
 
-
-
-
-We develop techniques and tools for correct, secure, and efficient software. 
+{{< callout markdown=true >}} **We develop techniques and tools for correct, secure, and efficient software.** {{< /callout >}}
 
 # Software Testing and Fuzzing 
 
