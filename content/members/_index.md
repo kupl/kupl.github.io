@@ -24,7 +24,7 @@ weight = 20
 - Seungwon Han
 - [Minsu Kim]({{< relref "/minsu-kim" >}})
 - [Wonseok Oh](https://marinelay.pages.dev/)
-- Doyeon Hwang({{< relref "/doyeon-hwang" >}})
+- [Doyeon Hwang]({{< relref "/doyeon-hwang" >}})
 
 ## MS Students
 - Hayoung Lee
