@@ -4,7 +4,7 @@
 <script>
     const api_url = 'https://salbox.korea.ac.kr/seminar/api/'
 
-    const handleDownload = async (file_url, slide) => {
+    const handleSlide = async (file_url, slide, mode) => {
         console.log(file_url)
         // URL에서 GET 요청 보내기
         fetch(file_url, {
@@ -20,7 +20,8 @@
             file_name = slide.split('/').pop()
             // 생성한 URL과 다운로드할 파일명 설정
             link.setAttribute('href', url);
-            link.setAttribute('download', file_name);
+            if (mode === 'download') link.setAttribute('download', file_name);
+            if (mode === 'open') link.setAttribute('target', '_blank')
 
             // 링크를 문서(body)에 추가
             document.body.appendChild(link);
@@ -106,16 +107,27 @@
 
             if (seminar.slide != null) {
                 console.log(seminar.slide)
-                var seminar_slide = document.createElement('button')
-                seminar_slide.className = 'btn btn-primary'
-                seminar_slide.innerHTML = 'Download'
-                seminar_slide.id = seminar.id
-                seminar_slide.slide = seminar.slide
-                seminar_slide.onclick = function(event) {
+                var seminar_download = document.createElement('button')
+                seminar_download.className = 'btn btn-primary me-2'
+                seminar_download.innerHTML = 'Download'
+                seminar_download.id = seminar.id
+                seminar_download.slide = seminar.slide
+                seminar_download.onclick = function (event) {
                     url = api_url + 'download/' + event.target.id
-                    handleDownload(url, event.target.slide)
+                    handleSlide(url, event.target.slide, 'download')
                 }
-                seminar_inner.appendChild(seminar_slide)
+                seminar_inner.appendChild(seminar_download)
+
+                var seminar_open = document.createElement('button')
+                seminar_open.className = 'btn btn-primary'
+                seminar_open.innerHTML = 'Open in browser'
+                seminar_open.id = seminar.id
+                seminar_open.slide = seminar.slide
+                seminar_open.onclick = function (event) {
+                    url = api_url + 'download/' + event.target.id
+                    handleSlide(url, event.target.slide, 'open')
+                }
+                seminar_inner.appendChild(seminar_open)
             }
 
             seminar_html.appendChild(seminar_inner)
