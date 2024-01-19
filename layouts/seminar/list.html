@@ -4,13 +4,6 @@
 <script>
     const api_url = 'https://salbox.korea.ac.kr/seminar/api/'
 
-    function format() {
-        var args = Array.prototype.slice.call (arguments, 1);
-        return arguments[0].replace (/\{(\d+)\}/g, function (match, index) {
-            return args[index];
-        });
-    }
-
     const handleDownload = async (file_url, slide) => {
         console.log(file_url)
         // URL에서 GET 요청 보내기
@@ -53,14 +46,14 @@
     }
 
     const getSeminars = async (schedule_id) => {
-        let response = await fetch(format(api_url + 'seminar/?scheduled_at={0}', schedule_id))
+        let response = await fetch(api_url + `seminar?scheduled_at=${schedule_id}`)
         let data = await response.json()
         // console.log(data)
         return data
     }
 
     const getMember = async (member_id) => {
-        let response = await fetch(format(api_url + '/member/{0}', member_id))
+        let response = await fetch(api_url + `/member/${member_id}`)
         let data = await response.json()
         // console.log(data)
         return data
