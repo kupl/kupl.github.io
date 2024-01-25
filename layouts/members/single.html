@@ -21,6 +21,7 @@
         {{ end }}
         {{ with .Params.materials }}
             {{ with .cv }}[{{ partial "hook/link.html" (dict "dest" . "text" "cv") }}]{{ end }}
+            {{ with .github }}[{{ partial "hook/link.html" (dict "dest" (printf "https://github.com/%s" .) "text" "github") }}]{{ end }}
             {{ with .website }}[{{ partial "hook/link.html" (dict "dest" . "text" "website") }}]{{ end }}
         {{ end }}
     </div>
