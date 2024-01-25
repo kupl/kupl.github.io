@@ -19,7 +19,7 @@ weight = 20
 - Myungho Lee
 - [Junhee Lee]({{< relref "/junhee-lee" >}})
 - [Dowon Song]({{< relref "/dowon-song" >}})
-- [Seokhyun Lee](https://seokhyunlee.info/)
+- [Seokhyun Lee]({{< relref "/seokhyun-lee" >}})
 - Jisuk Byun
 - Seungwon Han
 - [Minsu Kim]({{< relref "/minsu-kim" >}})

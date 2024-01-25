@@ -20,7 +20,8 @@
         {{ end }}
         {{ end }}
         {{ with .Params.materials }}
-            [{{ with .cv }}{{ partial "hook/link.html" (dict "dest" . "text" "cv") }}{{ end }}]
+            {{ with .cv }}[{{ partial "hook/link.html" (dict "dest" . "text" "cv") }}]{{ end }}
+            {{ with .website }}[{{ partial "hook/link.html" (dict "dest" . "text" "website") }}]{{ end }}
         {{ end }}
     </div>
 </div>
