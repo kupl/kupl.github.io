@@ -1,5 +1,11 @@
+{{ $highlight := "" }}
+{{ if (isset . "highlight") }}
+    {{ $highlight = .highlight }}
+{{ end }}
+{{ with .authors }}
 {{ $len := (len .) }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "show_equal_contrib" false }}
-{{ range $index, $element := . }}{{ if and (not (eq $index 0)) (gt $len 2) }}, {{ end }} {{ if and (eq (add $index 1) $len) (gt $len 1) }}and {{ end }}{{ $element }}{{ if strings.HasSuffix $element "*" }}{{ $scratch.Set "show_equal_contrib" true }}{{ end }}{{ end }}
+{{ range $index, $element := . }}{{ if and (not (eq $index 0)) (gt $len 2) }}, {{ end }} {{ if and (eq (add $index 1) $len) (gt $len 1) }}and {{ end }}{{ if (eq $highlight $element) }}<span class="fw-bold text-decoration-underline">{{ $element }}</span>{{ else }}{{ $element }}{{ end }}{{ if strings.HasSuffix $element "*" }}{{ $scratch.Set "show_equal_contrib" true }}{{ end }}{{ end }}
 {{ if $scratch.Get "show_equal_contrib" }}(* contributed equally){{ end }}
+{{ end }}

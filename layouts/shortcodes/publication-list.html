@@ -1,10 +1,19 @@
 {{ $raw := .Get "data" }}
 {{ $raw := index $.Site.Data $raw }}
+{{ $author := "" }}
+{{ with .Get "author" }}
+    {{ $author = . }}
+{{ end }}
 
 {{ $data := dict }}
 {{ range $year, $papers := $raw }}
-    {{ $block := (dict "year" $year "papers" $papers) }}
-    {{ $data = merge $data (dict $year $block) }}
+    {{ if (gt (len $author) 0) }}
+        {{ $papers = where $papers "authors" "intersect" (slice $author) }}
+    {{ end }}
+    {{ if (gt (len $papers) 0) }}
+        {{ $block := (dict "year" $year "papers" $papers) }}
+        {{ $data = merge $data (dict $year $block) }}
+    {{ end }}
 {{ end }}
 
 {{ range $block := sort $data "year" "desc" }}
@@ -14,7 +23,7 @@
     {{ range $block.papers }}
     <li>
         <span class="fw-bold">{{ .title }}</span></br>
-        {{ partial "publication/authors.html" .authors }}</br>
+        {{ partial "publication/authors.html" (dict "authors" .authors "highlight" $author) }}</br>
         {{ partial "publication/target.html" .target }}</br>
         {{ with .honor }}{{ partial "publication/honor.html" . }}</br>{{ end }}
         {{ partial "publication/materials.html" .materials }}
