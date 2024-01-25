@@ -22,4 +22,5 @@ url = 'https://korea.ac.kr'
 # cv = 'cv.pdf'
 +++
 
-# Seongjoon Hong
+## Publication
+{{< publication-list data="publications" author="Seongjoon Hong" >}}
