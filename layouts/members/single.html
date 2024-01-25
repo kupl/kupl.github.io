@@ -7,9 +7,7 @@
 <div class="d-flex mt-2 mb-4">
     {{ if isset .Params "portrait" }}
     <div class="me-3">
-        {{ $image := .Resources.Get .Params.portrait }}
-        {{ $image := $image.Resize "x150" }}
-        <img src="{{ $image.RelPermalink }}" alt="{{ $image.Name }}" class="img-fluid">
+        <img src="{{ .Params.portrait }}" class="img-fluid" width="150">
     </div>
     {{ end }}
     <div>

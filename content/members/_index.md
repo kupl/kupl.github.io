@@ -12,22 +12,22 @@ weight = 20
 - [Hakjoo Oh]({{< relref "/hakjoo-oh" >}})
 
 ## Postdoctoral Researchers
-- [Minseok Jeon](https://minseokjgit.github.io/)
+- [Minseok Jeon]({{< relref "/minseok-jeon" >}})
 
 ## PhD Students
 - [Seongjoon Hong]({{< relref "/seongjoon-hong" >}})
-- Myungho Lee
+- [Myungho Lee]({{< relref "/myungho-lee" >}})
 - [Junhee Lee]({{< relref "/junhee-lee" >}})
 - [Dowon Song]({{< relref "/dowon-song" >}})
 - [Seokhyun Lee]({{< relref "/seokhyun-lee" >}})
-- Jisuk Byun
-- Seungwon Han
+- [Jisuk Byun]({{< relref "/jisuk-byun" >}})
+- [Seungwon Han]({{< relref "/seungwon-han" >}})
 - [Minsu Kim]({{< relref "/minsu-kim" >}})
-- [Wonseok Oh](https://marinelay.pages.dev/)
+- [Wonseok Oh]({{< relref "/wonseok-oh" >}})
 - [Doyeon Hwang]({{< relref "/doyeon-hwang" >}})
 
 ## MS Students
-- Hayoung Lee
+- [Hayoung Lee]({{< relref "/hayoung-lee" >}})
 
 # Graduated Members
 

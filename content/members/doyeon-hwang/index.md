@@ -2,8 +2,7 @@
 draft = false
 title = 'Doyeon Hwang'
 ko = '황도연'
-# portrait = 'portrait.png'
-role = 'Your role'
+role = 'Ph.D. Student'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
@@ -17,9 +16,6 @@ url = 'https://info.korea.ac.kr'
 [[affiliation]]
 name = 'Korea University'
 url = 'https://korea.ac.kr'
-
-[materials]
-# cv = 'cv.pdf'
 +++
 
-# Doyeon Hwang
+# Doyeon Hwang

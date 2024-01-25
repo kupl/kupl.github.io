@@ -1,14 +1,14 @@
 +++
 draft = false
-title = 'Dowon Song'
-ko = '송도원'
+title = 'Wonseok Oh'
+ko = '오원석'
 role = 'Ph.D. Student'
 
 [[affiliation]]
-name = 'Software Analysis Laboratory'
+name = 'Software Analysis Lab'
 url = '/'
 [[affiliation]]
-name = 'Dept. of Computer Science and Engineering'
+name = 'Computer Science Department'
 url = 'https://cs.korea.ac.kr'
 [[affiliation]]
 name = 'College of Informatics'
@@ -17,5 +17,3 @@ url = 'https://info.korea.ac.kr'
 name = 'Korea University'
 url = 'https://korea.ac.kr'
 +++
-
-# Dowon Song
