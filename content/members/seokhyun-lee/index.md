@@ -24,7 +24,7 @@ website = 'https://seokhyunlee.info/'
 
 ## Research Interest
 - Static analysis and verification
-- Program repair and synthesis
+- Program synthesis and repair
 
 ## Education
 
