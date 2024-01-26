@@ -8,7 +8,7 @@
 {{ $data := dict }}
 {{ range $year, $papers := $raw }}
     {{ if (gt (len $author) 0) }}
-        {{ $papers = where $papers "authors" "intersect" (slice $author) }}
+        {{ $papers = where $papers "authors" "intersect" (slice $author (printf "%s*" $author)) }}
     {{ end }}
     {{ if (gt (len $papers) 0) }}
         {{ $block := (dict "year" $year "papers" $papers) }}
