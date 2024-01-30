@@ -3,6 +3,7 @@ draft = false
 title = 'Minsu Kim'
 ko = '김민수'
 role = 'Ph.D. Student'
+portrait = 'portrait.jpg'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
