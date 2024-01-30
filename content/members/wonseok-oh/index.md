@@ -19,6 +19,5 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [materials]
-github = 'henrylee97'
 website = 'https://marinelay.pages.dev/'
 +++
