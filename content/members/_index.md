@@ -27,7 +27,7 @@ weight = 20
 - [Doyeon Hwang]({{< relref "/doyeon-hwang" >}})
 
 ## MS Students
-- [Hayoung Lee]({{< relref "/hayoung-lee" >}})
+- [Hayeong Lee]({{< relref "/hayeong-lee" >}})
 
 # Graduated Members
 
