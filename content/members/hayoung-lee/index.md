@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'Hayoung Lee'
+title = 'Hayeong Lee'
 ko = '이하영'
 role = 'M.S. Student'
 portrait = 'portrait.jpg'
