@@ -21,3 +21,7 @@ url = 'https://korea.ac.kr'
 [materials]
 website = 'https://marinelay.pages.dev/'
 +++
+
+## Publications
+
+{{< publication-list data="publications" author="Wonseok Oh" >}}
