@@ -45,7 +45,7 @@ In particular, my focus is on designing DSLs and synthesis algorithms for effect
 - 2011.03 ~ 2017.02, B.S. Dept. of Computer Science, Korea University
 
 # Employed Positions
-2023.02 ~ Present - Postdoctoral Researcher, [Software Analysis Laboratory]{{< ref "/" >}}, [Korea University](https://korea.ac.kr)
+2023.02 ~ Present - Postdoctoral Researcher, [Software Analysis Laboratory]({{< ref "/" >}}), [Korea University](https://korea.ac.kr)
 
 # Publications
 {{< publication-list data="publications" author="Minseok Jeon" >}}
