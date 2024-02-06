@@ -5,14 +5,33 @@ menu = 'main'
 weight = 20
 +++
 
-# Current Members
+{{< section class="cfg" >}}
+
+## Members
+- [Professors](#professors)
+- [Postdoc. Researchers](#postdoc-researchers)
+- [PhD Students](#phd-students)
+- [MS Students](#ms-students)
+- [Alumni](#alumni)
+
+{{< /section >}}
+
+{{< section class="cfg" >}}
 
 ## Professors
 
 - [Hakjoo Oh]({{< relref "/hakjoo-oh" >}})
 
-## Postdoctoral Researchers
+{{< /section >}}
+
+{{< section class="cfg" >}}
+
+## Postdoc. Researchers
 - [Minseok Jeon]({{< relref "/minseok-jeon" >}})
+
+{{< /section >}}
+
+{{< section class="cfg" >}}
 
 ## PhD Students
 - [Seongjoon Hong]({{< relref "/seongjoon-hong" >}})
@@ -26,10 +45,16 @@ weight = 20
 - [Wonseok Oh]({{< relref "/wonseok-oh" >}})
 - [Doyeon Hwang]({{< relref "/doyeon-hwang" >}})
 
+{{< /section >}}
+
+{{< section class="cfg" >}}
+
 ## MS Students
 - [Hayeong Lee]({{< relref "/hayeong-lee" >}})
 
-# Graduated Members
+{{< /section >}}
+
+## Alumni
 
 ## PhD
 - [Minseok Jeon](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University
