@@ -18,7 +18,6 @@ weight = 80
 - Nick Benton. [Bridging the Gap Between Theory and Practice](./why-cs-theory.ps)
 - Donald Knuth. [Theory and Practice](./knuth-theory-practice.pdf)
 - Matt Might. [The illustrated guide to a Ph.D](http://matt.might.net/articles/phd-school-in-pictures/)
-- [대학원때 알았으면 좋았을 것들](http://gradschoolstory.net/)
 
 # How to begin software analysis research
 
