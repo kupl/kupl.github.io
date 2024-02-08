@@ -5,9 +5,10 @@ menu = 'main'
 weight = 30
 +++
 
-{{< callout markdown=true >}} **We develop techniques and tools for correct, secure, and efficient software.** {{< /callout >}}
+# Research Interest
+> *We develop techniques and tools for correct, secure, and efficient software.*
 
-# Software Testing and Fuzzing 
+## Software Testing and Fuzzing 
 
 Techniques for finding bugs in programs:
 - [Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing. ICSE 2023](/papers/icse23-seamfuzz.pdf)
@@ -17,7 +18,7 @@ Techniques for finding bugs in programs:
 - [Making Symbolic Execution Promising by Learning Aggressive State-Pruning Strategy. ESEC/FSE 2020](/papers/fse20.pdf)
 - [Effective White-box Testing of Deep Neural Networks with Adaptive Neuron-Selection Strategy. ISSTA 2020](/papers/issta20.pdf)
 
-# Static Analysis and Verification
+## Static Analysis and Verification
 
 Techniques for analyzing program behavior without execution:
 - [Learning to Boost Disjunctive Static Bug-Finders. ICSE 2023](/papers/icse23-ddinfer.pdf)
@@ -27,7 +28,7 @@ Techniques for analyzing program behavior without execution:
 - [Precise and Scalable Points-to Analysis via Data-Driven Context Tunneling. OOPSLA 2018](/papers/oopsla18-tunneling.pdf)
 - [Data-Driven Context-Sensitivity for Points-to Analysis. OOPSLA 2017](/papers/oopsla17-oopsla242.pdf)
 
-# Program Repair and Synthesis
+## Program Repair and Synthesis
 
 Techniques for automatically fixing bugs or generating correct code:
 - [SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models. ESEC/FSE 2023](https://gist-pal.github.io/assets/pdf/fse23-smartfix.pdf)
@@ -37,7 +38,7 @@ Techniques for automatically fixing bugs or generating correct code:
 - [SAVER: Scalable, Precise, and Safe Memory-Error Repair. ICSE 2020](/papers/icse20.pdf)
 - [MemFix: Static Analysis-Based Repair of Memory Deallocation Errors for C](/papers/fse18.pdf)
 
-# Quantum Programming 
+## Quantum Programming 
 
 Techniques for building correct and efficient quantum programs:
 - [Modular Component-Based Quantum Circuit Synthesis. OOPSLA 2023](/papers/oopsla23-qsynth.pdf)
