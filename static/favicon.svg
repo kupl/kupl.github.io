@@ -1,0 +1,14 @@
+<svg height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .abbr {
+            font-family: KUCentennial, sans-serif;
+            font-weight: 900;
+            font-size: 70px;
+        }
+    </style>
+    <circle cx="50" cy="50" r="50" fill="white" />
+    <g transform="translate(50, 9) scale(0.6)">
+        <path d="M 0 0 L 50 50 C 57 57 47 67 40 60 L 0 20 L -40 60 C -47 67 -57 57 -50 50 L 0 0" />
+    </g>
+    <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" class="abbr">S</text>
+</svg>
