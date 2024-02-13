@@ -13,7 +13,7 @@ weight = 60
 ## 2023 Spring
 
 - [COSE 312: Compilers](https://github.com/kupl-courses/COSE312-2023spring)
-- [AAA 616: Program Analysis](https://github.com/kupl-courses/AAA528-2023spring)
+- [AAA 528: Computational Logic](https://github.com/kupl-courses/AAA528-2023spring)
 
 ## 2022 Fall
 
