@@ -3,20 +3,20 @@
         .abbr {
             font-family: KUCentennial, sans-serif;
             font-weight: 900;
-            font-size: 40px;
+            font-size: 37px;
         }
 
         .long {
             font-family: KUCentennial, sans-serif;
             font-weight: 900;
-            font-size: 4px;
+            font-size: 7px;
         }
     </style>
     <g transform="translate(50, 0) scale(0.24)">
         <path d="M 0 0 L 180 60 C 192 65 186 82 174 78 L 0 20 L -174 78 C -186 82 -192 65 -180 60 L 0 0" />
     </g>
-    <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" class="abbr">SAL</text>
-    <text x="50%" y="93%" dominant-baseline="middle" text-anchor="middle" class="long">
-        Software Analysis Laboratory @ Korea University
+    <text x="50%" y="63%" dominant-baseline="middle" text-anchor="middle" class="abbr">SAL</text>
+    <text x="50%" y="92%" dominant-baseline="middle" text-anchor="middle" class="long">
+        Software Analysis Laboratory
     </text>
 </svg>
