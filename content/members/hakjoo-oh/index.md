@@ -63,10 +63,10 @@ cv = 'cv.pdf'
 
 ## Contact Information
 
-Room 616c, Science Library Bldg
-College of Informatics
-Korea University
-Anam-dong 5-ga, Seongbuk-gu
-Seoul 136-713, Korea
-(office) +82.2.3290.4601
+Room 616c, Science Library Bldg \
+College of Informatics \
+Korea University \
+Anam-dong 5-ga, Seongbuk-gu \
+Seoul 136-713, Korea \
+(office) +82.2.3290.4601 \
 (email) hakjoo_oh@korea.ac.kr
