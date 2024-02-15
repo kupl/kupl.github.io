@@ -5,7 +5,6 @@ ko = '홍성준'
 portrait = 'portrait.jpg'
 role = 'PhD Student'
 mail = 'seongjoon@korea.ac.kr'
-github = 'https://github.com/seongjoonh'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
@@ -21,7 +20,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [materials]
-# cv = 'cv.pdf'
+github = 'seongjoonh'
 +++
 
 ## Publications
