@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/favicon.svg" />
     <title>{{ .Title }} - {{ .Site.Title }}</title>
+    {{ partial "head/conditional-css.html" . }}
     {{ partial "head/bootstrap5.html" . }}
     {{ partial "head/blockquote.html" . }}
     {{ block "head" . }}{{ end }}

@@ -1,0 +1,7 @@
+<li>
+{{ if .Get "markdown" }}
+    {{ .Inner | markdownify }}
+{{ else }}
+    {{ .Inner }}
+{{ end }}
+</li>

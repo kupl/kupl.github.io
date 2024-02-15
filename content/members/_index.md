@@ -5,68 +5,88 @@ menu = 'main'
 weight = 20
 +++
 
-{{< section class="cfg">}}
+<!-- TOC: Members -->
+{{< cfg >}}
 
-## Members
-- [Professors](#professors)
-- [Postdoc. Researchers](#postdoc-researchers)
-- [PhD Students](#phd-students)
-- [MS Students](#ms-students)
-- [Undergrad. Interns](#undergrad-interns)
-- [Alumni](#alumni)
-{{< /section >}}
+{{< cfg/nonterminal id="Members" >}}
 
+{{< cfg/items >}}
+{{< cfg/item markdown=true >}}[Professors](#professors){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Postdoc. Researchers](#postdoc-researchers){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[PhD Students](#phd-students){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[MS Students](#ms-students){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Undergrad. Interns](#undergrad-interns){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Alumni](#alumni){{< /cfg/item >}}
+{{< /cfg/items >}}
 
-{{< section class="cfg" >}}
-## Professors 
-<ul>
-  <li> {{< name-card id="hakjoo-oh">}}
-</ul>
-{{< /section>}}
+{{< /cfg >}}
 
-{{< section class="cfg" >}}
-## Postdoc. Researchers
-<ul>
-  <li> {{< name-card id="minseok-jeon">}}
-</ul>
+<!-- Professors -->
+{{< cfg >}}
 
-{{< /section >}}
+{{< cfg/nonterminal id="Professors" >}}
 
-{{< section class="cfg item" >}}
+{{< cfg/items >}}
+{{< cfg/item >}}{{< name-card id="hakjoo-oh" >}}{{< /cfg/item >}}
+{{< /cfg/items >}}
 
-## PhD Students
-<ul class="item">
-  <li> {{< name-card id="seongjoon-hong">}}
-  <li> {{< name-card id="myungho-lee">}}
-  <li> {{< name-card id="junhee-lee">}}
-  <li> {{< name-card id="dowon-song">}}
-  <li> {{< name-card id="seokhyun-lee">}}
-  <li> {{< name-card id="jisuk-byun">}}
-  <li> {{< name-card id="seungwon-han">}}
-  <li> {{< name-card id="minsu-kim">}}
-  <li> {{< name-card id="wonseok-oh">}}
-  <li> {{< name-card id="doyeon-hwang">}}
-</ul>
-{{< /section >}}
+{{< /cfg >}}
 
-{{< section class="cfg" >}}
+<!-- Postdoc. -->
+{{< cfg >}}
+{{< cfg/nonterminal id="Postdoc. Researchers" >}}
 
-## MS Students
-<ul class="item">
-  <li> {{< name-card id="hayeong-lee">}}
-  <li> {{< name-card id="hayeong-lee">}}
-</ul>
+{{< cfg/items >}}
+{{< cfg/item >}}{{< name-card id="minseok-jeon">}}{{< /cfg/item >}}
+{{< /cfg/items >}}
 
-{{< /section >}}
+{{< /cfg >}}
 
-{{< section class="cfg" >}}
-## Undergrad. Interns
-<ul class="item">
-  <li> {{< name-card id="seongjoon-hong">}}
-  <li> {{< name-card id="seongjoon-hong">}}
-  <li> {{< name-card id="seongjoon-hong">}}
-</ul>
-{{< /section >}}
+<!-- PhD Stud. -->
+{{< cfg >}}
+
+{{< cfg/nonterminal id="PhD Students" >}}
+
+{{< cfg/items >}}
+{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="myungho-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="junhee-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="dowon-song">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="seokhyun-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="jisuk-byun">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="seungwon-han">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="minsu-kim">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="wonseok-oh">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="doyeon-hwang">}}{{< /cfg/item >}}
+{{< /cfg/items >}}
+
+{{< /cfg >}}
+
+<!-- MS Stud. -->
+{{< cfg >}}
+
+{{< cfg/nonterminal id="MS Students" >}}
+
+{{< cfg/items >}}
+{{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
+{{< /cfg/items >}}
+
+{{< /cfg >}}
+
+<!-- Undergrad. Interns -->
+{{< cfg >}}
+
+{{< cfg/nonterminal id="Undergrad. Interns" >}}
+
+{{< cfg/items >}}
+{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
+{{< /cfg/items >}}
+
+{{< /cfg >}}
+
 ## Alumni
 
 ## PhD
