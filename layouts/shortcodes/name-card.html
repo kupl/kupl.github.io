@@ -4,37 +4,43 @@
 {{ $scratch := newScratch }}
 {{ $scratch.Set "name" .Title }}
 {{ with .Params.ko }}{{ $scratch.Set "name" (print ($scratch.Get "name") " | " .) }}{{ end }}
-<a href="{{ $id }}" class="link-dark link-underline link-underline-opacity-0">
-    <div class="card my-1" style="border: none; min-width:20rem">
-        <div class="row g-0 align-items-center">
-            <div class="col-md-4 d-flex justify-content-center align-items-center" style="height:150px">
+
+<div class="card my-1" style="border: none; min-width:18rem;">
+    <div class="row g-0 align-items-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center" style="height:150px">
+            <a href="{{ $id }}" class="link-dark link-underline link-underline-opacity-0">
                 {{ with .Params.portrait}}
                 <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ printf "%s/%s" $id . }}{{ end }}'>
                 {{ end }}
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
+            </a>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <a href="{{ $id }}" class="link-dark link-underline link-underline-opacity-0 link-underline-opacity-100-hover">
                     <h6 class="card-title fs-6 fw-bold">{{ .Title }}</h6>
-                    {{ with .Params.ko }}<h6 class="card-title fs-6 fw-bold">{{ . }}</h6>{{ end }}
-                    {{ if isset .Params "mail" }}
-                    <a href="mailto:{{ .Params.mail }}"><i class="bi bi-envelope me-1"></i></a>
-                    {{ else }}
-                    <i class="bi bi-envelope me-1" style="color: gray;"></i>
+                    {{ with .Params.ko }}
+                    <h6 class="card-title fs-6 fw-bold">{{ . }}</h6>
                     {{ end }}
-                    {{ if (and (isset .Params "materials") (isset .Params.materials "github")) }}
-                    <a href="https://github.com/{{ .Params.materials.github }}"><i class="bi bi-github me-1"></i></a>
-                    {{ else }}
-                    <i class="bi bi-github me-1" style="color: gray;"></i>
-                    {{ end }}
-                    {{ if (and (isset .Params "materials") (isset .Params.materials "website")) }}
-                    <a href="{{ .Params.materials.website }}"><i class="bi bi-house me-1"></i></a>
-                    {{ else }}
-                    <i class="bi bi-house me-1" style="color: gray;"></i>
-                    {{ end }}
-                </div>
+                </a>
+                {{ if isset .Params "mail" }}
+                <a href="mailto:{{ .Params.mail }}"><i class="bi bi-envelope me-1"></i></a>
+                {{ else }}
+                <i class="bi bi-envelope me-1" style="color: gray;"></i>
+                {{ end }}
+                {{ if (and (isset .Params "materials") (isset .Params.materials "github")) }}
+                <a href="https://github.com/{{ .Params.materials.github }}"><i class="bi bi-github me-1"></i></a>
+                {{ else }}
+                <i class="bi bi-github me-1" style="color: gray;"></i>
+                {{ end }}
+                {{ if (and (isset .Params "materials") (isset .Params.materials "website")) }}
+                <a href="{{ .Params.materials.website }}"><i class="bi bi-house me-1"></i></a>
+                {{ else }}
+                <i class="bi bi-house me-1" style="color: gray;"></i>
+                {{ end }}
             </div>
         </div>
     </div>
-</a>
+</div>
+
 {{ end }}
 {{ end }}
