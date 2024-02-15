@@ -1,0 +1,23 @@
+{{ $id := .Get "id" }}
+{{ with .Page }}
+{{ with .GetPage $id }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "name" .Title }}
+{{ with .Params.ko }}{{ $scratch.Set "name" (print ($scratch.Get "name") " | " .) }}{{ end }}
+<div class="card my-1" style="border: none; min-width:18rem">
+  <div class="row g-0">
+    <div class="col-md-4 d-flex justify-content-center align-items-center" style="height:150px">
+      <img class="img-fluid rounded-circle" style="height: 100px; object-fit: contain; width: 100px;"
+        src='{{printf "%s/portrait.jpg" $id }}'>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6 class="card-title fs-6 fw-bold">{{ .Title }}</h6>
+        {{ with .Params.ko }}<h6 class="card-title fs-6 fw-bold">{{ . }}</h6>{{ end }}
+        <p class="card-text" aasd></p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ end }}

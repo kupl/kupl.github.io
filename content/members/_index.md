@@ -5,55 +5,68 @@ menu = 'main'
 weight = 20
 +++
 
-{{< section class="cfg" >}}
+{{< section class="cfg">}}
 
 ## Members
 - [Professors](#professors)
 - [Postdoc. Researchers](#postdoc-researchers)
 - [PhD Students](#phd-students)
 - [MS Students](#ms-students)
+- [Undergrad. Interns](#undergrad-interns)
 - [Alumni](#alumni)
-
 {{< /section >}}
 
-{{< section class="cfg" >}}
-
-## Professors
-
-- [Hakjoo Oh]({{< relref "/hakjoo-oh" >}})
-
-{{< /section >}}
 
 {{< section class="cfg" >}}
+## Professors 
+<ul>
+  <li> {{< name-card id="hakjoo-oh">}}
+</ul>
+{{< /section>}}
 
+{{< section class="cfg" >}}
 ## Postdoc. Researchers
-- [Minseok Jeon]({{< relref "/minseok-jeon" >}})
+<ul>
+  <li> {{< name-card id="minseok-jeon">}}
+</ul>
 
 {{< /section >}}
 
-{{< section class="cfg" >}}
+{{< section class="cfg item" >}}
 
 ## PhD Students
-- [Seongjoon Hong]({{< relref "/seongjoon-hong" >}})
-- [Myungho Lee]({{< relref "/myungho-lee" >}})
-- [Junhee Lee]({{< relref "/junhee-lee" >}})
-- [Dowon Song]({{< relref "/dowon-song" >}})
-- [Seokhyun Lee]({{< relref "/seokhyun-lee" >}})
-- [Jisuk Byun]({{< relref "/jisuk-byun" >}})
-- [Seungwon Han]({{< relref "/seungwon-han" >}})
-- [Minsu Kim]({{< relref "/minsu-kim" >}})
-- [Wonseok Oh]({{< relref "/wonseok-oh" >}})
-- [Doyeon Hwang]({{< relref "/doyeon-hwang" >}})
-
+<ul class="item">
+  <li> {{< name-card id="seongjoon-hong">}}
+  <li> {{< name-card id="myungho-lee">}}
+  <li> {{< name-card id="junhee-lee">}}
+  <li> {{< name-card id="dowon-song">}}
+  <li> {{< name-card id="seokhyun-lee">}}
+  <li> {{< name-card id="jisuk-byun">}}
+  <li> {{< name-card id="seungwon-han">}}
+  <li> {{< name-card id="minsu-kim">}}
+  <li> {{< name-card id="wonseok-oh">}}
+  <li> {{< name-card id="doyeon-hwang">}}
+</ul>
 {{< /section >}}
 
 {{< section class="cfg" >}}
 
 ## MS Students
-- [Hayeong Lee]({{< relref "/hayeong-lee" >}})
+<ul class="item">
+  <li> {{< name-card id="hayeong-lee">}}
+  <li> {{< name-card id="hayeong-lee">}}
+</ul>
 
 {{< /section >}}
 
+{{< section class="cfg" >}}
+## Undergrad. Interns
+<ul class="item">
+  <li> {{< name-card id="seongjoon-hong">}}
+  <li> {{< name-card id="seongjoon-hong">}}
+  <li> {{< name-card id="seongjoon-hong">}}
+</ul>
+{{< /section >}}
 ## Alumni
 
 ## PhD
