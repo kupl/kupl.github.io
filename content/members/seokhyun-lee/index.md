@@ -38,9 +38,9 @@ website = 'https://seokhyunlee.info/'
 {{< publication-list data="publications" author="Seokhyun Lee" >}}
 
 ## Contact Information
-Room 614B, Science Library Bldg
-College of Informatics
-Korea University
-Anam-dong 5-ga, Seongbuk-gu
-Seoul 136-713, Korea
+Room 614B, Science Library Bldg \
+College of Informatics \
+Korea University \
+Anam-dong 5-ga, Seongbuk-gu \
+Seoul 136-713, Korea \
 (email) seokhyunlee@korea.ac.kr
