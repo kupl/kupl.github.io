@@ -1,0 +1,46 @@
+{{ $id := .Get "id" }}
+{{ with .Page }}
+{{ with .GetPage $id }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "name" .Title }}
+{{ with .Params.ko }}{{ $scratch.Set "name" (print ($scratch.Get "name") " | " .) }}{{ end }}
+
+<div class="card" style="border: none; min-width:18rem;">
+    <div class="row g-0 align-items-center">
+        <div class="col-4 d-flex justify-content-center align-items-center">
+            <a href="{{ $id }}" class="link-dark link-underline link-underline-opacity-0">
+                {{ with .Params.portrait}}
+                <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ printf "%s/%s" $id . }}{{ end }}'>
+                {{ end }}
+            </a>
+        </div>
+        <div class="col-8">
+            <div class="card-body">
+                <a href="{{ $id }}" class="link-dark link-underline link-underline-opacity-0 link-underline-opacity-100-hover">
+                    <h6 class="card-title fs-6 fw-bold">{{ .Title }}</h6>
+                    {{ with .Params.ko }}
+                    <h6 class="card-title fs-6 fw-bold">{{ . }}</h6>
+                    {{ end }}
+                </a>
+                {{ if isset .Params "mail" }}
+                <a href="mailto:{{ .Params.mail }}"><i class="bi bi-envelope me-1"></i></a>
+                {{ else }}
+                <i class="bi bi-envelope me-1" style="color: gray;"></i>
+                {{ end }}
+                {{ if (and (isset .Params "materials") (isset .Params.materials "github")) }}
+                <a href="https://github.com/{{ .Params.materials.github }}" target="_blank"><i class="bi bi-github me-1"></i></a>
+                {{ else }}
+                <i class="bi bi-github me-1" style="color: gray;"></i>
+                {{ end }}
+                {{ if (and (isset .Params "materials") (isset .Params.materials "website")) }}
+                <a href="{{ .Params.materials.website }}"><i class="bi bi-house me-1"></i></a>
+                {{ else }}
+                <i class="bi bi-house me-1" style="color: gray;"></i>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+{{ end }}

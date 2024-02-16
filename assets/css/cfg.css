@@ -1,0 +1,47 @@
+.cfg > .nonterminal {
+    min-width: 11.5em;
+}
+
+.cfg > .nonterminal:has(~ ul li .card) {
+    padding-top:44px;
+}
+
+.cfg > ul > li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.cfg > ul > li:first-child::before {
+    content: "→";
+    font-weight: 900;
+    float: left;
+    width: 25px;
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cfg > ul > li:not(:first-child)::before {
+    content: "|";
+    font-weight: 900;
+    font-size: 1rem;
+    float: left;
+    width: 25px;
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cfg > ul > li:not(:first-child):has(> .card)::before {
+    content: "|";
+    font-weight: 100;
+    font-size: 2.5rem;
+}
