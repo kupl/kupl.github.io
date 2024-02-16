@@ -24,7 +24,7 @@ website = 'https://minseokjgit.github.io/'
 +++
 
 {{< callout markdown=true >}}
-**I mainly maintain [my persional website](https://minseokjgit.github.io). This site may miss some information.**
+**I mainly maintain [my personal website](https://minseokjgit.github.io). This site may miss some information.**
 {{< /callout >}}
 
 # About Me
