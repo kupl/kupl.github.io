@@ -4,6 +4,7 @@ title = 'Doyeon Hwang'
 ko = '황도연'
 role = 'Ph.D. Student'
 portrait = 'portrait.jpg'
+mail = 'fwangdo@korea.ac.kr'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
@@ -19,4 +20,6 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 +++
 
-# Doyeon Hwang
+[materials]
+github = 'fwangdo'
++++
