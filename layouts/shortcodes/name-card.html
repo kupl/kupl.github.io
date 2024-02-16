@@ -7,7 +7,7 @@
 
 <div class="card my-1" style="border: none; min-width:18rem;">
     <div class="row g-0 align-items-center">
-        <div class="col-md-4 d-flex justify-content-center align-items-center" style="height:150px">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
             <a href="{{ $id }}" class="link-dark link-underline link-underline-opacity-0">
                 {{ with .Params.portrait}}
                 <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ printf "%s/%s" $id . }}{{ end }}'>
