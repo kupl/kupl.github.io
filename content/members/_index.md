@@ -15,7 +15,6 @@ weight = 20
 {{< cfg/item markdown=true >}}[Postdoc. Researchers](#postdoc-researchers){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[PhD Students](#phd-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[MS Students](#ms-students){{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Undergrad. Interns](#undergrad-interns){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Alumni](#alumni){{< /cfg/item >}}
 {{< /cfg/items >}}
 
@@ -69,20 +68,7 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
-{{< /cfg/items >}}
-
-{{< /cfg >}}
-
-<!-- Undergrad. Interns -->
-{{< cfg >}}
-
-{{< cfg/nonterminal id="Undergrad. Interns" >}}
-
-{{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="donguk-kim">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
