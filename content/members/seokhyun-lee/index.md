@@ -23,21 +23,19 @@ github = 'henrylee97'
 website = 'https://seokhyunlee.info/'
 +++
 
-## Research Interest
+# Research Interest
 - Static analysis and verification
 - Program synthesis and repair
 
-## Education
-
+# Education
 - 2020 ~ present, Ph.D. Student [Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
 - 2016 ~ 2019, B.S. [Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
 - 2016 ~ 2019, B.B.A. [Business Administration](https://biz.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
 
-## Publications
-
+# Publications
 {{< publication-list data="publications" author="Seokhyun Lee" >}}
 
-## Contact Information
+# Contact Information
 Room 614B, Science Library Bldg \
 College of Informatics \
 Korea University \
