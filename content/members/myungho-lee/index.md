@@ -18,3 +18,8 @@ url = 'https://info.korea.ac.kr'
 name = 'Korea University'
 url = 'https://korea.ac.kr'
 +++
+
+
+# Publications
+
+{{< publication-list data="publications" author="Myungho Lee" >}}
