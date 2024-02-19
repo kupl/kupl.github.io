@@ -4,8 +4,6 @@ title = 'Hakjoo Oh'
 ko = '오학주'
 portrait = 'portrait.jpg'
 role = 'Professor'
-mail = 'hakjoo_oh@korea.ac.kr'
-homepage = 'https://prl.korea.ac.kr/members/hakjoo-oh/'
 
 [[affiliation]]
 name = 'Software Analysis Lab'
