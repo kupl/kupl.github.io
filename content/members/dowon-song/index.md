@@ -4,6 +4,7 @@ title = 'Dowon Song'
 ko = '송도원'
 role = 'Ph.D. Student'
 portrait = 'portrait.jpg'
+mail = 'dowon_song@korea.ac.kr'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
@@ -20,3 +21,6 @@ url = 'https://korea.ac.kr'
 +++
 
 # Dowon Song
+
+## Publications
+{{< publication-list data="publications" author="Dowon Song" >}}
