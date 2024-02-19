@@ -75,13 +75,13 @@ weight = 20
 
 ## Alumni
 
-## PhD
+### PhD
 - [Minseok Jeon](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University
 - [Sunbeom So](https://sites.google.com/site/sunbeomsoprl/) (2022.08): Assistant Professor, Gwangju Institute of Science and Technology
 - [Sooyoung Cha](https://sites.google.com/view/sooyoungcha/) (2021.02): Assistant Professor, Sungkyunkwan University
 - Sehun Jeong (2020.02, co-advised with Sungdeok Cha): Formal Works Inc.
 
-## MS
+### MS
 - Chan-Gu Kang (2023.02): KIST
 - Yunji Seo (2023.02): Hyundai AutoEver
 - Jiseong Bak (2023.02): Labradoh Labs
