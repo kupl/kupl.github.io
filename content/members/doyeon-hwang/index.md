@@ -21,3 +21,15 @@ url = 'https://korea.ac.kr'
 [materials]
 github = 'fwangdo'
 +++
+
+# Research Interest
+- Metamorphic testing
+- Formal verification
+
+# Contact Information
+Room 612, Science Library Bldg \
+College of Informatics \
+Korea University \
+Anam-dong 5-ga, Seongbuk-gu \
+Seoul 136-713, Korea \
+(email) fwangdo@korea.ac.kr
