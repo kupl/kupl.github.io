@@ -15,27 +15,30 @@
                 {{ else }}
                     {{ $image = .Resources.GetMatch .Params.portrait }}
                 {{ end }}
-                {{ with $image}}
-                    {{ $orientation := 1 }}
-                    {{ with .Exif }}
-                        {{ with .Tags }}
-                            {{ with .Orientation }}
-                                {{ $orientation = . }}
-                            {{ end }}
+                {{ $orientation := 1 }}
+                {{ with $image.Exif }}
+                    {{ with .Tags }}
+                        {{ with .Orientation }}
+                            {{ $orientation = . }}
                         {{ end }}
                     {{ end }}
-
-                    {{ $resizeImage := . }}
-                    {{ if eq $orientation 8 }}
-                        {{ $resizeImage = .Resize "1000x webp r90" }}
-                    {{ else if eq $orientation 6 }}
-                        {{ $resizeImage = .Resize "1000x webp r270" }}
-                    {{ else }}
-                        {{ $resizeImage = .Resize "1000x webp"  }}
-                    {{ end }}
-
-                    <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ $resizeImage.RelPermalink }}'>
                 {{ end }}
+
+                {{ if (gt $image.Width $image.Height) }}
+                    {{ $image = $image.Resize "x500" }}
+                {{ else }}
+                    {{ $image = $image.Resize "500x" }}
+                {{ end }}
+                {{ $image = $image.Crop "500x500" }}
+                {{ if eq $orientation 8 }}
+                    {{ $image = $image.Resize "500x webp r90" }}
+                {{ else if eq $orientation 6 }}
+                    {{ $image = $image.Resize "500x webp r270" }}
+                {{ else }}
+                    {{ $image = $image.Resize "500x webp"  }}
+                {{ end }}
+
+                <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ $image.RelPermalink }}'>
             </a>
         </div>
         <div class="col-8">
