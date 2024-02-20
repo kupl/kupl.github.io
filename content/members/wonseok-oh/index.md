@@ -3,7 +3,7 @@ draft = false
 title = 'Wonseok Oh'
 ko = '오원석'
 role = 'Ph.D. Student'
-portrait = 'https://marinelay.pages.dev/_app/immutable/assets/profile-5f10b7d4.png'
+portrait = 'portrait.png'
 
 [[affiliation]]
 name = 'Software Analysis Lab'
