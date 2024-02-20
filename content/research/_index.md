@@ -5,8 +5,9 @@ menu = 'main'
 weight = 30
 +++
 
-# Research Interest
-> *We develop techniques and tools for correct, secure, and efficient software.*
+# *We develop techniques and tools for correct, secure, and efficient software.*
+
+---
 
 ## Software Testing and Fuzzing 
 
