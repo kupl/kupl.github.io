@@ -17,7 +17,7 @@
                 {{ end }}
                 {{ with $image}}
                     {{ $image := .Fit "100x100" }}
-                    <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ .RelPermalink }}'>
+                    <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ $image.RelPermalink }}'>
                 {{ end }}
             </a>
         </div>
