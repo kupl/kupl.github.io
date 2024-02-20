@@ -6,8 +6,15 @@
 
 <div class="d-flex mt-2 mb-4">
     {{ if isset .Params "portrait" }}
+    {{ $image := "" }}
+    {{ if hasPrefix .Params.portrait "http" }}
+        {{ $image = resources.GetRemote .Params.portrait }}
+    {{ else }}
+        {{ $image = .Resources.GetMatch .Params.portrait }}
+    {{ end }}
+    {{ $image := $image.Resize "x750" }}
     <div class="me-3">
-        <img src="{{ .Params.portrait }}" height="150">
+        <img src="{{ $image.RelPermalink }}" height="150">
     </div>
     {{ end }}
     <div>
