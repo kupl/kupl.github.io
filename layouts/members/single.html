@@ -12,7 +12,21 @@
     {{ else }}
         {{ $image = .Resources.GetMatch .Params.portrait }}
     {{ end }}
-    {{ $image := $image.Resize "x750" }}
+    {{ $orientation := 1 }}
+    {{ with $image.Exif }}
+        {{ with .Tags }}
+            {{ with .Orientation }}
+                {{ $orientation = . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ if eq $orientation 8 }}
+        {{ $image = $image.Resize "x750 webp r90" }}
+    {{ else if eq $orientation 6 }}
+        {{ $image = $image.Resize "x750 webp r270" }}
+    {{ else }}
+        {{ $image = $image.Resize "x750 webp"  }}
+    {{ end }}
     <div class="me-3">
         <img src="{{ $image.RelPermalink }}" height="150">
     </div>
