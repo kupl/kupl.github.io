@@ -4,10 +4,22 @@
 {{ with .Params.ko }}{{ $scratch.Set "name" (print ($scratch.Get "name") " (" . ")") }}{{ end }}
 {{ partial "hook/heading.html" (dict "level" 1 "text" ($scratch.Get "name") "anchor" .File.ContentBaseName ) }}
 
+{{ $image := "" }}
+{{ if isset .Params "portrait" }}
+    {{ if hasPrefix .Params.portrait "http" }}
+        {{ $image := resources.GetRemote .Params.portrait }}
+    {{ else }}
+        {{ $image := resources.Get .Params.portrait }}
+    {{ end }}
+{{ end }}
+
 <div class="d-flex mt-2 mb-4">
     {{ if isset .Params "portrait" }}
     <div class="me-3">
-        <img src="{{ .Params.portrait }}" height="150">
+        {{ with $image }}
+            {{ $image := .Fit "150x150" }}
+            <img src="{{ .Permalink }}" height="150">
+        {{ end }}
     </div>
     {{ end }}
     <div>
