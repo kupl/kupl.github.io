@@ -16,8 +16,25 @@
                     {{ $image = .Resources.GetMatch .Params.portrait }}
                 {{ end }}
                 {{ with $image}}
-                    {{ $image := .Fit "100x100" }}
-                    <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ $image.RelPermalink }}'>
+                    {{ $orientation := 1 }}
+                    {{ with .Exif }}
+                        {{ with .Tags }}
+                            {{ with .Orientation }}
+                                {{ $orientation = . }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+
+                    {{ $resizeImage := . }}
+                    {{ if eq $orientation 8 }}
+                        {{ $resizeImage = .Resize "1000x webp r90" }}
+                    {{ else if eq $orientation 6 }}
+                        {{ $resizeImage = .Resize "1000x webp r270" }}
+                    {{ else }}
+                        {{ $resizeImage = .Resize "1000x webp"  }}
+                    {{ end }}
+
+                    <img class="img-fluid rounded-circle" style="height: 100px; object-fit: cover; width: 100px;" src='{{ $resizeImage.RelPermalink }}'>
                 {{ end }}
             </a>
         </div>
