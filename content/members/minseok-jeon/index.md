@@ -2,7 +2,7 @@
 draft = false
 title = 'Minseok Jeon'
 ko = '전민석'
-portrait = 'https://minseokjgit.github.io/images/me.png'
+portrait = 'me.png'
 role = 'Postdoctoral Researchers'
 
 [[affiliation]]
@@ -19,7 +19,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [materials]
-cv = 'https://minseokjgit.github.io/new_cv/cv.pdf'
+cv = 'cv.pdf'
 website = 'https://minseokjgit.github.io/'
 +++
 

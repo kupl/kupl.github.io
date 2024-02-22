@@ -3,7 +3,7 @@ draft = false
 title = 'Seokhyun Lee'
 ko = '이석현'
 role = 'Ph.D. Student'
-portrait = 'https://seokhyunlee.info/images/portrait.png'
+portrait = 'portrait.png'
 
 [[affiliation]]
 name = 'Software Analysis Lab'
