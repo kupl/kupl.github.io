@@ -48,9 +48,7 @@ weight = 20
 {{< cfg/nonterminal id="PhD Students" >}}
 
 {{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="seongjoon-hong">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="myungho-lee">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="junhee-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="dowon-song">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="seokhyun-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="jisuk-byun">}}{{< /cfg/item >}}
@@ -107,6 +105,8 @@ weight = 20
 {{< cfg/nonterminal id="PhD" >}}
 
 {{< cfg/items vertical=true >}}
+{{< cfg/item markdown=true >}}[Seongjoon Hong / 홍성준](https://seongjoonh.github.io/) (2024.02): Samsung Electronics{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Junhee Lee / 이준희 (2024.02){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Minseok Jeon / 전민석](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Sunbeom So / 소순범](https://sites.google.com/site/sunbeomsoprl/) (2022.08): Assistant Professor, Gwangju Institute of Science and Technology{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Sooyoung Cha / 차수영](https://sites.google.com/view/sooyoungcha/) (2021.02): Assistant Professor, Sungkyunkwan University{{< /cfg/item >}}
