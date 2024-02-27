@@ -5,5 +5,9 @@ menu = 'main'
 weight = 90
 +++
 
-<!-- The content in this page will not be rendered. -->
-<!-- See layouts/index.html -->
+# SAL & [PLRG](https://plrg.korea.ac.kr) Seminar
+> **When:** {{< seminar/when >}}
+>
+> **Where:** {{< seminar/where >}}
+
+{{< seminar/schedules >}}

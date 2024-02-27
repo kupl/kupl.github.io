@@ -1,11 +1,15 @@
 {{ define "main" }}
+{{ .Content }}
+
 <div id="seminar-container"></div>
 
 <script>
-    const api_url = 'https://salbox.korea.ac.kr/seminar/api/'
+    const api_url = 'https://salbox.korea.ac.kr/seminar/api/';
+    const when_placeholder = document.getElementById('seminar-when-placeholder');
+    const where_placeholder = document.getElementById('seminar-where-placeholder');
+    const schedules_placehoder = document.getElementById('seminar-schedules-placeholder');
 
     const handleSlide = async (file_url, slide, mode) => {
-        console.log(file_url)
         // URL에서 GET 요청 보내기
         fetch(file_url, {
             method: 'GET',
@@ -35,28 +39,24 @@
         });
     };
 
-    var container = document.getElementById('seminar-container');
     /**
      * Get the posts lists in json format.
      */
     const getSchedules = async () => {
         let response = await fetch(api_url + "current/")
         let data = await response.json()
-        // console.log(data)
         return data
     }
 
     const getSeminars = async (schedule_id) => {
         let response = await fetch(api_url + `seminar?scheduled_at=${schedule_id}`)
         let data = await response.json()
-        // console.log(data)
         return data
     }
 
     const getMember = async (member_id) => {
         let response = await fetch(api_url + `/member/${member_id}`)
         let data = await response.json()
-        // console.log(data)
         return data
     }
 
@@ -72,19 +72,17 @@
 
         schedule = schedules[0]
 
-        var schedules_html = document.createElement('div')
-        schedules_html.className = 'me-3'
+        const date = schedule.at.substring(0, 16).replace('T', ' ')
+        when_placeholder.innerHTML = date
 
-        var date = schedule.at.substring(0, 16).replace('T', ' ')
-        // var date = new Date(Date.parse(schedule.at))
-        // var date_str = date.toISOString().substring(0, 16).replace('T', ' ')
+        where_placeholder.innerHTML = schedule.location
 
         var seminars = await getSeminars(schedule.id)
         for (seminar of seminars) {
             var member = await getMember(seminar.speaker)
 
             var seminar_html = document.createElement('div')
-            seminar_html.className = 'me-3 card mb-3'
+            seminar_html.className = 'card mb-3'
 
             var seminar_inner = document.createElement('div')
             seminar_inner.className = 'card-body'
@@ -106,7 +104,6 @@
             seminar_inner.appendChild(seminar_abstract)
 
             if (seminar.slide != null) {
-                console.log(seminar.slide)
                 var seminar_download = document.createElement('button')
                 seminar_download.className = 'btn btn-primary me-2'
                 seminar_download.innerHTML = 'Download'
@@ -131,21 +128,8 @@
             }
 
             seminar_html.appendChild(seminar_inner)
-            schedules_html.appendChild(seminar_html)
-
-            console.log(schedules_html)
-
-            // schedules_html.innerHTML = format('<h4>{0}</h4>', date)
-            container.appendChild(schedules_html);
-
-
-            // console.log(seminars)
+            schedules_placehoder.appendChild(seminar_html)
         }
-
-        // data = JSON.stringify(schedules)
-        // console.log(data)
-            
-        // container.appendChild(schedules_html);
     }
 
     main()
