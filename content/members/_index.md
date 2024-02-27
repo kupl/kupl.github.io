@@ -107,10 +107,10 @@ weight = 20
 {{< cfg/nonterminal id="PhD" >}}
 
 {{< cfg/items vertical=true >}}
-{{< cfg/item markdown=true >}}[Minseok Jeon](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Sunbeom So](https://sites.google.com/site/sunbeomsoprl/) (2022.08): Assistant Professor, Gwangju Institute of Science and Technology{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Sooyoung Cha](https://sites.google.com/view/sooyoungcha/) (2021.02): Assistant Professor, Sungkyunkwan University{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Sehun Jeong (2020.02, co-advised with Sungdeok Cha): Formal Works Inc.{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Minseok Jeon / 전민석](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Sunbeom So / 소순범](https://sites.google.com/site/sunbeomsoprl/) (2022.08): Assistant Professor, Gwangju Institute of Science and Technology{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Sooyoung Cha / 차수영](https://sites.google.com/view/sooyoungcha/) (2021.02): Assistant Professor, Sungkyunkwan University{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Sehun Jeong / 정세훈 (2020.02, co-advised with Sungdeok Cha): Formal Works Inc.{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
@@ -121,18 +121,18 @@ weight = 20
 {{< cfg/nonterminal id="MS" >}}
 
 {{< cfg/items vertical=true >}}
-{{< cfg/item markdown=true >}}Chan-Gu Kang (2023.02): KIST{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Yunji Seo (2023.02): Hyundai AutoEver{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Jiseong Bak (2023.02): Labradoh Labs{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Jongwook Kim (2023.02): Furiosa AI{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Jinkook Kim (2023.02): Samsung Electronics{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Taeyeun Yang (2022.08): Coupang{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Heewoong Jang (2022.02): PiLab{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Jinkyung Kim (2022.02): Hyundai Mobis{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Donghoon Jeon (2021.02): Hyundai Mobis{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Seonho Lee (2020.08, all but dissertation): Formal Works Inc.{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Joonho Lee (2019.02): Samsung Electronics{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Kwonsoo Chae (2018.02): Megazone Cloud{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): KIST{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Yunji Seo / 서윤지 (2023.02): Hyundai AutoEver{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Jiseong Bak / 박지성 (2023.02): Labradoh Labs{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Jongwook Kim / 김종욱 (2023.02): Furiosa AI{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Jinkook Kim / 김진국 (2023.02): Samsung Electronics{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Taeyeun Yang / 양태연 (2022.08): Coupang{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Heewoong Jang / 장희웅 (2022.02): PiLab{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Jinkyung Kim / 김진경 (2022.02): Hyundai Mobis{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Donghoon Jeon / 전동훈 (2021.02): Hyundai Mobis{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Seonho Lee / 이선호 (2020.08, all but dissertation): Formal Works Inc.{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Joonho Lee / 이준호 (2019.02): Samsung Electronics{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Kwonsoo Chae / 채권수 (2018.02): Megazone Cloud{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
