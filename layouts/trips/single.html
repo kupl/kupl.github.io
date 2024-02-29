@@ -22,23 +22,25 @@
         content: counter(section)"."counter(subsection)". "
     }
 
-    figure {
-        width: 100%;
+    article > figure {
+        max-width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    figure > img {
+    article > figure > img {
+        max-width: 100%;
+        object-fit: scale-down;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0.5rem;
     }
 
-    figure > figcaption {
+    article > figure > figcaption {
         text-align: center;
     }
 
-    figure > figcaption > p::before {
+    article > figure > figcaption > p::before {
         counter-increment: figure;
         content: "Figure "counter(figure)". ";
         font-weight: bold;
