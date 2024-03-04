@@ -35,7 +35,7 @@
                 {{ else if eq $orientation 6 }}
                     {{ $image = $image.Resize "500x webp r270" }}
                 {{ else if eq $orientation 3 }}
-                    {{ $image = $image.Resize "1000x webp r180" }}
+                    {{ $image = $image.Resize "500x webp r180" }}
                 {{ else }}
                     {{ $image = $image.Resize "500x webp"  }}
                 {{ end }}
