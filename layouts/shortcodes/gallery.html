@@ -2,10 +2,12 @@
 {{ $folder := strings.TrimPrefix "./" $folder }}
 {{ $images := .Page.Resources.ByType "image" }}
 {{ $images := sort $images "Exif.Date" "desc" }}
+{{ $name := replace $folder "." "" }}
+{{ $name := replace $name "/" "-" }}
 
 <div class="gallery row">
-    {{ range $idx, $image := $images }}
-        {{ $image := strings.TrimPrefix "./" $image }}
+    {{ range $idx, $org := $images }}
+        {{ $image := strings.TrimPrefix "./" $org }}
         {{ $image := $.Page.Resources.GetMatch $image }}
         {{ $orientation := 1 }}
         {{ with $image.Exif }}
@@ -24,10 +26,19 @@
         {{ else }}
             {{ $image = $image.Resize "1000x webp" }}
         {{ end }}
-        <div class="item col-sm-6 col-lg-4 px-1 pb-2">
+        <div class="item col-sm-6 col-lg-4 px-1 pb-2" data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" data-bs-image="{{ $org }}">
             <div class="card">
                 <img src="{{ $image.RelPermalink }}" loading="lazy" class="card-img w-100">
             </div>
         </div>
     {{ end }}
+</div>
+
+<div class="modal fade" id="{{ $name }}Modal" tabindex="-1" aria-labelledby="{{ $name }}ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content bg-transparent border-0" data-bs-theme="dark">
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            <img class="img-fluid">
+        </div>
+    </div>
 </div>
