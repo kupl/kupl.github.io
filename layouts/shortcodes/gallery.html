@@ -1,47 +1,33 @@
 {{ $folder := .Get "folder" }}
 {{ $folder := strings.TrimPrefix "./" $folder }}
 {{ $images := .Page.Resources.ByType "image" }}
-{{ $images := print $folder "/*" | $images.Match }}
-{{ $name := split $folder "/" }}
-{{ $name := last 1 $name }}
-{{ $name := index $name 0 }}
+{{ $images := sort $images "Exif.Date" "desc" }}
 
-<div class="d-flex flex-wrap mb-4 mt-2">
+<div class="gallery row">
     {{ range $idx, $image := $images }}
         {{ $image := strings.TrimPrefix "./" $image }}
         {{ $image := $.Page.Resources.GetMatch $image }}
-        {{ with $image }}
-            {{ $image := .Resize "x150" }}
-            <div data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" class="flex-grow-0 flex-shrink-0 me-2">
-                <div data-bs-target="#{{ $name }}Carousel" data-bs-slide-to="{{ $idx }}">
-                    <img src="{{ $image.RelPermalink }}" class="img-thumbnail" alt="{{ $image.Name }}">
-                </div>
-            </div>
+        {{ $orientation := 1 }}
+        {{ with $image.Exif }}
+            {{ with .Tags }}
+                {{ with .Orientation }}
+                    {{ $orientation = . }}
+                {{ end }}
+            {{ end }}
         {{ end }}
-    {{ end }}
-</div>
-
-<div class="modal fade" id="{{ $name }}Modal" tabindex="-1" aria-labelledby="{{ $name }}ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
-        <div class="modal-content bg-transparent border-0">
-            <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
-            <div id="{{ $name }}Carousel" class="carousel slide">
-                <div class="carousel-inner">
-                    {{ range $idx, $image := $images }}
-                    <div class="carousel-item{{ if eq $idx 0 }} active{{ end }}">
-                        <img src="{{ $image }}" class="d-block w-100" alt="{{ $image }}">
-                    </div>
-                    {{ end }}
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#{{ $name }}Carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#{{ $name }}Carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+        {{ if eq $orientation 8 }}
+            {{ $image = $image.Resize "1000x webp r90" }}
+        {{ else if eq $orientation 6 }}
+            {{ $image = $image.Resize "1000x webp r270" }}
+        {{ else if eq $orientation 3 }}
+            {{ $image = $image.Resize "1000x webp r180" }}
+        {{ else }}
+            {{ $image = $image.Resize "1000x webp" }}
+        {{ end }}
+        <div class="item col-sm-6 col-lg-4 px-1 pb-2">
+            <div class="card">
+                <img src="{{ $image.RelPermalink }}" loading="lazy" class="card-img w-100">
             </div>
         </div>
-    </div>
+    {{ end }}
 </div>
