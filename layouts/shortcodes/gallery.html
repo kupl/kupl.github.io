@@ -27,8 +27,10 @@
             {{ $image = $image.Resize "1000x webp" }}
         {{ end }}
         <div class="item col-sm-6 col-lg-4 px-1 pb-2" data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" data-bs-image="{{ $org }}">
-            <div class="card">
-                <img src="{{ $image.RelPermalink }}" loading="lazy" class="card-img w-100">
+            <div data-bs-target="#{{ $name }}Carousel" data-bs-slide-to="{{ $idx }}">
+                <div class="card">
+                    <img src="{{ $image.RelPermalink }}" loading="lazy" class="card-img w-100">
+                </div>
             </div>
         </div>
     {{ end }}
@@ -38,7 +40,23 @@
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content bg-transparent border-0" data-bs-theme="dark">
             <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
-            <img class="img-fluid">
+            <div id="{{ $name }}Carousel" class="carousel slide">
+                <div class="carousel-inner d-flex align-items-center">
+                    {{ range $idx, $image := $images }}
+                    <div class="carousel-item{{ if eq $idx 0 }} active{{ end }}">
+                        <img src="{{ $image }}" class="d-block w-100" loading="lazy">
+                    </div>
+                    {{ end }}
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#{{ $name }}Carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#{{ $name }}Carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </div>
 </div>
