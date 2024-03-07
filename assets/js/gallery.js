@@ -1,10 +1,11 @@
-const gallery = document.querySelector('.gallery');
+const galleries = document.querySelectorAll('.gallery');
+galleries.forEach((gallery) => {
+    const masonry = new Masonry(gallery, {
+        itemSelector: '.item',
+        percentPosition: true
+    });
 
-const masonry = new Masonry(gallery, {
-    itemSelector: '.item',
-    percentPosition: true
-});
-
-imagesLoaded(gallery).on('progress', function () {
-    masonry.layout();
-});
+    imagesLoaded(gallery).on('progress', function (img, i) {
+        masonry.layout();
+    });
+}) 
