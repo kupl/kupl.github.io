@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/favicon.svg" />
     <title>{{ .Title }} - {{ .Site.Title }}</title>
-    {{ partial "head/conditional-css.html" . }}
+    {{ partial "head/conditional-assets.html" . }}
     {{ partial "head/bootstrap5.html" . }}
     {{ partial "head/blockquote.html" . }}
     {{ block "head" . }}{{ end }}
@@ -19,8 +19,6 @@
         {{ block "main" . }}{{ end }}
         {{ partial "footer/footer.html" . }}
     </div>
-    {{ partial "foot/bootstrap5.html" . }}
-    {{ partial "foot/conditional-js.html" . }}
 </body>
 
 </html>

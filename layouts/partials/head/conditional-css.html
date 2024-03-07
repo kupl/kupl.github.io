@@ -1,4 +1,0 @@
-{{ if .HasShortcode "cfg" }}
-{{ $block := resources.Get "css/cfg.css" }}
-<link rel="stylesheet" href="{{ $block.RelPermalink }}" />
-{{ end }}
