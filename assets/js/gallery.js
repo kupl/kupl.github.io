@@ -5,7 +5,7 @@ galleries.forEach((gallery) => {
         percentPosition: true
     });
 
-    imagesLoaded(gallery).on('progress', function (img, i) {
+    imagesLoaded(gallery).on('progress', function () {
         masonry.layout();
     });
 }) 
