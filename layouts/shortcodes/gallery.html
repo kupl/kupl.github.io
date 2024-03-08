@@ -5,7 +5,8 @@
 {{ $name := replace $folder "." "" }}
 {{ $name := replace $name "/" "-" }}
 
-<div class="gallery row">
+<div class="gallery row" id="{{ $name }}Gallery"></div>
+<div class="gallery-holder d-none" data-gallery-target="#{{ $name }}Gallery">
     {{ range $idx, $org := $images }}
         {{ $image := strings.TrimPrefix "./" $org }}
         {{ $image := $.Page.Resources.GetMatch $image }}
@@ -26,10 +27,18 @@
         {{ else }}
             {{ $image = $image.Resize "1000x webp" }}
         {{ end }}
-        <div class="item col-sm-6 col-lg-4 px-1 pb-2" data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" data-bs-image="{{ $org }}">
+        {{ $placeholder := $image.Resize "1x1" }}
+        {{ $placeholder := printf "%dx%d" $image.Width $image.Height | $placeholder.Resize }}
+        {{ $placeholderColor := index $placeholder.Colors 0 }}
+        {{ $placeholderColor := replace $placeholderColor "#" "%23" }}
+        <div class="gallery-item col-sm-6 col-lg-4 px-1 pb-2" data-bs-toggle="modal" data-bs-target="#{{ $name }}Modal" role="button" data-bs-image="{{ $org }}">
             <div data-bs-target="#{{ $name }}Carousel" data-bs-slide-to="{{ $idx }}">
                 <div class="card">
-                    <img src="{{ $image.RelPermalink }}" loading="lazy" class="card-img w-100">
+                    <img
+                        src="data:image/svg+xml;utf8,%3Csvg width='1000' height='{{ $image.Height }}' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1000' height='{{ $image.Height }}' x='0' y='0' fill='{{ $placeholderColor }}' /%3E%3C/svg%3E"
+                        data-src="{{ $image.RelPermalink }}"
+                        class="lazy card-img w-100"
+                    >
                 </div>
             </div>
         </div>
