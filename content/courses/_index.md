@@ -5,7 +5,7 @@ menu = 'main'
 weight = 60
 +++
 
-## 2023 Fall
+## 2024 Spring
 
 - [COSE 419: Software Verification]({{< relref "cose419/2024/_index.md" >}})
 - GECT 002: SW Programming Principles
