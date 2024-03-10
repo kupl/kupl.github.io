@@ -7,6 +7,12 @@ weight = 60
 
 ## 2023 Fall
 
+- [COSE 419: Software Verification]({{< relref "cose419/2024/_index.md" >}})
+- GECT 002: SW Programming Principles
+
+
+## 2023 Fall
+
 - [COSE 212: Programming Languages]({{< relref "cose212/2023/_index.md" >}})
 - AAA 616: Program Analysis
 
