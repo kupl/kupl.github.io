@@ -17,11 +17,11 @@ title = 'COSE419-24S'
     - Slides: [lec0.pdf](./slides/lec0.pdf) 
 - Introduction to Software Analysis
     - Slides: [lec1.pdf](./slides/lec1.pdf) 
-    - Video: [(1)](https://www.youtube.com/watch?v=AngZAxUIIys)
+    - Video: [(1)](https://www.youtube.com/watch?v=AngZAxUIIys) [(2)](https://youtu.be/xZ2yPZ-zWjY)
 - Fuzzing and Symbolic Execution
     - Slides: [lec2.pdf](./slides/lec2.pdf) [lec3.pdf](./slides/lec3.pdf) 
     - Code: [greybox.py](./greybox.py)
-    - Video: 
+    - Video: [(1)](https://youtu.be/ErwosOwRuzY)
 
 
 ## Programming Assignments
