@@ -19,7 +19,7 @@ title = 'COSE419-24S'
     - Slides: [lec1.pdf](./slides/lec1.pdf) 
     - Video: [(1)](https://www.youtube.com/watch?v=AngZAxUIIys)
 - Fuzzing and Symbolic Execution
-    - Slides: [lec2.pdf](./slides/lec2.pdf) 
+    - Slides: [lec2.pdf](./slides/lec2.pdf) [lec3.pdf](./slides/lec3.pdf) 
     - Code: [greybox.py](./greybox.py)
     - Video: 
 
