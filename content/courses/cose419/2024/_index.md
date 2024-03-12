@@ -8,7 +8,7 @@ title = 'COSE419-24S'
 ## Instructors 
 
 - Lecturer: [Hakjoo Oh]({{< ref "/members/hakjoo-oh" >}})
-- TAs: [Jisuk Byun]({{< ref "/members/jisuk-byun/" >}}), [Donguk Kim]({{< ref "/members/donguk-kim/" >}})
+- TAs: [Jisuk Byun]({{< ref "/members/jisuk-byun" >}}), [Donguk Kim]({{< ref "/members/donguk-kim" >}})
 
 
 ## Topics
@@ -18,6 +18,10 @@ title = 'COSE419-24S'
 - Introduction to Software Analysis
     - Slides: [lec1.pdf](./slides/lec1.pdf) 
     - Video: [(1)](https://www.youtube.com/watch?v=AngZAxUIIys)
+- Fuzzing and Symbolic Execution
+    - Slides: [lec2.pdf](./slides/lec2.pdf) 
+    - Video: 
+
 
 ## Programming Assignments
 
