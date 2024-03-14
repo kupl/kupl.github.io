@@ -21,7 +21,7 @@ title = 'COSE419-24S'
 - Fuzzing and Symbolic Execution
     - Slides: [lec2.pdf](./slides/lec2.pdf) [lec3.pdf](./slides/lec3.pdf) 
     - Code: [greybox.py](./greybox.py)
-    - Video: [(1)](https://youtu.be/ErwosOwRuzY)
+    - Video: [(1)](https://youtu.be/ErwosOwRuzY) [(2)](https://youtu.be/GOqwSIJLoRw) [(3)](https://youtu.be/b7QWsEf-6nU)
 
 
 ## Programming Assignments
