@@ -3,7 +3,7 @@ draft = false
 title = 'Haesojin Shin'
 ko = '신해소진'
 role = 'Ph.D. Student'
-portrait = 'portrait.jpg'
+portrait = 'portrait.png'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
