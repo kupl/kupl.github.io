@@ -29,7 +29,7 @@ title = 'COSE419-24S'
 ### Part 2: Program Verification
 - Propositional Logic
     - Slides [lec4.pdf](./slides/lec4.pdf)
-    - Video: [(1)](https://youtu.be/ImigmSCqyUE) 
+    - Video: [(1)](https://youtu.be/ImigmSCqyUE) [(2)](https://youtu.be/-sBjLmDF4Wk)
 
 ### Part 3: Abstract Interpretation 
 
