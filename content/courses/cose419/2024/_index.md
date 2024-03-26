@@ -30,6 +30,9 @@ title = 'COSE419-24S'
 - Propositional Logic
     - Slides [lec4.pdf](./slides/lec4.pdf)
     - Video: [(1)](https://youtu.be/ImigmSCqyUE) [(2)](https://youtu.be/-sBjLmDF4Wk)
+- Problem Solving using SMT Solver 
+    - Slides [lec5.pdf](./slides/lec5.pdf)
+    - Video:
 
 ### Part 3: Abstract Interpretation 
 
