@@ -29,10 +29,10 @@ title = 'COSE419-24S'
 ### Part 2: Program Verification
 - Propositional Logic
     - Slides [lec4.pdf](./slides/lec4.pdf)
-    - Video: [(1)](https://youtu.be/ImigmSCqyUE) [(2)](https://youtu.be/-sBjLmDF4Wk)
+    - Video: [(1)](https://youtu.be/ImigmSCqyUE) [(2)](https://youtu.be/-sBjLmDF4Wk) [(3)](https://youtu.be/-fDGoz2ebb8)
 - Problem Solving using SMT Solver 
     - Slides [lec5.pdf](./slides/lec5.pdf)
-    - Video:
+    - Video: 
 
 ### Part 3: Abstract Interpretation 
 
