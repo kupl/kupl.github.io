@@ -27,6 +27,18 @@
 #         en: https://www.media1.com
 #         ko: https://www.media2.com
 
+2024:
+  - title: "PL4XGL: A Programming Language Approach to Explainable Graph Learning"
+    authors:
+      - Minseok Jeon
+      - Jihyeok Park
+      - Hakjoo Oh
+    target: 
+      name: "PLDI 2024: 45th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+      url: https://pldi24.sigplan.org
+    materials:
+      pdf:
+
 2023:
   - title: "SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models"
     authors:
