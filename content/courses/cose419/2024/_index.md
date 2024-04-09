@@ -33,6 +33,9 @@ title = 'COSE419-24S'
 - Problem Solving using SMT Solver 
     - Slides [lec5.pdf](./slides/lec5.pdf)
     - Video: [(1)](https://youtu.be/hyebtnoNvrE) [(2)](https://youtu.be/AcWXRPhsL7E) [(3)](https://youtu.be/yhgecAwoSz0)
+- First-order Logic
+    - Slides [lec6.pdf](./slides/lec6.pdf)
+    - Video: 
 
 ### Part 3: Abstract Interpretation 
 
