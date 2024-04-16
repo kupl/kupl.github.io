@@ -36,6 +36,10 @@ title = 'COSE419-24S'
 - First-order Logic
     - Slides [lec6.pdf](./slides/lec6.pdf)
     - Video: [(1)](https://youtu.be/k6WBwBETWBU) [(2)](https://youtu.be/rJ0R_MU_pt0)
+- First-order Theories
+    - Slides [lec7.pdf](./slides/lec7.pdf)
+    - Video: 
+
 
 ### Part 3: Abstract Interpretation 
 
