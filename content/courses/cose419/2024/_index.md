@@ -38,7 +38,7 @@ title = 'COSE419-24S'
     - Video: [(1)](https://youtu.be/k6WBwBETWBU) [(2)](https://youtu.be/rJ0R_MU_pt0)
 - First-order Theories
     - Slides [lec7.pdf](./slides/lec7.pdf)
-    - Video: 
+    - Video: [(1)](https://youtu.be/5jWD2H44u7A) [(2)](https://youtu.be/gV9IZ5Zuuc8) 
 
 
 ### Part 3: Abstract Interpretation 
