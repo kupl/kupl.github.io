@@ -39,7 +39,9 @@ title = 'COSE419-24S'
 - First-order Theories
     - Slides [lec7.pdf](./slides/lec7.pdf)
     - Video: [(1)](https://youtu.be/5jWD2H44u7A) [(2)](https://youtu.be/gV9IZ5Zuuc8) 
-
+- Program Specification
+    - Slides [lec8.pdf](./slides/lec8.pdf)
+    - Video: 
 
 ### Part 3: Abstract Interpretation 
 
