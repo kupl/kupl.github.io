@@ -41,6 +41,9 @@ title = 'COSE419-24S'
     - Video: [(1)](https://youtu.be/5jWD2H44u7A) [(2)](https://youtu.be/gV9IZ5Zuuc8) 
 - Program Specification
     - Slides [lec8.pdf](./slides/lec8.pdf)
+    - Video: [(1)](https://youtu.be/qQh5UvtETuo)
+- Partial Correctness Proof
+    - Slides [lec9.pdf](./slides/lec9.pdf)
     - Video: 
 
 ### Part 3: Abstract Interpretation 
