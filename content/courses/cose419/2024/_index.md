@@ -11,13 +11,15 @@ title = 'COSE419-24S'
 - TAs: [Jisuk Byun]({{< ref "/members/jisuk-byun" >}}), [Donguk Kim]({{< ref "/members/donguk-kim" >}})
 
 
-## Slides
-### Part 1: Introduction 
+## Lectures
+### Part 0: Overview 
 - Course Overview
     - Slides: [lec0.pdf](./slides/lec0.pdf) 
 - Introduction to Software Analysis
     - Slides: [lec1.pdf](./slides/lec1.pdf) 
     - Video: [(1)](https://www.youtube.com/watch?v=AngZAxUIIys) [(2)](https://youtu.be/xZ2yPZ-zWjY)
+
+### Part 1: Testing
 - Greybox Fuzzing
     - Slides: [lec2.pdf](./slides/lec2.pdf)
     - Code: [greybox.py](./greybox.py)
@@ -26,7 +28,7 @@ title = 'COSE419-24S'
     - Slides: [lec3.pdf](./slides/lec3.pdf) 
     - Video: [(1)](https://youtu.be/b7QWsEf-6nU)
 
-### Part 2: Program Verification
+### Part 2: Verification
 - Propositional Logic
     - Slides [lec4.pdf](./slides/lec4.pdf)
     - Video: [(1)](https://youtu.be/ImigmSCqyUE) [(2)](https://youtu.be/-sBjLmDF4Wk) [(3)](https://youtu.be/-fDGoz2ebb8)
@@ -41,12 +43,12 @@ title = 'COSE419-24S'
     - Video: [(1)](https://youtu.be/5jWD2H44u7A) [(2)](https://youtu.be/gV9IZ5Zuuc8) 
 - Program Specification
     - Slides [lec8.pdf](./slides/lec8.pdf)
-    - Video: [(1)](https://youtu.be/qQh5UvtETuo)
+    - Video: [(1)](https://youtu.be/qQh5UvtETuo) [(2)](https://youtu.be/nTDGG32NGiY)
 - Partial Correctness Proof
     - Slides [lec9.pdf](./slides/lec9.pdf)
-    - Video: 
+    - Video: [(1)](https://youtu.be/LBiAxQOhSeg)
 
-### Part 3: Abstract Interpretation 
+### Part 3: Static Analysis
 
 ## Assignments
 
