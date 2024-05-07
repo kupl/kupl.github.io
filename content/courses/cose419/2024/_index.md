@@ -60,3 +60,4 @@ title = 'COSE419-24S'
 - HW1: SAT Solver [hw1.pdf](./homework/hw1.pdf) [template](https://github.com/kupl-courses/COSE419-2024/tree/main/hw1) (due 4/5 23:59)
 - HW2: Problem Solving using SMT Solver (1) [hw2.pdf](./homework/hw2.pdf) [template](https://github.com/kupl-courses/COSE419-2024/tree/main/hw2) (due 4/19 23:59)
 - HW3: Problem Solving using SMT Solver (2) [hw3.pdf](./homework/hw3.pdf) [template](https://github.com/kupl-courses/COSE419-2024/tree/main/hw3) (due 5/10 23:59)
+- HW4: Program Verification [hw4.pdf](./homework/hw4.pdf) [template](hltps://github.com/kupl-courses/COSE419-2024/tree/main/hw4) (due 5/30 23:59)
