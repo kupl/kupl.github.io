@@ -47,6 +47,10 @@ title = 'COSE419-24S'
 - Partial Correctness Proof
     - Slides [lec9.pdf](./slides/lec9.pdf)
     - Video: [(1)](https://youtu.be/LBiAxQOhSeg)
+- Total Correctness Proof
+    - Slides [lec10.pdf](./slides/lec10.pdf)
+    - Video: [(1)]
+
 
 ### Part 3: Static Analysis
 
