@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = 'Seminar'
 menu = 'main'
 weight = 90
