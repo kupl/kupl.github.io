@@ -17,6 +17,13 @@
 #         - name: Name2
 #           link: /reports/report_name2.pdf
 
+2024:
+  - name: IFIP WG 2.4 Meeting 69
+    from: 2024-05-13
+    to: 2024-05-16
+    where: Lugano, Switzerland
+    materials:
+      slides: /slides/ifip24.pdf
 
 2023:
   - name: SPLASH 2023
