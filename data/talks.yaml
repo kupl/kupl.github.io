@@ -10,13 +10,32 @@
 #       link: https://www.example.com
 #       abstract: https://www.example.com
 
+2024:
+  - title: "PL4XGL: A Programming Language Approach to Explainable Graph Learning"
+    where: "IFIP WG 2.4 Meeting (Lugano)"
+    when: "2024-05-14"
+    materials:
+      slides: /slides/ifip24.pdf
 
 2023:
+  - title: "Data-Driven Static Analysis"
+    where: "IFIP WG 2.4 Meeting (York Harbor)"
+    when: "2023-04-25"
+    materials:
+      slides: /slides/ifip23.pdf
+
   - title: "양자 프로그램 자동 합성"
     where: "컴퓨터시스템소사이어티 동계학술대회."
     when: "2023-02-06"
     materials:
       slides: /slides/comsys2023_slides.pdf
+
+2022:
+  - title: "Data-Driven Static Analysis: Combining Machine Learning and Program Analysis"
+    where: "POPL tutorial"
+    when: "2022-01-28"
+    materials:
+      slides: /slides/popl22tutorial.pdf
 
 2019:
   - title: "VeriSmart: 스마트 컨트랙트 안전성 검증기"

@@ -30,29 +30,32 @@ title = 'COSE419-24S'
 
 ### Part 2: Verification
 - Propositional Logic
-    - Slides [lec4.pdf](./slides/lec4.pdf)
+    - Slides: [lec4.pdf](./slides/lec4.pdf)
     - Video: [(1)](https://youtu.be/ImigmSCqyUE) [(2)](https://youtu.be/-sBjLmDF4Wk) [(3)](https://youtu.be/-fDGoz2ebb8)
 - Problem Solving using SMT Solver 
     - Slides [lec5.pdf](./slides/lec5.pdf)
     - Video: [(1)](https://youtu.be/hyebtnoNvrE) [(2)](https://youtu.be/AcWXRPhsL7E) [(3)](https://youtu.be/yhgecAwoSz0)
 - First-order Logic
-    - Slides [lec6.pdf](./slides/lec6.pdf)
+    - Slides: [lec6.pdf](./slides/lec6.pdf)
     - Video: [(1)](https://youtu.be/k6WBwBETWBU) [(2)](https://youtu.be/rJ0R_MU_pt0)
 - First-order Theories
-    - Slides [lec7.pdf](./slides/lec7.pdf)
+    - Slides: [lec7.pdf](./slides/lec7.pdf)
     - Video: [(1)](https://youtu.be/5jWD2H44u7A) [(2)](https://youtu.be/gV9IZ5Zuuc8) 
 - Program Specification
-    - Slides [lec8.pdf](./slides/lec8.pdf)
+    - Slides: [lec8.pdf](./slides/lec8.pdf)
     - Video: [(1)](https://youtu.be/qQh5UvtETuo) [(2)](https://youtu.be/nTDGG32NGiY)
 - Partial Correctness Proof
-    - Slides [lec9.pdf](./slides/lec9.pdf)
+    - Slides: [lec9.pdf](./slides/lec9.pdf)
     - Video: [(1)](https://youtu.be/LBiAxQOhSeg) [(2)](https://youtu.be/wdK23RX3L6E)
 - Total Correctness Proof
-    - Slides [lec10.pdf](./slides/lec10.pdf)
+    - Slides: [lec10.pdf](./slides/lec10.pdf)
     - Video: [(1)](https://youtu.be/TLKScRNs9Mw)
 
 
 ### Part 3: Static Analysis
+- Static Analysis Overview
+    - Slides [lec11.pdf](./slides/lec11.pdf)
+    - Video: [(1)]
 
 ## Assignments
 
