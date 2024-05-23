@@ -37,7 +37,8 @@ cv = 'cv.pdf'
 
 ## Positions
 
-- 2018.09 ~ present, Associate Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
+- 2023.09 ~ present, Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
+- 2018.09 ~ 2023.08, Associate Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
 - 2015.03 ~ 2018.08, Assistant Professor, [Dept. of Computer Science and Engineering](https://cs.korea.ac.kr/), [Korea University](https://korea.ac.kr/)
 - 2012.03 ~ 2015.02, Postdoctral Researcher, [Seoul National University](https://www.snu.ac.kr/)
 
