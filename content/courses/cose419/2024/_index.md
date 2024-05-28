@@ -55,9 +55,12 @@ title = 'COSE419-24S'
 ### Part 3: Static Analysis
 - Static Analysis Overview
     - Slides [lec11.pdf](./slides/lec11.pdf)
-    - Video: [(1)](https://youtu.be/mT4qDt5BvP4)
+    - Video: [(1)](https://youtu.be/mT4qDt5BvP4) [(2)](https://youtu.be/kFsQJY6xY5A)
 - Interval Analysis
     - Slides [lec12.pdf](./slides/lec12.pdf)
+    - Video: [(1)](https://youtu.be/qZmQnD7Bi38)
+- Relational Analysis
+    - Slides [lec13.pdf](./slides/lec13.pdf)
     - Video: 
 
 ## Assignments
