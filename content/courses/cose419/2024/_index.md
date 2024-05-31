@@ -58,10 +58,10 @@ title = 'COSE419-24S'
     - Video: [(1)](https://youtu.be/mT4qDt5BvP4) [(2)](https://youtu.be/kFsQJY6xY5A)
 - Interval Analysis
     - Slides [lec12.pdf](./slides/lec12.pdf)
-    - Video: [(1)](https://youtu.be/qZmQnD7Bi38)
+    - Video: [(1)](https://youtu.be/qZmQnD7Bi38) [(2)](https://youtu.be/MtfedK32tvk)
 - Relational Analysis
     - Slides [lec13.pdf](./slides/lec13.pdf)
-    - Video: 
+    - Video: [(1)](https://youtu.be/G1vUqPGx7OY)
 
 ## Assignments
 
