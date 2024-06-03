@@ -17,7 +17,6 @@ hugo.linux
 
 # VS Code
 .vscode/
-.devcontainer
 
 # VIM
 *.swp

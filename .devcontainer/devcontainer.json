@@ -1,0 +1,10 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/homebrew-package:1": {
+			"package": "hugo",
+			"version": "latest"
+		}
+	}
+}
