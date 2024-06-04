@@ -62,6 +62,9 @@ title = 'COSE419-24S'
 - Relational Analysis
     - Slides [lec13.pdf](./slides/lec13.pdf)
     - Video: [(1)](https://youtu.be/G1vUqPGx7OY)
+- Pointer Analysis
+    - Slides [lec14.pdf](./slides/lec14.pdf)
+    - Video: 
 
 ## Assignments
 
