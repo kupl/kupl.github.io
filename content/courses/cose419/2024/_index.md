@@ -64,7 +64,7 @@ title = 'COSE419-24S'
     - Video: [(1)](https://youtu.be/G1vUqPGx7OY)
 - Pointer Analysis
     - Slides [lec14.pdf](./slides/lec14.pdf)
-    - Video: 
+    - Video: [(1)](https://youtu.be/bemR_MeoEtg) [(2)](https://youtu.be/pwWkVHfHMn8)
 
 ## Assignments
 
