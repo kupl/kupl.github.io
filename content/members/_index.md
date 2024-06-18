@@ -83,6 +83,7 @@ weight = 20
 {{< cfg/item >}}{{< name-card id="miryeong-kang">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="seunghyun-park">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="jiho-shinn" >}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="sangwoon-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="mingyu-jo">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="seokho-lee">}}{{< /cfg/item >}}
