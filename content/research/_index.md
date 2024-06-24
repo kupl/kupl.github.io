@@ -37,9 +37,10 @@ Techniques for automatically fixing bugs or generating correct code:
 - [NPEX: Repairing Java Null Pointer Exceptions without Tests. ICSE 2022](/papers/npex.pdf)
 - [Context-Aware and Data-Driven Feedback Generation for Programming Assignments. ESEC/FSE 2021](/papers/fse21.pdf)
 - [SAVER: Scalable, Precise, and Safe Memory-Error Repair. ICSE 2020](/papers/icse20.pdf)
-- [MemFix: Static Analysis-Based Repair of Memory Deallocation Errors for C](/papers/fse18.pdf)
+- [MemFix: Static Analysis-Based Repair of Memory Deallocation Errors for C. FSE 2018](/papers/fse18.pdf)
 
 ## Quantum Programming 
 
 Techniques for building correct and efficient quantum programs:
+- [Statistical Testing of Quantum Programs via Fixed-Point Amplitude Amplification. OOPSLA 2024](/papers/oopsla24-qtest.pdf)
 - [Modular Component-Based Quantum Circuit Synthesis. OOPSLA 2023](/papers/oopsla23-qsynth.pdf)

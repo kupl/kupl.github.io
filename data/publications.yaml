@@ -28,6 +28,17 @@
 #         ko: https://www.media2.com
 
 2024:
+  - title: "Statistical Testing of Quantum Programs via Fixed-Point Amplitude Amplification"
+    authors:
+      - Chan Gu Kang 
+      - Joonghoon Lee
+      - Hakjoo Oh
+    target: 
+      name: "OOPSLA 2024: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://2024.splashcon.org/track/splash-2024-oopsla
+    materials:
+      pdf: 
+
   - title: "PL4XGL: A Programming Language Approach to Explainable Graph Learning"
     authors:
       - Minseok Jeon
@@ -37,7 +48,7 @@
       name: "PLDI 2024: 45th ACM SIGPLAN Conference on Programming Language Design and Implementation"
       url: https://pldi24.sigplan.org
     materials:
-      pdf:
+      pdf: /papers/pldi24.pdf
 
 2023:
   - title: "SmartFix: Fixing Vulnerable Smart Contracts by Accelerating Generate-and-Verify Repair using Statistical Models"
