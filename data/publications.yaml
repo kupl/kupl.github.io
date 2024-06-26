@@ -71,6 +71,7 @@
       name: "Security 2023: 32nd USENIX Security Symposium"
       url: https://www.usenix.org/conference/usenixsecurity23
     materials:
+      pdf: /papers/sec23.pdf
 
   - title: Optimizing Homomorphic Evaluation Circuits by Program Synthesis and Time-Bounded Exhaustive Search
     authors:
