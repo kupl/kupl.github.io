@@ -18,6 +18,25 @@
 #           link: /reports/report_name2.pdf
 
 2024:
+  - name: PLDI 2024
+    from: 2024-06-24
+    to: 2024-06-30
+    where: Copenhagen, Denmark
+    materials:
+      reports:
+        - name: Minseok
+          link: ~
+        - name: Dowon
+          link: ~
+        - name: Wonseok
+          link: /reports/pldi24_wonseok.pdf
+        - name: Donguk
+          link: ~
+        - name: Hayeong
+          link: ~
+        - name: Miryeong
+          link: ~
+          
   - name: IFIP WG 2.4 Meeting 69
     from: 2024-05-13
     to: 2024-05-16
