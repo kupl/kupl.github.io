@@ -25,7 +25,7 @@
     materials:
       reports:
         - name: Dowon
-          link: /reports/pldi24_dowon.pdf
+          link: /reports/pldi2024_dowon.pdf
         - name: Wonseok
           link: /reports/pldi24_wonseok.pdf
         - name: Hayeong
