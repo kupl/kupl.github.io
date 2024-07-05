@@ -33,7 +33,7 @@
         - name: Donguk
           link: ~
         - name: Miryeong
-          link: ~
+          link: /reports/pldi24_miryeong.pdf
           
   - name: IFIP WG 2.4 Meeting 69
     from: 2024-05-13
