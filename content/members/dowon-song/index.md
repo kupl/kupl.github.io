@@ -7,7 +7,7 @@ portrait = 'portrait.jpg'
 
 [[affiliation]]
 name = 'Software Analysis Laboratory'
-url = '/'
+url = 'https://prl.korea.ac.kr'
 [[affiliation]]
 name = 'Dept. of Computer Science and Engineering'
 url = 'https://cs.korea.ac.kr'
