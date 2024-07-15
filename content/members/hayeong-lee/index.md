@@ -18,3 +18,6 @@ url = 'https://info.korea.ac.kr'
 name = 'Korea University'
 url = 'https://korea.ac.kr'
 +++
+
+# Research Interest
+- Program Synthesis
