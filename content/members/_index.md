@@ -80,7 +80,6 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="junyong-heo" >}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="jisoo-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="miryeong-kang">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="jiho-shinn" >}}{{< /cfg/item >}}
