@@ -19,7 +19,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [materials]
-github = 'whangdo'
+github = 'fwangdo'
 +++
 
 # Research Interest
