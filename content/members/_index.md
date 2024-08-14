@@ -54,7 +54,6 @@ weight = 20
 {{< cfg/item >}}{{< name-card id="jisuk-byun">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="doyeon-hwang">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="minsu-kim">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="seungwon-han">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="wonseok-oh">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="haesojin-shin">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
