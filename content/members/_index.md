@@ -122,9 +122,9 @@ weight = 20
 {{< cfg/nonterminal id="MS" >}}
 
 {{< cfg/items vertical=true >}}
-{{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): KIST{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Yunji Seo / 서윤지 (2023.02): Hyundai AutoEver{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Jiseong Bak / 박지성 (2023.02): Labradoh Labs{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Jiseong Bak / 박지성 (2023.02): Labrador Labs{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Jongwook Kim / 김종욱 (2023.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Jinkook Kim / 김진국 (2023.02): Samsung Electronics{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Taeyeun Yang / 양태연 (2022.08): Coupang{{< /cfg/item >}}
