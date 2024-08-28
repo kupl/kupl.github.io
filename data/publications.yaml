@@ -28,6 +28,43 @@
 #         ko: https://www.media2.com
 
 2024:
+  - title: "Towards Effective Static Type-Error Detection for Python"
+    authors:
+      - Wonseok Oh
+      - Hakjoo Oh
+    target: 
+      name: "ASE 2024: IEEE/ACM International Conference on Automated Software Engineering"
+      url: https://conf.researchr.org/home/ase-2024
+    materials:
+      pdf: 
+
+  - title: "Effective Unit Test Generation for Java Null Pointer Exceptions"
+    authors:
+      - Myungho Lee
+      - Jiseong Bak
+      - Seokhyeon Moon
+      - Yoon-Chan Jhi
+      - Hakjoo Oh
+    target: 
+      name: "ASE 2024: IEEE/ACM International Conference on Automated Software Engineering"
+      url: https://conf.researchr.org/home/ase-2024
+    materials:
+      pdf: 
+
+  - title: "Quantum Probabilistic Model Checking"
+    authors:
+      - Seungmin Jeon
+      - Kyeongmin Cho
+      - Chan Gu Kang 
+      - Janggun Lee
+      - Hakjoo Oh
+      - Jeehoon Kang
+    target: 
+      name: "OOPSLA 2024: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://2024.splashcon.org/track/splash-2024-oopsla
+    materials:
+      pdf: 
+
   - title: "Statistical Testing of Quantum Programs via Fixed-Point Amplitude Amplification"
     authors:
       - Chan Gu Kang 
@@ -38,6 +75,7 @@
       url: https://2024.splashcon.org/track/splash-2024-oopsla
     materials:
       pdf: 
+
 
   - title: "PL4XGL: A Programming Language Approach to Explainable Graph Learning"
     authors:
