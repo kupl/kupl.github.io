@@ -35,4 +35,9 @@ title = 'COSE212-23F'
 - Course Review: [lec19.pdf](./slides/lec19.pdf)
 
 ## Programming Assignments
+- Homework 1 (Functional Programming) [hw1.pdf](./hw/hw1.pdf) (Due: 9/22 23:59)
+- Homework 2 (Interpreter for Functional Language) [hw2.pdf](./hw/hw2.pdf) (Due: 10/6 23:59)
+- Homework 3 (Interpreter for Imperative Language) [hw3.pdf](./hw/hw3.pdf) (Due: 10/27 23:59)
+- Homework 4 (Static Type System) [hw4.pdf](./hw/hw4.pdf) (Due: 11/17 23:59)
+
 
