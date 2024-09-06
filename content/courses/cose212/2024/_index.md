@@ -40,4 +40,7 @@ title = 'COSE212-23F'
 - Homework 3 (Interpreter for Imperative Language) [hw3.pdf](./hw/hw3.pdf) (Due: 10/27 23:59)
 - Homework 4 (Static Type System) [hw4.pdf](./hw/hw4.pdf) (Due: 11/17 23:59)
 
+## Programming Environments
+- [실습환경 안내: TryML](./howtotryml.pdf)
+
 
