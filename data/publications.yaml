@@ -75,6 +75,8 @@
       url: https://2024.splashcon.org/track/splash-2024-oopsla
     materials:
       pdf: 
+      appendix: https://zenodo.org/records/13335928
+      artifact: https://zenodo.org/records/13370788
 
 
   - title: "PL4XGL: A Programming Language Approach to Explainable Graph Learning"
