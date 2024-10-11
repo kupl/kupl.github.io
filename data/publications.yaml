@@ -74,7 +74,7 @@
       name: "OOPSLA 2024: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
       url: https://2024.splashcon.org/track/splash-2024-oopsla
     materials:
-      pdf: 
+      pdf: https://dl.acm.org/doi/pdf/10.1145/3689716
       appendix: https://zenodo.org/records/13335928
       artifact: https://zenodo.org/records/13370788
 
