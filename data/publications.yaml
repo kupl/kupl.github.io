@@ -36,7 +36,7 @@
       name: "ASE 2024: IEEE/ACM International Conference on Automated Software Engineering"
       url: https://conf.researchr.org/home/ase-2024
     materials:
-      pdf: 
+      pdf: /papers/ase24_wonseok.pdf
 
   - title: "Effective Unit Test Generation for Java Null Pointer Exceptions"
     authors:
