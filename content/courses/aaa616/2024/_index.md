@@ -17,4 +17,7 @@ title = 'AAA616-24F'
 - Lecture 3: Operational Semantics [lec3.pdf](./slides/lec3.pdf)
 - Lecture 4: Denotational Semantics [lec4.pdf](./slides/lec4.pdf)
 - Lecture 5: Axiomatic Semantics [lec5.pdf](./slides/lec5.pdf)
+- Lecture 6: Abstract Interpretation [lec6.pdf](./slides/lec6.pdf)
+- Lecture 7: Abstract Interpretation Example (1) [lec7.pdf](./slides/lec7.pdf)
+- Lecture 8: Abstract Interpretation Example (2) [lec8.pdf](./slides/lec8.pdf)
 
