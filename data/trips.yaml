@@ -38,7 +38,7 @@
         - name: Joonghoon
           link: /
         - name: Jiho
-          link: /
+          link: /reports/splash24_jiho.pdf
 
   - name: PLDI 2024
     from: 2024-06-24
