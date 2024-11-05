@@ -6,6 +6,10 @@
 [{{ partial "hook/link.html" (dict "dest" . "text" "pdf") }}]
 {{ end }}
 
+{{ with .appendix }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "appendix") }}]
+{{ end }}
+
 {{ with .artifact }}
 [{{ partial "hook/link.html" (dict "dest" . "text" "artifact") }}]
 {{ end }}

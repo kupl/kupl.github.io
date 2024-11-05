@@ -5,6 +5,12 @@ menu = 'main'
 weight = 60
 +++
 
+## 2024 Fall
+
+- [COSE 212: Programming Languages]({{< relref "cose212/2024/_index.md" >}})
+- [AAA 616: Program Analysis]({{< relref "aaa616/2024/_index.md" >}})
+
+
 ## 2024 Spring
 
 - [COSE 419: Software Verification]({{< relref "cose419/2024/_index.md" >}})
