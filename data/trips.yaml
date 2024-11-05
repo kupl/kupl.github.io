@@ -18,6 +18,28 @@
 #           link: /reports/report_name2.pdf
 
 2024:
+  - name: SPLASH 2024
+    from: 2024-10-27
+    to: 2024-11-01
+    where: Sacramento, California, United States
+    materials:
+      reports:
+        - name: Myungho
+          link: /
+        - name: Wonseok
+          link: /
+
+  - name: SPLASH 2024
+    from: 2024-10-20
+    to: 2024-10-25
+    where: Pasadena, California, United States
+    materials:
+      reports:
+        - name: Joonghoon
+          link: /
+        - name: Jiho
+          link: /
+
   - name: PLDI 2024
     from: 2024-06-24
     to: 2024-06-30
