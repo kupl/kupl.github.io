@@ -36,7 +36,7 @@
     materials:
       reports:
         - name: Joonghoon
-          link: /
+          link: /reports/splash24_joonghoon.pdf
         - name: Jiho
           link: /reports/splash24_jiho.pdf
 
