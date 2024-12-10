@@ -49,9 +49,9 @@
       name: "ASE 2024: IEEE/ACM International Conference on Automated Software Engineering"
       url: https://conf.researchr.org/home/ase-2024
     materials:
-      pdf: 
+      pdf: /papers/npetest.pdf
 
-  - title: "Quantum Probabilistic Model Checking"
+  - title: "Quantum Probabilistic Model Checking for Time-Bounded Properties"
     authors:
       - Seungmin Jeon
       - Kyeongmin Cho
@@ -63,7 +63,7 @@
       name: "OOPSLA 2024: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
       url: https://2024.splashcon.org/track/splash-2024-oopsla
     materials:
-      pdf: 
+      pdf: /papers/qpmc.pdf
 
   - title: "Statistical Testing of Quantum Programs via Fixed-Point Amplitude Amplification"
     authors:

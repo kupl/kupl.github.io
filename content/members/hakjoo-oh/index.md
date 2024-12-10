@@ -44,11 +44,11 @@ cv = 'cv.pdf'
 
 ## Program Committee (PC)
 
-- 2025: [SAS]() (PC Co-Chair) [ICFP](https://icfp25.sigplan.org) [ICSE](https://conf.researchr.org/home/icse-2025) [POPL](https://conf.researchr.org/home/POPL-2025)
+- 2025: [SAS](https://2025.splashcon.org/home/sas-2025) (PC Co-Chair) [ICFP](https://icfp25.sigplan.org) [ICSE](https://conf.researchr.org/home/icse-2025) [POPL](https://conf.researchr.org/home/POPL-2025) [OOPSLA](https://2025.splashcon.org/track/OOPSLA)
 - 2024: [PLDI](https://pldi24.sigplan.org), [ISSTA](https://conf.researchr.org/home/issta-2024), [ICSE](https://conf.researchr.org/track/icse-2024/icse-2024-research-track)
 - 2023: [ISSTA](https://2023.issta.org/track/issta-2023-technical-papers), [CC](https://conf.researchr.org/home/CC-2023)
 - 2022: [OOPSLA](https://2022.splashcon.org/track/splash-2022-oopsla?), [ISSTA](https://conf.researchr.org/home/issta-2022), [PLDI](https://pldi22.sigplan.org/)
-- 2021: [APLAS 2021](https://conf.researchr.org/home/aplas-2021) (PC chair), [OOPSLA](https://2021.splashcon.org/track/splash-2021-oopsla), [ECOOP](https://2021.ecoop.org/home/ecoop-issta-2021), [ICSE](https://conf.researchr.org/home/icse-2021)
+- 2021: [APLAS 2021](https://conf.researchr.org/home/aplas-2021) (PC Chair), [OOPSLA](https://2021.splashcon.org/track/splash-2021-oopsla), [ECOOP](https://2021.ecoop.org/home/ecoop-issta-2021), [ICSE](https://conf.researchr.org/home/icse-2021)
 - 2020: [TAPAS](https://2020.splashcon.org/home/tapas-2020) (PC Co-Chair), [APLAS](https://conf.researchr.org/home/aplas-2020), [OOPSLA](https://2020.splashcon.org/track/splash-2020-oopsla), [LCTES](https://conf.researchr.org/home/LCTES-2020), [ATVA](http://fit.uet.vnu.edu.vn/atva2020/)
 - 2019: [SAS](http://staticanalysis.org/sas2019) (Artifact Evaluation Chair), [CAV](http://i-cav.org/2019/), [ATVA](http://atva2019.iis.sinica.edu.tw)
 - 2018: [APLAS](http://aplas2018.org), [SAS](http://staticanalysis.org/sas2018/sas2018.html), [OOPSLA](https://conf.researchr.org/track/splash-2018/splash-2018-OOPSLA)
