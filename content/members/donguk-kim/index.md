@@ -17,4 +17,8 @@ url = 'https://info.korea.ac.kr'
 [[affiliation]]
 name = 'Korea University'
 url = 'https://korea.ac.kr'
+
+[materials]
+github = 'kumdo0327'
+website = 'https://kumdo0327.github.io/'
 +++
