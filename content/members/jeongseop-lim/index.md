@@ -23,3 +23,12 @@ website = 'https://about.jseoplim.com'
 +++
 
 > Please visit [my website](https://about.jseoplim.com) for further details.
+
+## Contact Information
+
+Room 614B, Science Library Bldg \
+College of Informatics \
+Korea University \
+Anam-dong 5-ga, Seongbuk-gu \
+Seoul 136-713, Korea \
+(email) <qaws1000@korea.ac.kr>
