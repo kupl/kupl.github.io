@@ -2,7 +2,7 @@
 draft = false
 title = 'Donguk Kim'
 ko = '김동욱'
-role = 'M.S. Student'
+role = 'Ph.D. Student'
 portrait = 'portrait.jpg'
 
 [[affiliation]]
