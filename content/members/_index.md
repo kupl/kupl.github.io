@@ -69,6 +69,8 @@ weight = 20
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="miryeong-kang">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="junyong-heo" >}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="juyoung-an">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
@@ -80,8 +82,6 @@ weight = 20
 {{< cfg/nonterminal id="Undergrad. Interns" >}}
 
 {{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="junyong-heo" >}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="jiho-shinn" >}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="mingyu-jo">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="seokho-lee">}}{{< /cfg/item >}}
@@ -108,7 +108,7 @@ weight = 20
 {{< cfg/nonterminal id="PhD" >}}
 
 {{< cfg/items vertical=true >}}
-{{< cfg/item markdown=true >}}[Seongjoon Hong / 홍성준](https://seongjoonh.github.io/) (2024.02): Samsung Electronics{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Seongjoon Hong / 홍성준 (2024.02): Samsung Electronics{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Junhee Lee / 이준희 (2024.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Minseok Jeon / 전민석](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Sunbeom So / 소순범](https://gist-pal.github.io) (2022.08): Assistant Professor, Gwangju Institute of Science and Technology{{< /cfg/item >}}
