@@ -69,6 +69,7 @@ weight = 20
 {{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="donguk-kim">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="miryeong-kang">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="juyoung-an">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
