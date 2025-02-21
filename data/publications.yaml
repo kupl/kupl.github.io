@@ -27,6 +27,19 @@
 #         en: https://www.media1.com
 #         ko: https://www.media2.com
 
+2025:
+  - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
+    authors:
+      - Donguk Kim 
+      - Doha Hwang
+      - Minseok Jeon
+      - Hakjoo Oh
+    target: 
+      name: "OOPSLA 2025: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://2025.splashcon.org/track/OOPSLA
+    materials:
+      pdf: 
+
 2024:
   - title: "Towards Effective Static Type-Error Detection for Python"
     authors:
