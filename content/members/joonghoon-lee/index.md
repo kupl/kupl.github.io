@@ -24,13 +24,14 @@ website = 'https://joonghoonlee.com'
 
 ## About
 
-I am currently a fourth-year undergraduate student in Computer Science and Engineering at [Korea University](https://korea.edu), actively contributing as an undergraduate researcher in the [Software Analysis Lab](https://prl.korea.ac.kr/).
+I am currently a master's student in Computer Science and Engineering at [Korea University](https://cs.korea.ac.kr/), where I also completed my Bachelor of Science (BS) in the same field. I am actively contributing as a researcher in the [Software Analysis Lab](https://prl.korea.ac.kr/).
+
 
 My research interests are in the following areas:
 
-- Quantum Computing
+- Software Verification, Analysis, and Engineering
 - Mathematical Optimization
-- Software Analysis
-- Theory of Computation
+- Quantum Computing
+
 
 > For more details, please visit [my personal website](https://joonghoonlee.com).
