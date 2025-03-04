@@ -48,14 +48,12 @@ weight = 20
 {{< cfg/nonterminal id="PhD Students" >}}
 
 {{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="myungho-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="dowon-song">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="seokhyun-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="jisuk-byun">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="doyeon-hwang">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="minsu-kim">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="wonseok-oh">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="haesojin-shin">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="donguk-kim">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
@@ -67,7 +65,7 @@ weight = 20
 {{< cfg/nonterminal id="MS Students" >}}
 
 {{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="hayeong-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="haesojin-shin">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="miryeong-kang">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="junyong-heo" >}}{{< /cfg/item >}}
@@ -108,6 +106,7 @@ weight = 20
 {{< cfg/nonterminal id="PhD" >}}
 
 {{< cfg/items vertical=true >}}
+{{< cfg/item markdown=true >}}Myungho Lee / 이명호 (2025.02): Samsung SDS{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Seongjoon Hong / 홍성준 (2024.02): Samsung Electronics{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Junhee Lee / 이준희 (2024.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Minseok Jeon / 전민석](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
@@ -124,6 +123,7 @@ weight = 20
 {{< cfg/nonterminal id="MS" >}}
 
 {{< cfg/items vertical=true >}}
+{{< cfg/item markdown=true >}}Hayeong Lee / 이하영 (2025.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Yunji Seo / 서윤지 (2023.02): Hyundai AutoEver{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Jiseong Bak / 박지성 (2023.02): Labrador Labs{{< /cfg/item >}}
