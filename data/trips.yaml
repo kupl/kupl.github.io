@@ -17,6 +17,14 @@
 #         - name: Name2
 #           link: /reports/report_name2.pdf
 
+2025:
+  - name: IFIP WG 2.4 Meeting 70
+    from: 2025-02-23
+    to: 2025-02-27
+    where: Singapore
+    materials:
+      slides: /slides/ifip25.pdf
+
 2024:
   - name: ASE 2024
     from: 2024-10-27

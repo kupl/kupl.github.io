@@ -10,6 +10,13 @@
 #       link: https://www.example.com
 #       abstract: https://www.example.com
 
+2025: 
+  - title: "Static Analysis-based Repair of Memory Errors in C Programs"
+    where: "IFIP WG 2.4 Meeting (Singapore)"
+    when: "2025-02-25"
+    materials:
+      slides: /slides/ifip25.pdf
+
 2024:
   - title: "PL4XGL: A Programming Language Approach to Explainable Graph Learning"
     where: "IFIP WG 2.4 Meeting (Lugano)"
