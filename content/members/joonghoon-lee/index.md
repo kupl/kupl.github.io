@@ -2,8 +2,8 @@
 draft = false
 title = 'Joonghoon Lee'
 ko = '이중훈'
-role = 'Undergraduate Intern'
-portrait = 'joonghoonlee.jpeg'
+role = 'M.S. Student'
+portrait = 'joonghoonlee.jpg'
 
 [[affiliation]]
 name = 'Software Analysis Lab'
@@ -24,12 +24,13 @@ website = 'https://joonghoonlee.com'
 
 ## About
 
-I am currently a master's student in Computer Science and Engineering at [Korea University](https://cs.korea.ac.kr/), where I also completed my Bachelor of Science (BS) in the same field. I am actively contributing as a researcher in the [Software Analysis Lab](https://prl.korea.ac.kr/).
+I am currently a Master's student in Computer Science and Engineering at [Korea University](https://cs.korea.ac.kr/), where I also completed my Bachelor of Science in the same field. I am actively contributing as a researcher in the [Software Analysis Lab](https://prl.korea.ac.kr/).
 
 
 My research interests are in the following areas:
 
 - Software Verification, Analysis, and Engineering
+- Programming Languages
 - Mathematical Optimization
 - Quantum Computing
 
