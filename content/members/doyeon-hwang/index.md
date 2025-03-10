@@ -27,9 +27,9 @@ github = 'fwangdo'
 - Formal verification
 
 # Contact Information
-Room 513, Jung Woonoh IT & General Education Center
-College of Informatics
-Korea University
-145 Anam-ro, Seongbuk-gu
-Seoul, 02841, Republic of Korea
+Room 513, Jung Woonoh IT & General Education Center \
+College of Informatics.\
+Korea University.\
+145 Anam-ro, Seongbuk-gu.\
+Seoul, 02841, Republic of Korea.\
 (email) fwangdo@korea.ac.kr
