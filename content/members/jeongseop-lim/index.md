@@ -26,9 +26,9 @@ website = 'https://about.jseoplim.com'
 
 ## Contact Information
 
-Room 614B, Science Library Bldg \
+Room 513, Jung Woonoh IT & General Education Center \
 College of Informatics \
 Korea University \
-Anam-dong 5-ga, Seongbuk-gu \
-Seoul 136-713, Korea \
+145 Anam-ro, Seongbuk-gu \
+Seoul, 02841, Republic of Korea \
 (email) <qaws1000@korea.ac.kr>
