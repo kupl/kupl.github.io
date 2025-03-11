@@ -64,7 +64,7 @@ cv = 'cv.pdf'
 
 ## Contact Information
 
-Room 616c, Science Library Bldg \
+Room 505, Jung Woonoh IT & General Education Center \
 College of Informatics \
 Korea University \
 Anam-dong 5-ga, Seongbuk-gu \

@@ -16,6 +16,7 @@ title = 'COSE312-25S'
 
 - Course Overview: [lec0.pdf](./slides/lec0.pdf)
 - Overview of Compilers: [lec1.pdf](./slides/lec1.pdf)
+- Lexical Analysis: [lec2.pdf](./slides/lec2.pdf)
 
 ## Programming Assignments
 
