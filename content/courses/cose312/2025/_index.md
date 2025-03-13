@@ -19,6 +19,8 @@ title = 'COSE312-25S'
 - Lexical Analysis: [lec2.pdf](./slides/lec2.pdf)
 
 ## Programming Assignments
+1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/28 23:59)
+    - [OCaml tutorial](./ocaml-tutorial.pdf)
 
 ## Programming Environments
 
