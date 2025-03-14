@@ -36,7 +36,7 @@ website = 'https://seokhyunlee.info/'
 {{< publication-list data="publications" author="Seokhyun Lee" >}}
 
 # Contact Information
-Room 614B, Science Library Bldg \
+Room 513, Jung Woonoh IT & General Education Center \
 College of Informatics \
 Korea University \
 Anam-dong 5-ga, Seongbuk-gu \
