@@ -7,7 +7,7 @@ weight = 60
 
 ## 2025 Spring
 - [COSE312: Compilers]({{< relref "cose312/2025/_index.md" >}})
-- AAA528: Computational Logic
+- [AAA528: Computational Logic]({{< relref "aaa528/2025/_index.md" >}})
 
 ## 2024 Fall
 
