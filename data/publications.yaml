@@ -30,9 +30,9 @@
 2025:
   - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
     authors:
-      - Donguk Kim 
-      - Doha Hwang
+      - Donguk Kim
       - Minseok Jeon
+      - Doha Hwang
       - Hakjoo Oh
     target: 
       name: "OOPSLA 2025: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
