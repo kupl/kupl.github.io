@@ -17,12 +17,11 @@ title = 'COSE312-25S'
 - Course Overview: [lec0.pdf](./slides/lec0.pdf)
 - Overview of Compilers: [lec1.pdf](./slides/lec1.pdf)
 - Lexical Analysis: [lec2.pdf](./slides/lec2.pdf)
-- Syntax Analysis: [lec3.pdf](./slides/lec3.pdf) [lec4.pdf](./slides/lec4.pdf) [lec5.pdf](./slides/lec5.pdf)
+- Syntax Analysis: [lec3.pdf](./slides/lec3.pdf) [lec4.pdf](./slides/lec4.pdf) [lec5.pdf](./slides/lec5.pdf) [lec6.pdf](./slides/lec6.pdf)
 
 ## Programming Assignments
 1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/28 23:59)
     - [OCaml tutorial](./ocaml-tutorial.pdf)
-
-## Programming Environments
+2. Lexing and parsing: [hw2.pdf](./hw/hw2.pdf) (Due: 4/12 23:59)
 
 
