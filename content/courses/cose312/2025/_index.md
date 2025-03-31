@@ -23,5 +23,6 @@ title = 'COSE312-25S'
 1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/28 23:59)
     - [OCaml tutorial](./ocaml-tutorial.pdf)
 2. Lexing and parsing: [hw2.pdf](./hw/hw2.pdf) (Due: 4/12 23:59)
+    - [template](https://github.com/kupl-courses/COSE312-2025spring/tree/main/hw2)
 
 
