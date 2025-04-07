@@ -38,7 +38,7 @@
       name: "OOPSLA 2025: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
       url: https://2025.splashcon.org/track/OOPSLA
     materials:
-      pdf: 
+      pdf: /papers/oopsla25-pafl.pdf
 
 2024:
   - title: "Towards Effective Static Type-Error Detection for Python"
