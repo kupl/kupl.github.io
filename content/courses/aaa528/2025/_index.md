@@ -16,6 +16,7 @@ title = 'AAA528-25S'
 - Propositional Logic: [lec1.pdf](./slides/lec1.pdf), [lec2.pdf](./slides/lec2.pdf)
 - SAT Applications: [lec3.pdf](./slides/lec3.pdf)
 - First-Order Logic: [lec4.pdf](./slides/lec4.pdf)
+- First-Order Theories: [lec5.pdf](./slides/lec5.pdf)
 
 ## Hands-On Sessions
 
