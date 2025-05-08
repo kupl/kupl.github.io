@@ -28,5 +28,9 @@ title = 'COSE312-25S'
 2. Lexing and parsing: [hw2.pdf](./hw/hw2.pdf) (Due: 4/12 23:59)
     - [template](https://github.com/kupl-courses/COSE312-2025spring/tree/main/hw2)
 3. Compiler correctness: [hw3.pdf](./hw/hw3.pdf) (Due: 5/6 23:59)
-
-
+4. Translator: [hw4.pdf](./hw/hw4.pdf) (Due: 5/18 23:59)
+    - [template](https://github.com/kupl-courses/COSE312-2025spring/tree/main/hw456)
+5. Semantic analyzer
+    - [template](https://github.com/kupl-courses/COSE312-2025spring/tree/main/hw456)
+6. Optimizer
+    - [template](https://github.com/kupl-courses/COSE312-2025spring/tree/main/hw456)
