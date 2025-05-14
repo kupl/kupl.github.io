@@ -17,6 +17,7 @@ title = 'AAA528-25S'
 - SAT Applications: [lec3.pdf](./slides/lec3.pdf)
 - First-Order Logic: [lec4.pdf](./slides/lec4.pdf)
 - First-Order Theories: [lec5.pdf](./slides/lec5.pdf)
+- Program Verification: [lec6.pdf](./slides/lec6.pdf) [lec7.pdf](./slides/lec7.pdf) [lec8.pdf](./slides/lec8.pdf) [lec9.pdf](./slides/lec9.pdf)
 
 ## Hands-On Sessions
 
