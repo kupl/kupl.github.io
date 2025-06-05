@@ -22,8 +22,8 @@ title = 'COSE312-25S'
 - Translation: [lec9.pdf](./slides/lec9.pdf) [lec10.pdf](./slides/lec10.pdf) [lec11.pdf](./slides/lec11.pdf)
 - Semantic Analysis: [lec13.pdf](./slides/lec13.pdf) [lec14.pdf](./slides/lec14.pdf) [lec15.pdf](./slides/lec15.pdf)
 - Optimization: [lec16.pdf](./slides/lec16.pdf)
-- Register Allocation
-- Course Review
+- Register Allocation: [lec17.pdf](./slides/lec17.pdf)
+- Course Review: [lec18.pdf](./slides/lec18.pdf)
 
 ## Assignments
 - [Repository](https://github.com/kupl-courses/COSE312-2025spring)
