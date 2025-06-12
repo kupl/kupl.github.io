@@ -24,9 +24,7 @@
     where: Schloss Dagstuhl, Germany
     materials:
       slides: /slides/dagstuhl25.pdf
-      group_photos:
-        - /photos/25242.01.l.jpg
-        - /photos/25242.02.l.jpg
+      group_photos: /photos/25242.01.l.jpg
 
   - name: IFIP WG 2.4 Meeting 70
     from: 2025-02-23
