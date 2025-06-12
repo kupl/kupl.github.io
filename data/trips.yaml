@@ -18,6 +18,16 @@
 #           link: /reports/report_name2.pdf
 
 2025:
+  - name: Dagstuhl Seminar 25242 (Testing Program Analyzers and Verifiers)
+    from: 2025-06-09
+    to: 2023-06-12
+    where: Schloss Dagstuhl, Germany
+    materials:
+      slides: /slides/dagstuhl25.pdf
+      group_photos:
+        - /photos/25242.01.l.jpg
+        - /photos/25242.02.l.jpg
+
   - name: IFIP WG 2.4 Meeting 70
     from: 2025-02-23
     to: 2025-02-27

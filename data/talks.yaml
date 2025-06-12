@@ -11,6 +11,12 @@
 #       abstract: https://www.example.com
 
 2025: 
+  - title: "Semantic Metamorphic Testing for Finding Bugs in SMT Solvers"
+    where: "Dagstuhl Seminar 25242 (Testing Program Analyzers and Verifiers)"
+    when: "2025-06-12"
+    materials:
+      slides: /slides/dagstuhl25.pdf
+
   - title: "Static Analysis-based Repair of Memory Errors in C Programs"
     where: "IFIP WG 2.4 Meeting (Singapore)"
     when: "2025-02-25"
