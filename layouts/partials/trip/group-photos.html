@@ -1,6 +1,7 @@
+{{ $id := replaceRE "[()]" "" .id | printf "%s-group-photos" }}
 <div class="d-flex flex-row">
-    [{{ partial "hook/link.html" (dict "text" (len .photos | printf "group-photos (%d) >") "dest" (printf "#%s-group-photos" .id) "role" "button" "data_bs_toggle" "collapse" "aria_expanded" "false") }}
-    <div class="collapse collapse-horizontal" id="{{ .id }}-group-photos">
+    [{{ partial "hook/link.html" (dict "text" (len .photos | printf "group-photos (%d) >") "dest" (printf "#%s" $id) "role" "button" "data_bs_toggle" "collapse" "aria_expanded" "false") }}
+    <div class="collapse collapse-horizontal" id="{{ $id }}">
         <div class="d-flex flex-row">
             {{ range $i, $photo := .photos}}
             <div class="ms-2">
