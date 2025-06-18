@@ -3,6 +3,7 @@ draft = false
 title = 'About'
 menu = 'main'
 weight = 10
+url = '/'
 +++
 
 {{< html-snippet >}}
