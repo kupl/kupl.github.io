@@ -19,7 +19,7 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 
 [materials]
-website = 'https://marinelay.pages.dev/'
+website = 'https://marinelay.github.io/'
 +++
 
 ## Publications
