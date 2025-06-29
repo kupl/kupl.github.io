@@ -18,6 +18,15 @@
 #           link: /reports/report_name2.pdf
 
 2025:
+  - name: PLDI 2025
+    from: 2025-06-16
+    to: 2025-06-20
+    where: Seoul, Korea
+    materials:
+      reports:
+        - name: Doyeon
+          link: /reports/pldi25_doyeon.pdf
+
   - name: Dagstuhl Seminar 25242 (Testing Program Analyzers and Verifiers)
     from: 2025-06-09
     to: 2025-06-12
