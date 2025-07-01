@@ -26,6 +26,8 @@
       reports:
         - name: Doyeon
           link: /reports/pldi25_doyeon.pdf
+        - name: Minsu
+          link: /reports/pldi25_minsu.pdf
 
   - name: Dagstuhl Seminar 25242 (Testing Program Analyzers and Verifiers)
     from: 2025-06-09
