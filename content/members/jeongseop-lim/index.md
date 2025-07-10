@@ -6,7 +6,7 @@ role = 'Undergraduate Intern'
 portrait = 'https://www.gravatar.com/avatar/bf58c456601a5a79921f60c3b62a41c2?s=512'
 
 [[affiliation]]
-name = 'Software Analysis Laboratory'
+name = 'Software Analysis Lab'
 url = 'https://prl.korea.ac.kr'
 [[affiliation]]
 name = 'Dept. of Computer Science and Engineering'
