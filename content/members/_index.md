@@ -70,6 +70,7 @@ weight = 20
 {{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="junyong-heo" >}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="juyoung-an">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="jimin-lim">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
