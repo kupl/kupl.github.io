@@ -31,4 +31,4 @@ College of Informatics \
 Korea University \
 145 Anam-ro, Seongbuk-gu \
 Seoul, 02841, Republic of Korea \
-(email) <qaws1000@korea.ac.kr>
+(email) <jeongseop_lim@korea.ac.kr>
