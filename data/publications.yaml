@@ -28,7 +28,7 @@
 #         ko: https://www.media2.com
 
 2025:
- - title: "Enhancing APR with PRISM: A Semantic-Based Approach to Overfitting Patch Detection"
+  - title: "Enhancing APR with PRISM: A Semantic-Based Approach to Overfitting Patch Detection"
     authors:
       - Dowon Song
       - Hakjoo Oh
@@ -38,7 +38,7 @@
     materials:
       pdf: /papers/oopsla25-prism.pdf
 
- - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
+  - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
     authors:
       - Donguk Kim
       - Minseok Jeon
