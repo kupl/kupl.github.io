@@ -44,6 +44,7 @@ cv = 'cv.pdf'
 
 ## Program Committee (PC)
 
+- 2026: [PLDI](https://pldi26.sigplan.org)
 - 2025: [SAS](https://2025.splashcon.org/home/sas-2025) (PC Co-Chair) [ICFP](https://icfp25.sigplan.org) [ICSE](https://conf.researchr.org/home/icse-2025) [POPL](https://conf.researchr.org/home/POPL-2025) [OOPSLA](https://2025.splashcon.org/track/OOPSLA)
 - 2024: [PLDI](https://pldi24.sigplan.org), [ISSTA](https://conf.researchr.org/home/issta-2024), [ICSE](https://conf.researchr.org/track/icse-2024/icse-2024-research-track)
 - 2023: [ISSTA](https://2023.issta.org/track/issta-2023-technical-papers), [CC](https://conf.researchr.org/home/CC-2023)

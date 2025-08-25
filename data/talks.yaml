@@ -11,6 +11,13 @@
 #       abstract: https://www.example.com
 
 2025: 
+  - title: "고려대 소프트웨어분석 연구 소개"
+    where: "SIGPL Summer School"
+    when: "2025-08-20"
+    materials:
+      slides: /slides/sigpl25-talk.pdf
+
+
   - title: "Semantic Metamorphic Testing for Finding Bugs in SMT Solvers"
     where: "Dagstuhl Seminar 25242 (Testing Program Analyzers and Verifiers)"
     when: "2025-06-12"

@@ -28,7 +28,17 @@
 #         ko: https://www.media2.com
 
 2025:
-  - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
+ - title: "Enhancing APR with PRISM: A Semantic-Based Approach to Overfitting Patch Detection"
+    authors:
+      - Dowon Song
+      - Hakjoo Oh
+    target: 
+      name: "OOPSLA 2025: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: https://2025.splashcon.org/track/OOPSLA
+    materials:
+      pdf: /papers/oopsla25-prism.pdf
+
+ - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
     authors:
       - Donguk Kim
       - Minseok Jeon
