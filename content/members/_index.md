@@ -37,7 +37,6 @@ weight = 20
 {{< cfg/nonterminal id="Postdoc. Researchers" >}}
 
 {{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="minseok-jeon">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
