@@ -12,7 +12,6 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item markdown=true >}}[Professors](#professors){{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Postdoc. Researchers](#postdoc-researchers){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[PhD Students](#phd-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[MS Students](#ms-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Undergrad. Interns](#undergrad-interns){{< /cfg/item >}}
@@ -28,15 +27,6 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="hakjoo-oh" >}}{{< /cfg/item >}}
-{{< /cfg/items >}}
-
-{{< /cfg >}}
-
-<!-- Postdoc. -->
-{{< cfg >}}
-{{< cfg/nonterminal id="Postdoc. Researchers" >}}
-
-{{< cfg/items >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
