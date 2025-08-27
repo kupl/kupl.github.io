@@ -12,8 +12,12 @@
                 {{ $currentURL := .Page.RelPermalink }}
                 {{ range .Site.Menus.main }}
                 <li class="nav-item">
-                    <a class="nav-link {{ if hasPrefix $currentURL .URL }}active{{ end }}" {{ if hasPrefix $currentURL
-                        .URL }}aria-current="page" {{ end }} href="{{ .URL }}">{{ .Name }}</a>
+                    <a class="nav-link {{ if (or (and (eq .URL "/") (eq $currentURL "/")) (and (ne .URL "/") (hasPrefix $currentURL .URL))) }}active{{ end }}"
+                        {{ if (or (and (eq .URL "/") (eq $currentURL "/")) (and (ne .URL "/") (hasPrefix $currentURL .URL))) }}aria-current="page"{{ end }}
+                        href="{{ .URL }}"
+                    >
+                        {{ .Name }}
+                    </a>
                 </li>
                 {{ end }}
                 <li class="nav-item">
