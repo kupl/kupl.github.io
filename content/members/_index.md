@@ -12,7 +12,6 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item markdown=true >}}[Professors](#professors){{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Postdoc. Researchers](#postdoc-researchers){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[PhD Students](#phd-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[MS Students](#ms-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Undergrad. Interns](#undergrad-interns){{< /cfg/item >}}
@@ -28,16 +27,6 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="hakjoo-oh" >}}{{< /cfg/item >}}
-{{< /cfg/items >}}
-
-{{< /cfg >}}
-
-<!-- Postdoc. -->
-{{< cfg >}}
-{{< cfg/nonterminal id="Postdoc. Researchers" >}}
-
-{{< cfg/items >}}
-{{< cfg/item >}}{{< name-card id="minseok-jeon">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
@@ -109,9 +98,9 @@ weight = 20
 {{< cfg/item markdown=true >}}Myungho Lee / 이명호 (2025.02): Samsung SDS{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Seongjoon Hong / 홍성준 (2024.02): Samsung Electronics{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Junhee Lee / 이준희 (2024.02): Furiosa AI{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Minseok Jeon / 전민석](https://minseokjgit.github.io/) (2023.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Minseok Jeon / 전민석](https://dgistpl.github.io/members/minseok.jeon) (2023.02): Assistant Professor, Daegu Gyeongbuk Institute of Science and Technology{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Sunbeom So / 소순범](https://gist-pal.github.io) (2022.08): Assistant Professor, Gwangju Institute of Science and Technology{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}[Sooyoung Cha / 차수영](https://sites.google.com/view/sooyoungcha/) (2021.02): Assistant Professor, Sungkyunkwan University{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Sooyoung Cha / 차수영](https://sites.google.com/view/sooyoungcha) (2021.02): Assistant Professor, Sungkyunkwan University{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Sehun Jeong / 정세훈 (2020.02, co-advised with Sungdeok Cha): Formal Works Inc.{{< /cfg/item >}}
 {{< /cfg/items >}}
 
