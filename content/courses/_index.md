@@ -5,7 +5,7 @@ menu = 'main'
 weight = 60
 +++
 
-## 2024 Fall
+## 2025 Fall
 - [COSE 212: Programming Languages]({{< relref "cose212/2025/_index.md" >}})
 - AAA 616: Program Analysis
 
