@@ -40,4 +40,8 @@ title = 'COSE212-24F'
 - Homework 3 (Interpreter for Imperative Language) [hw3.pdf](./hw/hw3.pdf) 
 - Homework 4 (Static Type System) [hw4.pdf](./hw/hw4.pdf) 
 
+## Programming Environments
+- [실습환경 안내: TryML](./howtotryml.pdf)
+- [실습환경 안내: Local (Docker)](https://github.com/kupl-courses/COSE212-2025fall)
+
 
