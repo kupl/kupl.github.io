@@ -7,7 +7,7 @@ weight = 60
 
 ## 2025 Fall
 - [COSE 212: Programming Languages]({{< relref "cose212/2025/_index.md" >}})
-- AAA 616: Program Analysis
+- [AAA 616: Program Analysis]({{< relref "aaa616/2025/_index.md" >}})
 
 ## 2025 Spring
 - [COSE312: Compilers]({{< relref "cose312/2025/_index.md" >}})
