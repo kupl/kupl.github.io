@@ -23,7 +23,7 @@ title = 'COSE212-24F'
     - Functional Programming: [lec3.pdf](./slides/lec3.pdf), [lec4.pdf](./slides/lec4.pdf)
 - (Part 2) Basic Concepts
     - Expressions: [lec5.pdf](./slides/lec5.pdf), [code](./code/let.ml)
-    - Procedures: [lec6.pdf](./slides/lec6.pdf)
+    - Procedures: [lec6.pdf](./slides/lec6.pdf) [fixpoints](./slides/fixpoint.pdf)
     - Lexical scoping: [lec7.pdf](./slides/lec7.pdf)
     - States: [lec8.pdf](./slides/lec8.pdf)
     - Records, Pointers, and garbage collection: [lec9.pdf](./slides/lec9.pdf)
