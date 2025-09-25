@@ -20,10 +20,10 @@ Abstract Interpretation](https://mine.perso.lip6.fr/publi/article-mine-FTiPL17.p
 2. 9/4: Elements of Abstract Interpretation (Ch.2)
 3. 9/9: Static Analysis Examples: [Slides1](https://prl.korea.ac.kr/courses/cose419/2024/slides/lec11.pdf), [Video1](https://www.youtube.com/watch?v=mT4qDt5BvP4), [Video2](https://www.youtube.com/watch?v=kFsQJY6xY5A), [Slides2](https://prl.korea.ac.kr/courses/cose419/2024/slides/lec12.pdf), [Video3](https://www.youtube.com/watch?v=qZmQnD7Bi38), [Video4](https://www.youtube.com/watch?v=MtfedK32tvk)
 4. 9/11: Quiz (proofs)
-5. 9/16: [AbsInt.pdf](./slides/lec6.pdf), Language and Semantics (Ch.3)
+5. 9/16: [AbsInt.pdf](./slides/AbsInt.pdf), Language and Semantics (Ch.3)
 6. 9/18: Non-Relational Abstract Domains (Ch.4)
 7. 9/23: Non-Relational Abstract Domains (Ch.4)
-8. 9/25: Relational Abstract Domains (Ch.5)
+8. 9/25: [Octagon.pdf](./slides/Octagon.pdf) Relational Abstract Domains (Ch.5)
 9. 9/30: Pointer Analysis 
 10. 10/2: Project Proposal 
 11. 10/14: [Sparse Analysis Framework](https://dl.acm.org/doi/10.1145/2590811)
