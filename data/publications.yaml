@@ -36,7 +36,7 @@
       name: "OOPSLA 2025: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
       url: https://2025.splashcon.org/track/OOPSLA
     materials:
-      pdf: /papers/oopsla25-prism.pdf
+      pdf: /papers/oopsla25prism.pdf
 
   - title: "PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns"
     authors:
