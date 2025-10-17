@@ -28,6 +28,18 @@
 #         ko: https://www.media2.com
 
 2025:
+  - title: "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
+    authors:
+      - Wonseok Oh
+      - Hakjoo Oh
+    target: 
+      name: "ICSE 2026: IEEE/ACM International Conference on Software Engineering"
+      url: https://conf.researchr.org/home/icse-2026
+    materials:
+      pdf: /papers/icse25typecare.pdf
+
+
+2025:
   - title: "Enhancing APR with PRISM: A Semantic-Based Approach to Overfitting Patch Detection"
     authors:
       - Dowon Song
