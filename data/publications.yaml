@@ -27,7 +27,7 @@
 #         en: https://www.media1.com
 #         ko: https://www.media2.com
 
-2025:
+2026:
   - title: "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
     authors:
       - Wonseok Oh
