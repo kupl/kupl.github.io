@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'COSE212-24F'
+title = 'COSE212-25F'
 +++
 
 # Programming Languages, 2025 Fall
@@ -44,4 +44,5 @@ title = 'COSE212-24F'
 - [실습환경 안내: TryML](./howtotryml.pdf)
 - [실습환경 안내: Local (Docker)](https://github.com/kupl-courses/COSE212-2025fall)
 
-
+## Prior Exams
+- [2024](./final2024.pdf)

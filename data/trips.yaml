@@ -18,6 +18,11 @@
 #           link: /reports/report_name2.pdf
 
 2025:
+  - name: OOPSLA 2025
+    from: 2025-10-12
+    to: 2025-10-18
+    where: Singapore
+
   - name: PLDI 2025
     from: 2025-06-16
     to: 2025-06-20
