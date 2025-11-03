@@ -22,6 +22,10 @@
     from: 2025-10-12
     to: 2025-10-18
     where: Singapore
+    materials:
+      reports:
+        - name: Mingyu
+          link: /reports/oopsla25_mingyu.pdf
 
   - name: PLDI 2025
     from: 2025-06-16
