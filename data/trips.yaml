@@ -28,6 +28,8 @@
           link: /reports/oopsla25_mingyu.pdf
         - name: Donguk
           link: /reports/oopsla25_donguk.pdf
+        - name: Dowon
+          link: /reports/oopsla25_dowon.pdf
 
   - name: PLDI 2025
     from: 2025-06-16
