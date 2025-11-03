@@ -26,6 +26,8 @@
       reports:
         - name: Mingyu
           link: /reports/oopsla25_mingyu.pdf
+        - name: Donguk
+          link: /reports/oopsla25_donguk.pdf
 
   - name: PLDI 2025
     from: 2025-06-16
