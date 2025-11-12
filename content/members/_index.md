@@ -73,6 +73,7 @@ weight = 20
 {{< cfg/item >}}{{< name-card id="mingyu-jo">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="jeongseop-lim">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="seokho-lee">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="honggi-kim">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
