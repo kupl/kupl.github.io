@@ -5,20 +5,20 @@ ko = '김홍기'
 portrait = 'portrait.jpg'
 role = 'Undergraduate Intern'
 
-[[affiliation]] 
+[[affiliation]]
 name = 'Software Analysis Lab'
 url = '/'
-[[affiliation]] 
+[[affiliation]]
 name = 'Department of Earth and Environmental Sciences'
 url = 'https://cs.korea.ac.kr'
-[[affiliation]] 
+[[affiliation]]
 name = 'College of Science'
 url = 'https://science.korea.ac.kr'
-[[affiliation]] 
+[[affiliation]]
 name = 'Korea University'
 url = 'https://korea.ac.kr'
 
-[[materials]] 
+[materials]
 github = 'lemoncookie0508'
 
 +++
