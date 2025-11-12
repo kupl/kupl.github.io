@@ -2,7 +2,7 @@
 draft = false
 title = 'Honggi Kim'
 ko = '김홍기'
-<!-- portrait = 'portrait.jpg' -->
+portrait = 'portrait.jpg'
 role = 'Undergraduate Intern'
 
 [[affiliation]] name = 'Software Analysis Lab' url = '/'
