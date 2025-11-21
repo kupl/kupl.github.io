@@ -18,6 +18,15 @@
 #           link: /reports/report_name2.pdf
 
 2025:
+  - name: ASE 2025
+    from: 2025-11-17
+    to: 2025-11-19
+    where: Seoul, Korea
+    materials:
+      reports:
+        - name: JuYoung
+          link: /reports/ase25_juyoung.pdf
+
   - name: OOPSLA 2025
     from: 2025-10-12
     to: 2025-10-18
