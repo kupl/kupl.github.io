@@ -26,6 +26,8 @@
       reports:
         - name: JuYoung
           link: /reports/ase25_juyoung.pdf
+        - name: Donguk
+          link: /reports/ase25_donguk.pdf
 
   - name: OOPSLA 2025
     from: 2025-10-12
