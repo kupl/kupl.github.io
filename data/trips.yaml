@@ -30,6 +30,8 @@
           link: /reports/ase25_donguk.pdf
         - name: Jeongseop
           link: /reports/ase25_jeongseop.pdf
+        - name: Jiho
+          link: /reports/ase25_jiho.pdf
 
   - name: OOPSLA 2025
     from: 2025-10-12
