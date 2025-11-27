@@ -32,6 +32,8 @@
           link: /reports/ase25_jeongseop.pdf
         - name: Jiho
           link: /reports/ase25_jiho.pdf
+        - name: Miryeong
+          link: /reports/ase25_miryeong.pdf
 
   - name: OOPSLA 2025
     from: 2025-10-12
