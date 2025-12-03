@@ -2,7 +2,7 @@
 draft = false
 title = 'Haesojin Shin'
 ko = '신해소진'
-role = 'Ph.D. Student'
+role = 'M.S. Student'
 portrait = 'portrait.png'
 
 [[affiliation]]
