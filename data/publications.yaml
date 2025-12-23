@@ -28,6 +28,17 @@
 #         ko: https://www.media2.com
 
 2026:
+  - title: "Pig: Leveraging Large Language Models for Python Library Migrations"
+    authors:
+      - Miryeong Kang
+      - Wonseok Oh
+      - Gabin An
+      - Hakjoo Oh
+    target:
+      name: "FSE 2026: ACM International Conference on the Foundations of Software Engineering"
+      url: "https://conf.researchr.org/home/fse-2026"
+    materials:
+      pdf: /papers/fse26-pig.pdf
   - title: "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"
     authors:
       - Wonseok Oh
