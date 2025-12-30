@@ -22,3 +22,7 @@ url = 'https://korea.ac.kr'
 github = 'kumdo0327'
 website = 'https://kumdo0327.github.io/'
 +++
+
+## Publications
+
+{{< publication-list data="publications" author="Donguk Kim" >}}
