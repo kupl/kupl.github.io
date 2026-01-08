@@ -24,6 +24,13 @@ website = 'https://about.jseoplim.com'
 
 > Please visit [my website](https://about.jseoplim.com) for further details.
 
+## Research Interests
+
+- Programming languages
+- Static program analysis
+- Python (language and ecosystems)
+- Automated software testing
+
 ## Contact Information
 
 Room 513, Jung Woonoh IT & General Education Center \
