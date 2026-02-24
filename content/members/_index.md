@@ -106,7 +106,7 @@ weight = 20
 {{< cfg/nonterminal id="PhD" >}}
 
 {{< cfg/items vertical=true >}}
-{{< cfg/item markdown=true >}}Dowon Song / 송도원 (2026.02){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Dowon Song / 송도원 (2026.02): Postdoctoral Researcher, Korea University{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Myungho Lee / 이명호 (2025.02): Samsung SDS{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Seongjoon Hong / 홍성준 (2024.02): Samsung Electronics{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Junhee Lee / 이준희 (2024.02): Furiosa AI{{< /cfg/item >}}
