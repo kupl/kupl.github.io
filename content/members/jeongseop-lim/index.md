@@ -2,7 +2,7 @@
 draft = false
 title = 'Jeongseop Lim'
 ko = '임정섭'
-role = 'Undergraduate Intern'
+role = 'M.S. Student'
 portrait = 'https://www.gravatar.com/avatar/bf58c456601a5a79921f60c3b62a41c2?s=512'
 
 [[affiliation]]

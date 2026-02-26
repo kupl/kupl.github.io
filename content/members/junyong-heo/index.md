@@ -2,7 +2,7 @@
 draft = false
 title = 'Junyong Heo'
 ko = '허준용'
-role = 'Undergraduate Intern'
+role = 'M.S. Student'
 portrait = 'portrait.png'
 
 [[affiliation]]

@@ -2,7 +2,7 @@
 draft = false
 title = 'Mingyu Jo'
 ko = '조민규'
-role = 'Undergraduate Intern'
+role = 'M.S. Student'
 portrait = 'portrait.jpg'
 
 [[affiliation]]
