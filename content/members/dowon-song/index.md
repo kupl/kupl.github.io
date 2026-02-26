@@ -2,7 +2,7 @@
 draft = false
 title = 'Dowon Song'
 ko = '송도원'
-role = 'Ph.D. Student'
+role = 'Postdoctoral Researcher'
 portrait = 'portrait.jpg'
 
 [[affiliation]]
