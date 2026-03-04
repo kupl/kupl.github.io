@@ -13,7 +13,7 @@
 2026:
   - title: "MIR: A Formal and Minimal Intermediate Representation for Rigorous Python Program Analysis"
     where: "IFIP WG 2.4 Meeting (Savannah)"
-    when: "2026-03-2"
+    when: "2026-03-02"
     materials:
       slides: /slides/ifip26.pdf
 
