@@ -27,7 +27,7 @@
 
         <span class="fw-bold">{{ .name }}.</span>
         {{ .where }}.
-        {{ time.AsTime .from | time.Format $format }} - {{ time.AsTime .to | time.Format $format }}<br>
+        {{ time.AsTime .from | time.Format $format }} – {{ time.AsTime .to | time.Format $format }}<br>
         {{ with .materials }}
             {{ partial "trip/materials.html" (dict "id" $id "material" .) }}
         {{ end }}
