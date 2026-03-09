@@ -1,6 +1,6 @@
 {{ $raw := .Get "data" }}
 {{ $raw := index $.Site.Data $raw }}
-{{ $format := "Jan. 2 2006" }}
+{{ $format := "Jan 2, 2006" }}
 
 {{ $data := dict }}
 {{ range $year, $talks := $raw }}
