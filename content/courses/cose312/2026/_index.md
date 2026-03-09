@@ -28,7 +28,7 @@ title = 'COSE312-26S'
 ## Assignments 
 - OCaml books/tutorials: https://ocaml.org/docs
 - Clone this [Repository](https://github.com/kupl-courses/COSE312)
-    1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/15 23:59)
+    1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/15 23:59) [template](https://github.com/kupl-courses/COSE312/tree/main/hw1/templates)
     2. Lexing and parsing: [hw2.pdf](./hw/hw2.pdf) (Due: 4/2 23:59) [template](https://github.com/kupl-courses/COSE312/tree/main/hw2)
     3. Translator: [hw3.pdf](./hw/hw3.pdf) (Due: 4/12 23:59) [template](https://github.com/kupl-courses/COSE312/tree/main/hw345/translator.ml)
     4. Semantic analyzer: [hw4.pdf](./hw/hw4.pdf) (Due: 4/25 23:59) [template](https://github.com/kupl-courses/COSE312/blob/main/hw345/analyzer.ml)
