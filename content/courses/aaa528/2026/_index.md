@@ -22,6 +22,6 @@ title = 'AAA528-26S'
 
 ## Programming Assignments
 
-- Exercise (1) [sat-app1.pdf](./assmt/sat-app1.pdf) 
-- Exercise (2) [sat-app2.pdf](./assmt/sat-app2.pdf) 
-- Program verifier 
+- Exercise (1): [sat-app1.pdf](./assmt/sat-app1.pdf) 
+- Exercise (2): [sat-app2.pdf](./assmt/sat-app2.pdf) 
+- Program verifier: [repo](https://github.com/kupl-courses/AAA528-project/tree/main)
