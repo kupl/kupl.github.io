@@ -5,6 +5,10 @@ menu = 'main'
 weight = 60
 +++
 
+## 2026 Spring
+- [COSE312: Compilers]({{< relref "cose312/2026/_index.md" >}})
+- [AAA528: Computational Logic]({{< relref "aaa528/2025/_index.md" >}})
+
 ## 2025 Fall
 - [COSE 212: Programming Languages]({{< relref "cose212/2025/_index.md" >}})
 - [AAA 616: Program Analysis]({{< relref "aaa616/2025/_index.md" >}})
