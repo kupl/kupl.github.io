@@ -25,14 +25,11 @@ title = 'COSE312-26S'
 - Register Allocation: [lec17.pdf](./slides/lec17.pdf)
 - Course Review: [lec18.pdf](./slides/lec18.pdf)
 
-## Assignments
-- [Repository](https://github.com/kupl-courses/COSE312)
-1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/15 23:59)
-2. Lexing and parsing: [hw2.pdf](./hw/hw2.pdf) (Due: 4/2 23:59)
-    - [template](https://github.com/kupl-courses/COSE312/tree/main/hw2)
-3. Translator: [hw3.pdf](./hw/hw3.pdf) (Due: 4/12 23:59)
-    - [template](https://github.com/kupl-courses/COSE312/tree/main/hw345/translator.ml)
-4. Semantic analyzer: [hw4.pdf](./hw/hw4.pdf) (Due: 4/25 23:59)
-    - [template](https://github.com/kupl-courses/COSE312/blob/main/hw345/analyzer.ml)
-5. Optimizer: [hw5.pdf](./hw/hw5.pdf) (Due: 5/24 23:59)
-    - [template](https://github.com/kupl-courses/COSE312/tree/main/hw345/optimizer.ml)
+## Assignments 
+- OCaml books/tutorials: https://ocaml.org/docs
+- Clone this [Repository](https://github.com/kupl-courses/COSE312)
+    1. OCaml exercises: [hw1.pdf](./hw/hw1.pdf) (Due: 3/15 23:59)
+    2. Lexing and parsing: [hw2.pdf](./hw/hw2.pdf) (Due: 4/2 23:59) [template](https://github.com/kupl-courses/COSE312/tree/main/hw2)
+    3. Translator: [hw3.pdf](./hw/hw3.pdf) (Due: 4/12 23:59) [template](https://github.com/kupl-courses/COSE312/tree/main/hw345/translator.ml)
+    4. Semantic analyzer: [hw4.pdf](./hw/hw4.pdf) (Due: 4/25 23:59) [template](https://github.com/kupl-courses/COSE312/blob/main/hw345/analyzer.ml)
+    5. Optimizer: [hw5.pdf](./hw/hw5.pdf) (Due: 5/24 23:59) [template](https://github.com/kupl-courses/COSE312/tree/main/hw345/optimizer.ml)
