@@ -28,6 +28,16 @@
 #         ko: https://www.media2.com
 
 2026:
+  - title: "Prunario: Testing Autonomous Driving Systems by Pruning Likely Redundant Scenarios"
+    authors:
+      - Minsu Kim
+      - Sunbeom So
+      - Hakjoo Oh
+    target:
+      name: "OOPSLA 2026: ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+      url: "https://conf.researchr.org/track/splash-2026/oopsla-2026"
+    materials:
+      pdf: /papers/oopsla26-prunario.pdf
   - title: "Pig: Leveraging Large Language Models for Python Library Migrations"
     authors:
       - Miryeong Kang
