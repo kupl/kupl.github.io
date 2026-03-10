@@ -16,6 +16,7 @@ weight = 20
 {{< cfg/item markdown=true >}}[PhD Students](#phd-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[MS Students](#ms-students){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Undergrad. Interns](#undergrad-interns){{< /cfg/item >}}
+{{< cfg/item markdown=true >}}[Research Associates](#research-associates){{< /cfg/item >}}
 {{< cfg/item markdown=true >}}[Alumni](#alumni){{< /cfg/item >}}
 {{< /cfg/items >}}
 
@@ -83,7 +84,17 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="seokho-lee">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="honggi-kim">}}{{< /cfg/item >}}
+{{< /cfg/items >}}
+
+{{< /cfg >}}
+
+<!-- Research Assoc. -->
+{{< cfg >}}
+
+{{< cfg/nonterminal id="Research Associates" >}}
+
+{{< cfg/items >}}
+{{< cfg/item >}}{{< name-card id="changu-kang">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
@@ -125,7 +136,7 @@ weight = 20
 
 {{< cfg/items vertical=true >}}
 {{< cfg/item markdown=true >}}Hayeong Lee / 이하영 (2025.02): Furiosa AI{{< /cfg/item >}}
-{{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): Furiosa AI{{< /cfg/item >}}
+{{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): Research Associate, Korea University{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Yunji Seo / 서윤지 (2023.02): Hyundai AutoEver{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Jiseong Bak / 박지성 (2023.02): Labrador Labs{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Jongwook Kim / 김종욱 (2023.02): Furiosa AI{{< /cfg/item >}}
