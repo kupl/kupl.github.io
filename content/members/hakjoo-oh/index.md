@@ -46,7 +46,7 @@ cv = 'cv.pdf'
 
 - 2027: [OOPSLA]() (Associate Chair)
 - 2026: [PLDI](https://pldi26.sigplan.org) [ASE](https://conf.researchr.org/home/ase-2026) [ISSTA](https://conf.researchr.org/track/issta-2026/issta-2026-research-papers) [SAS]() 
-- 2025: [SAS](https://2025.splashcon.org/home/sas-2025) (PC Co-Chair) [ICFP](https://icfp25.sigplan.org) [ICSE](https://conf.researchr.org/home/icse-2025) [POPL](https://conf.researchr.org/home/POPL-2025) [OOPSLA](https://2025.splashcon.org/track/OOPSLA)
+- 2025: [SAS](https://2025.splashcon.org/home/sas-2025) (PC Co-Chair) [ICFP](https://icfp25.sigplan.org) [ICSE](https://conf.researchr.org/home/icse-2025) [POPL](https://conf.researchr.org/home/POPL-2025) [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [ASE](https://conf.researchr.org/home/ase-2025)
 - 2024: [PLDI](https://pldi24.sigplan.org), [ISSTA](https://conf.researchr.org/home/issta-2024), [ICSE](https://conf.researchr.org/track/icse-2024/icse-2024-research-track)
 - 2023: [ISSTA](https://2023.issta.org/track/issta-2023-technical-papers), [CC](https://conf.researchr.org/home/CC-2023)
 - 2022: [OOPSLA](https://2022.splashcon.org/track/splash-2022-oopsla?), [ISSTA](https://conf.researchr.org/home/issta-2022), [PLDI](https://pldi22.sigplan.org/)
