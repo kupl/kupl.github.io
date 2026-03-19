@@ -17,6 +17,14 @@
 #         - name: Name2
 #           link: /reports/report_name2.pdf
 
+2026:
+  - name: IFIP WG 2.4 Meeting 71
+    from: 2026-03-01
+    to: 2026-03-05
+    where: Savannah, Georgia, USA
+    materials:
+      slides: /slides/ifip26.pdf
+
 2025:
   - name: ASE 2025
     from: 2025-11-17
