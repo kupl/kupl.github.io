@@ -25,6 +25,10 @@ title = 'COSE312-26S'
 - Register Allocation: [lec17.pdf](./slides/lec17.pdf)
 - Course Review: [lec18.pdf](./slides/lec18.pdf)
 
+## Exams
+- [mid-2025](./exams/mid-2025.pdf), [mid-2017](./exams/mid-2017.pdf), [mid-2015](./exams/mid-2015.pdf)
+- [final-2025](./exams/final-2025.pdf), [final-2017](./exams/final-2017.pdf), [final-2015](./exams/final-2015.pdf)
+
 ## Assignments 
 - OCaml books/tutorials: https://ocaml.org/docs
 - Clone this [Repository](https://github.com/kupl-courses/COSE312)
