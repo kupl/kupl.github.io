@@ -19,10 +19,10 @@ name = 'Korea University'
 url = 'https://korea.ac.kr'
 [materials]
 github = 'jseop-lim'
-website = 'https://about.jseoplim.com'
+website = 'https://jseoplim.com'
 +++
 
-> Please visit [my website](https://about.jseoplim.com) for further details.
+> More about me: 🌐 [https://jseoplim.com](https://jseoplim.com/)
 
 ## Research Interests
 
