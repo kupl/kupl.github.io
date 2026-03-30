@@ -38,6 +38,17 @@
       url: "https://conf.researchr.org/track/splash-2026/oopsla-2026"
     materials:
       pdf: /papers/oopsla26-prunario.pdf
+  - title: "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences"
+    authors:
+      - Jaehan Yoon
+      - Yunji Seo
+      - Hakjoo Oh
+      - Sooyoung Cha
+    target:
+      name: "FSE 2026: ACM International Conference on the Foundations of Software Engineering"
+      url: "https://conf.researchr.org/home/fse-2026"
+    materials:
+      pdf: /papers/fse26-fuzz.pdf
   - title: "Pig: Leveraging Large Language Models for Python Library Migrations"
     authors:
       - Miryeong Kang
