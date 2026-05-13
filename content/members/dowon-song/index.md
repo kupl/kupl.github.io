@@ -17,6 +17,9 @@ url = 'https://info.korea.ac.kr'
 [[affiliation]]
 name = 'Korea University'
 url = 'https://korea.ac.kr'
+
+[materials]
+website = 'https://sdw0316.github.io/'
 +++
 
 # Dowon Song
