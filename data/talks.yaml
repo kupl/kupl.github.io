@@ -11,6 +11,13 @@
 #       abstract: https://www.example.com
 
 2026:
+  - title: "AI 시대의 코드 분석 기술"
+    where: "삼성전자 기고문"
+    when: "2026-05-31"
+    materials:
+      slides: /slides/samsung26.pdf
+
+
   - title: "MIR: A Formal and Minimal Intermediate Representation for Rigorous Python Program Analysis"
     where: "IFIP WG 2.4 Meeting (Savannah)"
     when: "2026-03-02"
