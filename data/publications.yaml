@@ -58,6 +58,8 @@
     target:
       name: "FSE 2026: ACM International Conference on the Foundations of Software Engineering"
       url: "https://conf.researchr.org/home/fse-2026"
+    honor:
+      title: 🥇ACM SIGSOFT Distinguished Paper Award 🥇ACM SIGSOFT Distinguished Artifact Award
     materials:
       pdf: /papers/fse26-pig.pdf
   - title: "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"
