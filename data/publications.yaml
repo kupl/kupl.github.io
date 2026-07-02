@@ -28,6 +28,20 @@
 #         ko: https://www.media2.com
 
 2026:
+  - title: "EvoLLM: High-Coverage, Readable, and Token-Efficient Unit Test Generation for Industrial Java Codebases"
+    authors:
+      - Seokhyeon Moon
+      - Myungho Lee
+      - Jihun Kim 
+      - Yoon-chan Jhi
+      - Jihoon Cho 
+      - Hakjoo Oh
+    target:
+      name: "ASE 2026: IEEE/ACM International Conference on Automated Software Engineering (Industry Showcase Track)"
+      url: "https://conf.researchr.org/track/ase-2026/ase-2026-industry-showcase"
+    materials:
+      pdf: /papers/ase26-evollm.pdf
+
   - title: "Prunario: Testing Autonomous Driving Systems by Pruning Likely Redundant Scenarios"
     authors:
       - Minsu Kim
@@ -59,7 +73,7 @@
       name: "FSE 2026: ACM International Conference on the Foundations of Software Engineering"
       url: "https://conf.researchr.org/home/fse-2026"
     honor:
-      title: 🥇ACM SIGSOFT Distinguished Paper and Artifact Award
+      title: 🥇ACM SIGSOFT Distinguished Paper and Artifact Awards
     materials:
       pdf: /papers/fse26-pig.pdf
   - title: "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"

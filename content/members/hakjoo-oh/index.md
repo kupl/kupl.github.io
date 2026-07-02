@@ -44,7 +44,7 @@ cv = 'cv.pdf'
 
 ## Program Committee (PC)
 
-- 2027: [OOPSLA]() (Associate Chair)
+- 2027: [OOPSLA]() (Associate Chair) [FSE](https://conf.researchr.org/home/fse-2027)
 - 2026: [PLDI](https://pldi26.sigplan.org) [ASE](https://conf.researchr.org/home/ase-2026) [ISSTA](https://conf.researchr.org/track/issta-2026/issta-2026-research-papers) [SAS]() 
 - 2025: [SAS](https://2025.splashcon.org/home/sas-2025) (PC Co-Chair) [ICFP](https://icfp25.sigplan.org) [ICSE](https://conf.researchr.org/home/icse-2025) [POPL](https://conf.researchr.org/home/POPL-2025) [OOPSLA](https://2025.splashcon.org/track/OOPSLA) [ASE](https://conf.researchr.org/home/ase-2025)
 - 2024: [PLDI](https://pldi24.sigplan.org), [ISSTA](https://conf.researchr.org/home/issta-2024), [ICSE](https://conf.researchr.org/track/icse-2024/icse-2024-research-track)
@@ -59,6 +59,9 @@ cv = 'cv.pdf'
 - 2013: APLAS
 
 ## Awards
+- ACM SIGSOFT Distinguished Paper Award. FSE 2026
+- ACM SIGSOFT Distinguished Artifact Award. FSE 2026
+- ACM SIGSOFT Distinguished Artifact Award. ICSE 2026
 - ACM SIGSOFT Distinguished Paper Award. ICSE 2022
 - ACM SIGSOFT Distinguished Paper Award. ISSTA 2020
 - ACM SIGSOFT Distinguished Paper Award. ICSE 2019
