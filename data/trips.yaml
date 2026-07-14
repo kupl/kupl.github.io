@@ -18,6 +18,18 @@
 #           link: /reports/report_name2.pdf
 
 2026:
+  - name: FSE 2026
+    from: 2026-07-05
+    to: 2026-07-09
+    where: Montreal, Canada
+    materials:
+      reports:
+        - name: Wonseok
+          link: /reports/icse26_wonseok.pdf
+        - name: Miryeong
+          link: ""
+
+
   - name: PLDI 2026
     from: 2026-06-15
     to: 2026-06-19
