@@ -31,7 +31,7 @@ title = '<Your Title>'
 +++
 
 <!-- Contents to display -->
-``````
+```
 
 `+++` 사이에는 [TOML](https://toml.io/) 형식으로 작성된 페이지의 메타데이터가 들어갑니다.
 빌드되는 모든 페이지는 아래와 같은 두 변수를 설정할 수 있습니다:
@@ -104,6 +104,34 @@ content/courses/<id>/<year>/
 링크는 아래와 같이 추가하면 됩니다:
 ```markdown
 - [New Course]({{< relref "course-id/year" >}})
+```
+
+### Gallery
+연구실의 사진을 모아 보여주는 페이지입니다.
+사진은 `content/gallery/<year>/` 아래에 연도별로 정리하여 넣으면 됩니다:
+```text
+content/gallery/
+├── index.md
+├── 2025/
+│   ├── photo1.jpg
+│   └── ...
+└── 2026/
+    ├── photo1.jpg
+    └── ...
+```
+`content/gallery/index.md`의 `{{< gallery folder="." >}}` 코드 조각이 하위 폴더의 모든 이미지를 자동으로 찾아 나열하므로, 사진 파일만 추가하면 별도의 링크 작업은 필요하지 않습니다.
+
+#### 사진 정렬 기준과 주의사항
+갤러리의 사진은 파일명이나 폴더와 무관하게, **EXIF 촬영일자(`DateTimeOriginal`)를 기준으로 최신순 정렬**됩니다.
+
+이때 EXIF가 없는 사진(메신저로 주고받은 사진, 스크린샷, 편집·변환을 거친 이미지 등)은 촬영일자가 빈 값으로 취급되어, 실제로는 가장 최근 사진이더라도 **목록의 맨 뒤로 밀립니다.**
+이 경우 [ExifTool](https://exiftool.org)로 촬영일자를 직접 심어주면 됩니다:
+```bash
+brew install exiftool  # 최초 1회만 설치
+
+exiftool -overwrite_original \
+  "-DateTimeOriginal=2026:07:15 13:05:00" \
+  content/gallery/2026/your-photo.jpg
 ```
 
 ## 코드 조각
