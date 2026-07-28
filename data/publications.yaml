@@ -61,7 +61,7 @@
       - Peter Müller
       - Hakjoo Oh
     target:
-      name: "SPLASH/ISSTA 2026: The ACM SIGSOFT International Symposium on Software Testing and Analysis (Tool Demonstrations)"
+      name: "SPLASH/ISSTA 2026: ACM SIGSOFT International Symposium on Software Testing and Analysis (Tool Demonstrations)"
       url: "https://conf.researchr.org/track/issta-2026/splash-issta-2026-posters-and-tool-demonstrations"
 
   - title: "Reducing Coverage-Equivalent Inputs in Grammar-based Fuzzing by Avoiding Recurrent Rule Sequences"
