@@ -24,6 +24,7 @@ website = 'https://seokhyunlee.info/'
 +++
 
 # Research Interest
+- Python
 - Static analysis and verification
 - Program synthesis and repair
 
