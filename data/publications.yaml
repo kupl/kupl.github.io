@@ -90,7 +90,7 @@
       name: "FSE 2026: ACM International Conference on the Foundations of Software Engineering"
       url: "https://conf.researchr.org/home/fse-2026"
     materials:
-      pdf: /papers/fse26-fuzz.pdf
+      pdf: /papers/fse26-rsfuzz.pdf
 
   - title: "Pig: Leveraging Large Language Models for Python Library Migrations"
     authors:
