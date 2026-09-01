@@ -54,6 +54,7 @@ weight = 20
 {{< cfg/item >}}{{< name-card id="minsu-kim">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="wonseok-oh">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="donguk-kim">}}{{< /cfg/item >}}
+{{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
 {{< /cfg/items >}}
 
 {{< /cfg >}}
@@ -65,8 +66,6 @@ weight = 20
 
 {{< cfg/items >}}
 {{< cfg/item >}}{{< name-card id="haesojin-shin">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="miryeong-kang">}}{{< /cfg/item >}}
-{{< cfg/item >}}{{< name-card id="joonghoon-lee">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="junyong-heo" >}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="juyoung-an">}}{{< /cfg/item >}}
 {{< cfg/item >}}{{< name-card id="jiho-shinn" >}}{{< /cfg/item >}}
@@ -135,6 +134,7 @@ weight = 20
 {{< cfg/nonterminal id="MS" >}}
 
 {{< cfg/items vertical=true >}}
+{{< cfg/item markdown=true >}}Miryeong Kang / 강미령 (2026.08): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Hayeong Lee / 이하영 (2025.02): Furiosa AI{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Chan-Gu Kang / 강찬구 (2023.02): Research Associate, Korea University{{< /cfg/item >}}
 {{< cfg/item markdown=true >}}Yunji Seo / 서윤지 (2023.02): Hyundai AutoEver{{< /cfg/item >}}
