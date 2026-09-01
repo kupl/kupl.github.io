@@ -9,10 +9,13 @@ title = 'COSE212-25F'
 
 - Instructor: [Hakjoo Oh]({{< ref "/members/hakjoo-oh" >}})
 - Lecture: 10:30-13:15 on Tuesdays and Thursdays (8 weeks)
+- TA: [Mingyu Jo]({{< ref "/members/mingyu-jo/" >}})
 
 ## Book
 
-- 프로그래밍 언어의 원리: [한국어](./pl-book.pdf) [English ver.](./pl-book-eng.pdf)
+- 프로그래밍 언어의 원리: 
+    - [한국어 버전(./pl-book.pdf) 
+    - [English ver.](./pl-book-eng.pdf)
 
 ## Slides
 
