@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'COSE212-25F'
+title = 'COSE212-26F'
 +++
 
 # Programming Languages, 2025 Fall

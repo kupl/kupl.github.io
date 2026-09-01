@@ -7,7 +7,7 @@ weight = 60
 
 ## 2026 Fall
 - [COSE 212: Programming Languages]({{< relref "cose212/2026/_index.md" >}})
-- AAA 616: Program Analysis
+- [AAA 616: Program Analysis]({{< relref "aaa616/2026/_index.md" >}})
 
 
 ## 2026 Spring
