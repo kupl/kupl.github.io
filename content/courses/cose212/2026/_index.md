@@ -3,7 +3,7 @@ draft = false
 title = 'COSE212-26F'
 +++
 
-# Programming Languages, 2025 Fall
+# Programming Languages, 2026 Fall
 
 ## Course Information
 
