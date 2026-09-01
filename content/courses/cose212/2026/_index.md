@@ -14,7 +14,7 @@ title = 'COSE212-25F'
 ## Book
 
 - 프로그래밍 언어의 원리: 
-    - [한국어 버전(./pl-book.pdf) 
+    - [한국어 버전](./pl-book.pdf) 
     - [English ver.](./pl-book-eng.pdf)
 
 ## Slides
