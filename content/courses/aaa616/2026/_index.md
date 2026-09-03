@@ -20,4 +20,6 @@ title = 'AAA616-26F'
 - [Static Analysis Examples -- Interval Analysis](./slides/lec5.pdf)
 - [Static Analysis Examples -- Octagon Analysis](./slides/lec6.pdf)
 - [Static Analysis Examples -- Pointer Analysis](./slides/lec7.pdf)
+- [Static Analysis Examples -- Control-Flow Analysis](./slides/lec8.pdf)
+- [Static Analysis Examples -- Data-Flow Analysis](./slides/lec9.pdf)
 
