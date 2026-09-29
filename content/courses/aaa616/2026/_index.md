@@ -22,4 +22,5 @@ title = 'AAA616-26F'
 - [Static Analysis Examples -- Pointer Analysis](./slides/lec7.pdf)
 - [Static Analysis Examples -- Control-Flow Analysis](./slides/lec8.pdf)
 - [Static Analysis Examples -- Data-Flow Analysis](./slides/lec9.pdf)
+- [Denotational Semantics](./slides/lec10.pdf)
 
