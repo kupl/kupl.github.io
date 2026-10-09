@@ -2,6 +2,10 @@
 [{{ partial "hook/link.html" (dict "dest" . "text" "slides") }}]
 {{ end }}
 
+{{ with .video }}
+[{{ partial "hook/link.html" (dict "dest" . "text" "video") }}]
+{{ end }}
+
 {{ with .abstract }}
 [{{ partial "hook/link.html" (dict "dest" . "text" "abstract") }}]
 {{ end }}

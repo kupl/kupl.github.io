@@ -6,6 +6,7 @@
 #     when: YYYY-MM-DD
 #     materials: # all fields are optional, if not specified, the link will be hidden
 #       slides: /slides/slide.pdf
+#       video: https://www.youtube.com/watch?v=123456
 #       poster: /posters/poster.pdf
 #       link: https://www.example.com
 #       abstract: https://www.example.com
