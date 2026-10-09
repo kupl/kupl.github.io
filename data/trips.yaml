@@ -18,16 +18,14 @@
 #           link: /reports/report_name2.pdf
 
 2026:
-  - name: FSE 2026
-    from: 2026-07-05
-    to: 2026-07-09
-    where: Montreal, Canada
+
+
+  - name: OOPSLA 2026
+    from: 2026-10-05
+    to: 2026-10-09
+    where: Oakland, California, USA
     materials:
-      reports:
-        - name: Wonseok
-          link: /reports/fse26_wonseok.pdf
-        - name: Miryeong
-          link: /reports/fse26_miryeong.pdf
+      photos: https://photos.app.goo.gl/AjaFfuj6W18nwEzo8
 
 
   - name: PLDI 2026

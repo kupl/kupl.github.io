@@ -11,12 +11,24 @@
 #       abstract: https://www.example.com
 
 2026:
+  - title: "Toward Static Analysis of Natural-Language Specifications"
+    where: "Future Trends in Static Analysis @SAS 2026"
+    when: "2026-10-09"
+    materials:
+      slides: /slides/sas2026.pdf
+      video: https://youtu.be/xSu2nJ9D6XQ
+
+  - title: "파이썬, 엄밀하게 분석하고 검증하기"
+    where: "연세대학교"
+    when: "2026-10-01"
+    materials:
+      slides: /slides/yonsei26.pdf
+
   - title: "AI 시대의 코드 분석 기술"
     where: "삼성전자 기고문"
     when: "2026-05-31"
     materials:
       slides: /slides/samsung26.pdf
-
 
   - title: "MIR: A Formal and Minimal Intermediate Representation for Rigorous Python Program Analysis"
     where: "IFIP WG 2.4 Meeting (Savannah)"
