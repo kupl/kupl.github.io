@@ -27,6 +27,16 @@
     materials:
       photos: https://photos.app.goo.gl/syXj7Sc5bAMcgN5r8
 
+  - name: FSE 2026
+    from: 2026-07-05
+    to: 2026-07-09
+    where: Montreal, Canada
+    materials:
+      reports:
+        - name: Wonseok
+          link: /reports/fse26_wonseok.pdf
+        - name: Miryeong
+          link: /reports/fse26_miryeong.pdf
 
   - name: PLDI 2026
     from: 2026-06-15
