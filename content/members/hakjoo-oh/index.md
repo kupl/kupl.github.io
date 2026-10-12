@@ -59,13 +59,14 @@ cv = 'cv.pdf'
 - 2013: APLAS
 
 ## Awards
-- ACM SIGSOFT Distinguished Paper Award. FSE 2026
-- ACM SIGSOFT Distinguished Artifact Award. FSE 2026
-- ACM SIGSOFT Distinguished Artifact Award. ICSE 2026
-- ACM SIGSOFT Distinguished Paper Award. ICSE 2022
-- ACM SIGSOFT Distinguished Paper Award. ISSTA 2020
-- ACM SIGSOFT Distinguished Paper Award. ICSE 2019
-- Best Paper Award. GPCE 2016
+- Amazon Research Award, 2026
+- ACM SIGSOFT Distinguished Paper Award, FSE 2026
+- ACM SIGSOFT Distinguished Artifact Award, FSE 2026
+- ACM SIGSOFT Distinguished Artifact Award, ICSE 2026
+- ACM SIGSOFT Distinguished Paper Award, ICSE 2022
+- ACM SIGSOFT Distinguished Paper Award, ISSTA 2020
+- ACM SIGSOFT Distinguished Paper Award, ICSE 2019
+- Best Paper Award, GPCE 2016
 
 ## Contact Information
 

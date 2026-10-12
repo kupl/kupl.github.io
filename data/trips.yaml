@@ -32,6 +32,7 @@
     to: 2026-07-09
     where: Montreal, Canada
     materials:
+      photos: https://photos.app.goo.gl/mtWfR8Lx7jHa9ku27
       reports:
         - name: Wonseok
           link: /reports/fse26_wonseok.pdf
@@ -42,6 +43,8 @@
     from: 2026-06-15
     to: 2026-06-19
     where: Boulder, Colorado, USA
+    materials:
+      photos: https://photos.app.goo.gl/sfSEY6c133uSoakv5
 
   - name: ICSE 2026
     from: 2026-04-12
@@ -61,6 +64,7 @@
     to: 2026-03-05
     where: Savannah, Georgia, USA
     materials:
+      photos: https://photos.app.goo.gl/vCWoG9z9emi1C5rd8
       slides: /slides/ifip26.pdf
 
 2025:
