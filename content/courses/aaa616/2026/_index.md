@@ -14,14 +14,6 @@ title = 'AAA616-26F'
 
 - [Course Overview](./slides/lec0.pdf)
 - [Introduction to Program Analysis](./slides/lec1.pdf)
-- [Dynamic Analysis -- Fuzzing](./slides/lec2.pdf)
-- [Dynamic Analysis -- Concolic Testing](./slides/lec3.pdf)
-- [Static Analysis Examples -- Sign Analysis](./slides/lec4.pdf)
-- [Static Analysis Examples -- Interval Analysis](./slides/lec5.pdf)
-- [Static Analysis Examples -- Octagon Analysis](./slides/lec6.pdf)
-- [Static Analysis Examples -- Pointer Analysis](./slides/lec7.pdf)
-- [Static Analysis Examples -- Control-Flow Analysis](./slides/lec8.pdf)
-- [Static Analysis Examples -- Data-Flow Analysis](./slides/lec9.pdf)
-- [Denotational Semantics](./slides/lec10.pdf)
-- [Abstract Interpretation](./slides/lec11.pdf)
-
+- Dynamic Analysis -- [Fuzzing](./slides/lec2.pdf), [Concolic Testing](./slides/lec3.pdf)
+- Static Analysis Examples -- [Sign Analysis](./slides/lec4.pdf), [Interval Analysis](./slides/lec5.pdf), [Octagon Analysis](./slides/lec6.pdf), [Pointer Analysis](./slides/lec7.pdf), [Control-Flow Analysis](./slides/lec8.pdf), [Data-Flow Analysis](./slides/lec9.pdf)
+- Abstract Interpretation -- [Denotational Semantics](./slides/lec10.pdf), [Framework](./slides/lec11.pdf)
