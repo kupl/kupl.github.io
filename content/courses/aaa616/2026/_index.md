@@ -16,4 +16,4 @@ title = 'AAA616-26F'
 - [Introduction to Program Analysis](./slides/lec1.pdf)
 - Dynamic Analysis -- [Fuzzing](./slides/lec2.pdf), [Concolic Testing](./slides/lec3.pdf)
 - Static Analysis Examples -- [Sign Analysis](./slides/lec4.pdf), [Interval Analysis](./slides/lec5.pdf), [Octagon Analysis](./slides/lec6.pdf), [Pointer Analysis](./slides/lec7.pdf), [Control-Flow Analysis](./slides/lec8.pdf), [Data-Flow Analysis](./slides/lec9.pdf)
-- Abstract Interpretation -- [Denotational Semantics](./slides/lec10.pdf), [Framework](./slides/lec11.pdf)
+- Static Analysis Theory -- [Denotational Semantics](./slides/lec10.pdf), [Abstract Interpretation Framework](./slides/lec11.pdf)
