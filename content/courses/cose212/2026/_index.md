@@ -48,3 +48,7 @@ title = 'COSE212-26F'
 ## Programming Environments
 - [실습환경 안내: TryML](./howtotryml.pdf)
 - [실습환경 안내: Local (Docker)](https://github.com/kupl-courses/COSE212-2026fall)
+
+## Prior Exams
+- [2025](./final2025.pdf)
+- [2024](./final2024.pdf)
