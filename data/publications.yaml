@@ -27,6 +27,18 @@
 #         en: https://www.media1.com
 #         ko: https://www.media2.com
 
+2027:
+  - title: "Prompt Less, Infer More: Static Analysis-Guided LLM Type Annotation for Python"
+    authors:
+      - Wonseok Oh
+      - Michael Pradel
+      - Hakjoo Oh
+    target: 
+      name: "ICSE 2027: IEEE/ACM International Conference on Software Engineering"
+      url: https://conf.researchr.org/home/icse-2027
+    materials:
+      pdf: ""
+
 2026:
 
   - title: "Fusion: A Fold and Unfold Annotation Synthesis Tool for Viper-Based Verification"
