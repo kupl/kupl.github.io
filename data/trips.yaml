@@ -26,6 +26,13 @@
     where: Oakland, California, USA
     materials:
       photos: https://photos.app.goo.gl/syXj7Sc5bAMcgN5r8
+      reports:
+        - name: Minsu
+          link: /reports/oopslaissta26_minsu.pdf
+        - name: Joonghoon
+          link: /
+        - name: Jiho
+          link: /
 
   - name: FSE 2026
     from: 2026-07-05
