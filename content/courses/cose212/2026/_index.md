@@ -32,12 +32,13 @@ title = 'COSE212-26F'
     - Exceptions: [lec10.pdf](./slides/lec10.pdf)
     - Classes: [lec11.pdf](./slides/lec11.pdf)
 - (Part 3) Advanced Concepts
-    - Static Type System: [lec11.pdf](./slides/lec11.pdf), [lec12.pdf](./slides/lec12.pdf), [lec13.pdf](./slides/lec13.pdf), [lec14.pdf](./slides/lec14.pdf)
+    - Static Type System: [lec12.pdf](./slides/lec12.pdf), [lec13.pdf](./slides/lec13.pdf), [lec14.pdf](./slides/lec14.pdf)
     - Automatic Type Inference: [lec15.pdf](./slides/lec15.pdf), [lec16.pdf](./slides/lec16.pdf), [lec17.pdf](./slides/lec17.pdf)
     - Polymorphic Type System: [lec18.pdf](./slides/lec18.pdf)
     - Typed Object-Oriended Language: [lec19.pdf](./slides/lec19.pdf)
     - Lambda Calculus: [lec20.pdf](./slides/lec20.pdf)
-- Course Review: 
+    - Dependent Types: [lec21.pdf](./slides/lec21.pdf)
+- Course Review: [lec22.pdf](./slides/lec22.pdf)
 
 ## Programming Exercises
 - Homework 1 (Functional Programming) [hw1.pdf](./hw/hw1.pdf) 
