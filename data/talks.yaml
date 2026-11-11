@@ -12,6 +12,12 @@
 #       abstract: https://www.example.com
 
 2026:
+  - title: "소프트웨어 오류 자동 탐지 및 수정 기술"
+    where: "미래SW기술포럼"
+    when: "2026-11-13"
+    materials:
+      slides: /slides/starlab-forum2026.pdf
+
   - title: "Toward Static Analysis of Natural-Language Specifications"
     where: "Future Trends in Static Analysis @SAS 2026"
     when: "2026-10-09"
